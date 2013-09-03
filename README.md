@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 click3x
 =======
 
@@ -16,3 +17,9 @@ Jason Tordsen
 Owen Corso
 Mili Kuo
 Sean Oh
+=======
+ORedFolio
+=========
+
+Demonstration of Creativity for Cornell Tech MBA Application.
+>>>>>>> b2fcd8007ea596e7cd2e69c11b5bef4765cff29f
