@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/purina_howmany",
+      "filename":"purina_howmany",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"",
+      "title":"Purina",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"purina_howmany",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

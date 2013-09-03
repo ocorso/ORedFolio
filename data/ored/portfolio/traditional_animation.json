@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"We created the artwork for the sequence in PhotoShop.  The images were brought into Flame where they were animated to create the pop-up book look for  for the movie An Invisible Sign.",
+            "media_type":"1",
+            "title":"Pop Up Book Animation",
+            "filename":"InvisibleSignOpen"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"We created the artwork for the sequence in PhotoShop.  The images were brought into Flame where they were animated to create the pop-up book look for  for the movie An Invisible Sign.",
+      "detail_name":"portfolio/traditional_animation",
+      "title":"Pop Up Book Animation",
+      "filename":"InvisibleSignOpen"
+   }
+}

@@ -1,0 +1,31 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/action_pack_amc",
+      "filename":"HERO_FOOTAGE_HD_REF",
+      "related_posts":[
+
+      ],
+      "client":"AMC",
+      "related_links":[
+
+      ],
+      "description":"To help promote AMC’s \"Action Pack\"--a weekly movie block on AMC--we created an exciting and impactful graphics package and tool kit for episodic and generic promotion. Challenged to find a way to depict car chases, explosions, gunfights, cliffhanging, etc. without using movie clips, we developed a graphic novel format that allowed for multiple, thematic illustration that spotlighted the kinds of action you’ll find on AMC.",
+      "title":"Action Pack AMC",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"HERO_FOOTAGE_HD_REF",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "filename":"AMC_SCREAMER_062310",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

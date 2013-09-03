@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/housewives",
+      "filename":"Housewives_01",
+      "related_posts":[
+
+      ],
+      "client":"Bravo",
+      "related_links":[
+
+      ],
+      "description":"We shot the talent on a green screen and then composited them over the backgrounds using Flame.",
+      "title":"Housewives",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"Housewives_01",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

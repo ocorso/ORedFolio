@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/boxing",
+      "filename":"hbo_boxing_03",
+      "related_posts":[
+
+      ],
+      "client":"HBO",
+      "related_links":[
+
+      ],
+      "description":"Using provided live-action footage, Click 3X Entertainment designed and animated the type for this HBO promo.",
+      "title":"Boxing",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"hbo_boxing_03",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

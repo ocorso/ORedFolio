@@ -1,0 +1,20 @@
+{"post_detail":
+ {
+  "title":"Innovations & Technology",
+  "client":"",
+  "description":"<p>Any movie villain will tell you that they are nothing without their use of technology. Knowing which tool to use and when to use it is just as important as knowing how to use it.  We're not superheros, but we could probably save the world if you asked.  Or had a brief. For those that need to know such things, here are the many platforms and languages our resident development geniuses work in.</p><table width='600' border='0' cellspacing='0' cellpadding='0'><tr><td width='250' valign='top'><h2>Languages:</h2><ul><li>Objective-C (iOS)</li><li>Java (Android)</li><li>JavaScript/AJAX</li><li>HTML/CSS</li><li>ActionScript</li><li>Flex</li><li>Unity</li><li>Ruby</li><li>PHP</li><li>Rails</li><li>MySQL</li><li>.NET</li><li>&nbsp;</li></ul><h2>API's:</h2><ul><li>Facebook</li><li>Twitter</li><li>Instagram</li><li>Vine</li><li>YouTube</li><li>Google</li></ul></td><td width='350'valign='top'><h2>Frameworks:</h2><ul><li>Drupal</li><li>Wordpress</li><li>jQuery</li><li>Corona</li><li>Titanium</li><li>Isotope</li><li>MooTools</li><li>Twitter Bootstrap</li><li>CodeIgniter</li><li>Zend, Cocos2d</li><li>Box2D</li><li>PureMVC</li><li>Robotlegs</li></ul><h2>Services:</h2><ul><li>MediaMind</li><li>DoubleClick</li><li>iRep</li><li>ThisMoment</li><li>Tellegent</li><li>Curalate</li></ul></td></tr></table>",
+  "assets":[
+   {
+    "id":"1",
+    "media_type":"2",
+    "filename":"about_innovations_technology",
+    "title":"Innovations & Technology"
+   }
+  ],
+  "related_posts":[
+  ],
+  "related_links":[
+  {"href":"http://www.clickfiremedia.com/index.php/portfolio/innovations", "title":"Innovations & Technology"}
+  ]
+ }
+}

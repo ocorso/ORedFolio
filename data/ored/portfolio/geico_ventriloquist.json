@@ -1,0 +1,70 @@
+{
+   "post_detail":{
+      "related_posts":[
+   {
+   "id":"2830",
+   "media_type":"1",
+   "detail_name":"portfolio/geico_brostache_app",
+   "filename":"brostache_fwa",
+   "title":"GEICO Brostache App",
+   "description":"",
+   "page":"portfolio",
+   "category":"mobile"
+   },
+   {
+   "id":"781",
+   "media_type":"1",
+   "detail_name":"portfolio/geicopiggyv3",
+   "filename":"geicopiggyv3",
+   "title":"GEICO Piggy Pinwheels App",
+   "description":"",
+   "page":"portfolio",
+   "category":"mobile"
+   }
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"Geico_vent"
+         },
+          {
+    "id":"3",
+    "media_type":"1",
+    "filename":"Geico_Date",
+    "title":"GEICO Date"
+   },
+   {
+    "id":"4",
+    "media_type":"1",
+    "filename":"Geico_Plane",
+    "title":"GEICO Plane"
+
+   },
+   {
+    "id":"5",
+    "media_type":"1",
+    "filename":"GEICO_lugev2",
+    "title":"GEICO Piggy Returns"
+  
+   },
+   {
+    "id":"6",
+    "media_type":"1",
+    "filename":"GEICO_BEFOREANDAFTERV3",
+    "title":"Making of GEICO Piggy"
+
+   }
+      ],
+      "related_links":[
+
+      ],
+      "client":"The Martin Agency",
+      "description":"Background:\nClickFire Media worked with The Martin Agency to build a mobile app for their client, GEICO. The app features the GEICO Gecko as a ventriloquist dummy. \n\nExecution: \nThe Gecko can be viewed in two settings: a close-up head shot or a shot of the gecko sitting on a stool. Users also have the option to select different backgrounds. To control the Gecko’s mouth, the user moves their finger to cover and expose the lens of their mobile device’s camera.  In order to make the ventriloquist act smoother, users can adjust the light sensitivity of their camera. Users can unlock bonus features by sharing the app with their friends on Facebook and Twitter.  Unlockable features include special sound effects. Users can also learn more about GEICO, get a rate quote and download additional apps, including the Brostache app, which CFM also built, through the GEICOness setting.",
+      "detail_name":"portfolio/geico_ventriloquist",
+      "title":"GEICO Ventriloquist",
+      "filename":"Geico_vent"
+   }
+}

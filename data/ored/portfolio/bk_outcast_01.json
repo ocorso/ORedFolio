@@ -1,0 +1,31 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/burger_king_outcast",
+      "filename":"bk_outcast_01",
+      "related_posts":[
+
+      ],
+      "client":"Crispin Porter Bogusky",
+      "related_links":[
+
+      ],
+      "description":"We created CG chicken beaks in Maya and combined them with provided live-action footage using Flame to make the Burger King chickens talk.",
+      "title":"Burger King Outcast",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"bk_outcast_01",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "filename":"BK_SO_COOL_Sp",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

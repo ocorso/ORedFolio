@@ -1,0 +1,112 @@
+{
+   "suggestions":[
+     
+   ],
+   "pages":[
+
+ {
+         "id":"home",
+         "label":"Home",
+         "heading":"O Red Folio",
+         "categories":[
+
+            {
+               "id":"development",
+               "label":"Development"
+            },
+            {
+               "id":"user_experience",
+               "label":"User Experience"
+            },
+            {
+               "id":"social",
+               "label":"Social"
+            },
+            {
+               "id":"design",
+               "label":"Design",
+               "heading":"Design"
+            },
+            {
+               "id":"games",
+               "label":"Games",
+               "heading":"Games"
+            },
+            {
+               "id":"brands",
+               "label":"Brands",
+               "heading":"Brands"
+            }                
+         ]
+      },
+      {
+         "id":"portfolio",
+         "label":"Folio",
+         "heading":"O Red Folio",
+         "categories":[
+
+            {
+               "id":"development",
+               "label":"Development"
+            },
+            {
+               "id":"user_experience",
+               "label":"User Experience"
+            },
+            {
+               "id":"social",
+               "label":"Social"
+            },
+            {
+               "id":"design",
+               "label":"Design",
+               "heading":"Design"
+            },
+            {
+               "id":"games",
+               "label":"Games",
+               "heading":"Games"
+            },
+            {
+               "id":"brands",
+               "label":"Brands",
+               "heading":"Brands"
+            }                
+         ]
+      },
+      {
+         "id":"about_me",
+         "label":"About",
+         "heading":"About"
+      },
+      {
+         "id":"my_music",
+         "label":"Music",
+         "heading":"Music",
+          "categories":[
+
+            {
+               "id":"red_machine",
+               "label":"Red Machine"
+            },
+            {
+               "id":"ocelot_red",
+               "label":"Ocelot Red"
+            },
+            {
+               "id":"the_good_news",
+               "label":"The Good News"
+            },
+            {
+               "id":"jwt",
+               "label":"Jam With Toast"
+            }             
+         ]
+      },
+      {
+         "id":"contact",
+         "label":"Contact",
+         "heading":"Contact"
+      }
+   ]
+}

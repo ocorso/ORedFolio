@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"nyu_connectDots_01"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"NYU",
+      "description":"Using CG and Flame, we created this promo for NYU Admissions.",
+      "detail_name":"portfolio/connect_the_dots",
+      "title":"Connect The Dots",
+      "filename":"nyu_connectDots_01"
+   }
+}

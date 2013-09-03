@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"SamsungBannerv2"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"Leo Burnett",
+      "description":"<h2>Challenge:</h2> \nClickFire Media was challenged to create an interactive ad to be displayed on the newest Samsung billboard in the middle of Times Square for Leo Burnett-Chicago, and their client, Samsung. The advertisement was to promote the upcoming release of the Samsung Galaxy III phone. One of the functionality requirements was that the quotes must be updatable during the 3-week minimum run of the ad.<h2>\n\nExecution:</h2>\nCFM developed an interactive site, which displayed text quotes about the new phone. Each quote animates in and out via swirling letters. The billboard pulls its content from a private URL making updating the quotes on the billboard as easy as updating a webpage. To enable this functionality, CFM also created a XML based CMS.",
+      "detail_name":"portfolio/samsung_banner",
+      "title":"Samsung Banner",
+      "filename":"SamsungBannerv2"
+   }
+}

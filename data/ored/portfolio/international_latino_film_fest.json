@@ -1,0 +1,31 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"NYLatinFilm"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"NYLatinFilm"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"Wing",
+      "description":"When Wing Latino turned to Click3X to animate their clever 'Movie Recipe' campaign for the New York Latino Film Festival, Click3X was already heating up the oven. We were able to turn their print ad into a fully animated spot, incorporating 2D character animations that brought the campaign from page to screen. With the help of Heard City, we finished off with sound design, editing and mixing, giving the spot the zest it needed, making this a Grade A finish. These spots will be aired on TV, on the New York Latino International Film Fest website, and at the film festival before the opening credits.",
+      "detail_name":"portfolio/international_latino_film_fest",
+      "title":"International Latino Film Fest",
+      "filename":"NYLatinFilm"
+   }
+}

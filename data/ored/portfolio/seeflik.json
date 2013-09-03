@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"seeflikv8"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"Challenge\nClickFire Media was tasked by Seeflik, a startup focused on showcasing the best student filmmakers, to brand, design, develop and market their website.\n\nExecution: \nCFM began the process by designing the Seeflik logo, which would be used on all online and offline collaterals. CFM built the SeeFlik site to mimic the look and feel of an online theater. The site, which is mobile-friendly, was built using HTML5 with the Drupal CMS. The video uploading and streaming was integrated into the site using Brightcove. \n\nThe site has two main purposes. The first was to encourage student filmmakers to submit their work to the site. The other was to encourage both students and the general public to view and vote for their favorite films on the site. In addition, CFM was also tasked with marketing the new site. CFM did this by creating a digital marketing strategy, which included starting and organically growing Facebook, Twitter and Youtube pages. CFM also designed banner ads, email blasts and created custom stickers, flyers and postcards for campus student reps to hand out at their prospective campuses to drive traffic back to the Seeflik site.",
+      "detail_name":"portfolio/seeflik",
+      "title":"Seeflik",
+      "filename":"seeflikv8"
+   }
+}

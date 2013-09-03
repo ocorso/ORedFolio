@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"cardcubby"
+         }
+      ],
+      "related_links":[
+{"href":"http://www.cardcubby.com/", "title":"Card Cubby"}
+      ],
+      "client":"Card Cubby",
+      "description":"<h2>Challenge: </h2><p>\nClickFireMedia was challenged by Card Cubby to redesign their website.  </p><h2>\n\nExecution:</h2><p> \nCFM reworked the user experience and design of Card Cubby’s site. The new design features a simplified layout, which highlighted the site’s content in a more engaging, concise and user-friendly manner. The site featured calls-to-actions to their products as well as ample social media integration. CFM also oversaw the Web development process and helped with Card Cubby's marketing efforts.</p>",
+      "detail_name":"portfolio/card_cubby",
+      "title":"Card Cubby",
+      "filename":"cardcubby"
+   }
+}

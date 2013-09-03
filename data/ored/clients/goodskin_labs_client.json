@@ -1,0 +1,25 @@
+{"post_detail":
+ {
+  "title":"Goodskin Labs",
+  "client":"",
+  "description":"<h2>Challenge:<h2/><p>GoodSkin Labs has always been recognized for its groundbreaking solutions and marketing efforts. They challenged ClickFireMedia to create an online diagnostic tool that aligned with this approach while creating awareness for the brand.<p/><h2>Execution:<h2/><p>ClickFire created a cutting-edge online diagnostic tool to allow users to interact with and explore the different products under the GoodSkin Labs hierarchy. Our goal was to personalize the interactive experience to make it different than other standard skincare quizzes. Users can upload their photo via Facebook Connect or from their computer so they can easily identify and prioritize problem areas. After completing the experience, you can download or email yourself your personalized &#x201c;prescription&#x201d; that explains your skincare solutions, the product information and also links to kohls.com where you can make your purchase. The experience is shareable and allows users to easily send an email or post it to their Facebook newsfeed. We also resized the tool for a customized Facebook tab to provide content for the brand page&#x2019;s fans and link back to the site.</p>",
+  "assets":[
+   {
+    "id":"1",
+    "media_type":"2",
+    "filename":"R2B_Client_Thumbnails_10",
+    "title":"Goodskin Labs"
+   }
+  ],
+  "related_posts":[
+   {
+    "id":"1",
+    "media_type":"1",
+    "filename":"GoodskinLabs",
+    "title":"Good Skin Labs"
+   }
+  ],
+  "related_links":[
+  ]
+ }
+}

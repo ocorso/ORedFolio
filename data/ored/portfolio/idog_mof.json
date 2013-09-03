@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"iDog_MakingOf"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"Uproar",
+      "description":"We shot live action footage of the talent on a green screen, and then combined the footage with CG backplates and a CG end tag in Flame.",
+      "detail_name":"portfolio/idog_mof",
+      "title":"iDog MOF",
+      "filename":"iDog_MakingOf"
+   }
+}

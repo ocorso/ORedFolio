@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/CS_ATT_v3",
+      "filename":"CS_ATT_v3",
+      "related_posts":[
+
+      ],
+      "client":"BBDO",
+      "related_links":[
+{"href":"http://elementsofeverydaylife.att.com/", "title":"The Elements of Everyday Life"}
+      ],
+      "description":"BBDO challenged Click 3X and ClickFire Media to create the Elements of Everyday Life, a Vine-based video content site for the Samsung Galaxy Active.  Using in house writer director team Josh and Vince, Click 3X shot more than 30 Vines.  ClickFire Media then produced a responsive design website based on the content, fully integrating with Vine and the Twitter Card API for enhanced social-share visibility.",
+      "title":"AT&T The Elements of Everyday Life",
+      "assets":[
+         {
+            "id":"1",
+      "description":"BBDO challenge Click3X and ClickFire Media to create the Elements of Everyday Life, a Vine-based video content site for the Samsung Galaxy Active.  Using in house writer director team Josh and Vince, Click3X shot more than 30 Vines.  ClickFire Media then produced a responsive design website based on the content, fully integrating with Vine and the Twitter Card API for enhanced social-share visibility.",
+            "filename":"CS_ATT_v3",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

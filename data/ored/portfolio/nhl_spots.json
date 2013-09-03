@@ -1,0 +1,38 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"NHL_XM_Radio_30"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"NHL_On_The_Fly."
+         },
+         {
+            "id":"3",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"NHL_Awards.flv"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"NHL",
+      "description":"Click 3X Entertainment worked with the NHL to promote their updated online service by creating an edgy promo that encompassed the NHL brand in an exciting informative package. Created in After Effects, the promo leaves its viewer chilled after this first person tour through GameCenter. New features that we highlighted in this year's promos include the ability to select from home and away broadcasts to follow your favorite team even while they are on the road, view live stats and in-game highlights, as well as use the live chat feature to connect to other fans.",
+      "detail_name":"portfolio/nhl_spots",
+      "title":"NHL Spots",
+      "filename":"NHL_XM_Radio_30"
+   }
+}

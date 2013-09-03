@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/big_pink",
+      "filename":"Big_Pink_Dominoes",
+      "related_posts":[
+
+      ],
+      "client":"Big Pink",
+      "related_links":[
+
+      ],
+      "description":"The video is a sequence of close-up and medium-distance shots of various camera speeds and focus.  The goal was to show the band rocking onstage as the Haunt-generated chaos rains down around them with various explosions and debris around them enhancing the message of sadistic glee that bleeds through the song. We worked closely with the production company, Partizan and handled all the VFX and Flame work for the project.",
+      "title":"Big Pink",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"Big_Pink_Dominoes",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

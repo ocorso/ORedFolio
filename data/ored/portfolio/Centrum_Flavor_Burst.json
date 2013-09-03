@@ -1,0 +1,31 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/Centrum_Flavor_Burst",
+      "filename":"Centrum_Flavor_Burst",
+      "related_posts":[
+ {
+            "id":"2210",
+            "filename":"Centrum_Mens_0515",
+            "title":"Centrum Spots",
+            "media_type":"1",
+            "page":"portfolio",
+   			 "category":"animation"
+         }
+      ],
+      "client":"JWT",
+      "related_links":[
+
+      ],
+      "description":"We shot various elements practically and then composited additional CG items to create this series of spots for Centrum.",
+      "title":"Centrum Spots",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"Centrum_Flavor_Burst",
+            "title":"Centrum Flavor Burst",
+            "media_type":"1"
+         }
+      ]
+   }
+}

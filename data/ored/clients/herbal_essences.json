@@ -1,0 +1,33 @@
+{"post_detail":
+ {
+  "title":"Herbal Essences",
+  "client":"",
+  "description":"Working with NY based ad agency, Atelier-LB, our Juan Delcan, directed the live action and created the CG demos  for several broadcast commercials.  Editing on some of the spots was also done at Click3x.",
+  "assets":[
+   {
+    "id":"1",
+    "media_type":"2",
+    "filename":"R2B_Client_Thumbnails_02",
+    "title":"Herbal Essences"
+   }
+  ],
+  "related_posts":[
+  {
+   "id":"140",
+   "media_type":"1",
+   "filename":"Herbal_Essences_01",
+   "title":"Herbal Essences Lion Tamer",
+    "page":"portfolio"
+  },
+  {
+  "id":"150",
+    "media_type":"1",
+    "filename":"Herbal_Essences_02",
+    "title":"Herbal Essences Paradise",
+    "page":"portfolio"
+   }
+   ],
+  "related_links":[
+  ]
+ }
+}

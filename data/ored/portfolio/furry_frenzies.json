@@ -1,0 +1,31 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"Furry_Fullanimation"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"Fury_Frenzies_Dothefrenzie"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"Uproar",
+      "description":"The CG environments and characters were created in Maya by the Click CG team.",
+      "detail_name":"portfolio/furry_frenzies",
+      "title":"Furry Frenzies",
+      "filename":"Furry_Fullanimation"
+   }
+}

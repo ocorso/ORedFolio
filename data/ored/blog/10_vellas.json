@@ -1,0 +1,37 @@
+{"post_detail":
+ {
+  "title":"Director, Vellas, winner of five 2013 Lions, signs to Click 3X",
+  "client":"",
+  "description":"Click 3X is honored to welcome Brazilian Director, Vellas, to our live action roster. Vellas' spot Leica 'Soul' won five 2013 Cannes Lions.  Additionally, he was featured in the Saatchi & Saatchi New Director's Showcase.  Vellas will be exclusively represented by Click 3X in the US & Canada.",
+  "assets":[
+   {
+    "id":"1",
+    "media_type":"2",
+    "filename":"10_vellas",
+    "title":"Director, Vellas, winner of five 2013 Lions, signs to Click 3X"
+   }
+   
+  ],
+  "related_posts":[
+  {
+    "id":"444571",
+    "media_type":"1",
+    "filename":"vellas",
+    "title":"",
+    "category":"directors",
+    "page":"people"
+   },
+     {
+    "id":"3",
+    "media_type":"2",
+    "filename":"LEICA_Alma",
+    "title":"",
+    "category":"featured",
+    "page":"home"
+   }
+  ],
+  "related_links":[
+  
+  ]
+ }
+}

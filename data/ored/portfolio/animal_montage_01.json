@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/talking_animals_montage",
+      "filename":"animal_montage_01",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"View our talking animals montage here.",
+      "title":"Talking Animals Montage",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"animal_montage_01",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

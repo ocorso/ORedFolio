@@ -1,0 +1,38 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/htc_banners",
+      "filename":"HTCBanners1_2v2",
+      "related_posts":[
+
+      ],
+      "client":"BBDO",
+      "related_links":[
+
+      ],
+      "description":"Challenge:\nClickFire Media was challenged by BBDO to produce banner ads for their client, AT&T.  The banners featured the new AT&T HTC OneTM X phone.\n\nExecution:\nCFM built, animated and distributed seven rich-media banners. CFM began by doing a live-action shoot in our in-house studio. The shoot, compositing, edit, sound and development were all done in-house.\n \nIn total, there were seven rich-media banner concepts, which included broken glass, falling headphones, beatboxing, and dancers. All these banners showed the impressive sound quality for the new AT&T HTC OneTM X phone.",
+      "title":"HTC Banner",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"HTCBanners1_2v2",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "filename":"htc_dancingpeop",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"3",
+            "description":"",
+            "filename":"HTCBanners4v2",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

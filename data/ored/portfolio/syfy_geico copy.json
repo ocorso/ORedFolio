@@ -1,0 +1,72 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/syfy_geico",
+      "filename":"syfy_geico",
+      "related_posts":[
+      {
+    "id":"190",
+    "media_type":"1",
+    "filename":"Geico_Date",
+    "title":"GEICO Date",
+    "page":"portfolio",
+    "category":"visual_effects"
+   },
+   {
+    "id":"200",
+    "media_type":"1",
+    "filename":"Geico_Plane",
+    "title":"GEICO Plane",
+    "page":"portfolio",
+    "category":"visual_effects"
+   },
+   {
+    "id":"630",
+    "media_type":"1",
+    "filename":"GEICO_lugev2",
+    "title":"GEICO Piggy Returns",
+    "page":"portfolio",
+    "category":"visual_effects"
+   },
+   {
+    "id":"780",
+    "media_type":"1",
+    "filename":"GEICO_BEFOREANDAFTERV3",
+    "title":"Making of GEICO Piggy",
+    "page":"portfolio",
+    "category":"visual_effects"
+   },
+   {
+    "id":"781",
+    "media_type":"1",
+    "filename":"geicopiggyv3",
+    "title":"GEICO Piggy Pinwheels App",
+    "page":"portfolio",
+    "category":"interactive"
+   },
+      {
+    "id":"2830",
+    "media_type":"1",
+    "filename":"brostache_fwa",
+    "title":"GEICO Brostache App",
+    "page":"portfolio",
+    "category":"interactive"
+   }
+   
+       ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"<p>You want us to do what?  When Vicki Adams and Joe Loskywitz of VAM Creative came to us to collaborate on turning a well known Geico ad into an integrated branded spot for SyFy and GEICO, we said bring it on. The challenge was this: we were to create an integrated :30 spot called 'The Gecko Directs the SyFy Logo' using already finished on-air spots.</p>  <p>With strategic planning and development, led by editor Jeremy Baumann and Creative Director Ders Hallgren, we came up with the blueprint of getting the job done.  The key was the edit, as Baumann structured a plan by playing with the existing spot to see what was necessary to create a wholly new vision for the GEICO geko.  Once we knew what was needed the team sprung into action to create mew content that Baumamn could weave together with scenes from previous spot.</p><p>In total the job required a combination of live action b-roll that we shot, design, CGI, editorial, flame, and color correct.  It was the full Click 3X arsenal at work and the result was fantastic.</p>",
+      "title":"Syfy GEICO",
+      "assets":[
+         {
+            "id":"1",
+            "description":"<p>You want us to do what?  When Vicki Adams and Joe Loskywitz of VAM Creative came to us to collaborate on turning a well known Geico ad into an integrated branded spot for SyFy and GEICO, we said bring it on. The challenge was this: we were to create an integrated :30 spot called 'The Gecko Directs the SyFy Logo' using already finished on-air spots.</p>  <p>With strategic planning and development, led by editor Jeremy Baumann and Creative Director Ders Hallgren, we came up with the blueprint of getting the job done.  The key was the edit, as Baumann structured a plan by playing with the existing spot to see what was necessary to create a wholly new vision for the GEICO geko.  Once we knew what was needed the team sprung into action to create mew content that Baumamn could weave together with scenes from previous spot.</p><p>In total the job required a combination of live action b-roll that we shot, design, CGI, editorial, flame, and color correct.  It was the full Click 3X arsenal at work and the result was fantastic.</p>",
+            "filename":"syfy_geico",
+            "title":"Syfy GEICO",
+            "media_type":"1"
+         }
+      ]
+   }
+}

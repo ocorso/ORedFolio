@@ -1,0 +1,124 @@
+{"post_detail":
+ {
+  "title":"Advertising",
+  "client":"",
+  "description":"The banner lives!  Only now the traditional banner (invented by HotWired 17 years ago!) lives in so many seductive forms – take-overs, expanding, video, synchronized, augmented reality, gameification - these marvelous pieces of multimedia become a palette that defines design and innovation.",
+  "assets":[
+   {
+    "id":"1",
+    "media_type":"2",
+    "filename":"about_advertising",
+    "title":"Advertising"
+   }
+  ],
+  "related_posts":[
+  {
+    "id":"5",
+    "media_type":"1",
+    "filename":"advertising_montage_summer2013",
+    "title":"Advertsing Montage",
+    "page":"portfolio",
+    "category":"advertising"
+   },
+    {
+    "id":"132",
+    "media_type":"1",
+    "filename":"DAFFYs_CREATIVITYv3",
+    "title":"Daffy's Candle",
+    "page":"portfolio",
+    "category":"advertising"
+   },
+       {
+    "id":"870",
+    "media_type":"1",
+    "filename":"bannerad_montage",
+    "title":"Digital Advertising",
+    "page":"portfolio",
+    "category":"advertising"
+   },
+          {
+    "id":"1117",
+    "media_type":"1",
+    "filename":"SamsungBannerv2",
+    "title":"Samsung in Times Square",
+    "page":"portfolio",
+    "category":"advertising"
+   },
+          {
+    "id":"1118",
+    "media_type":"1",
+    "filename":"zyrtec_car",
+    "title":"Zyrtec Banners",
+    "page":"portfolio",
+    "category":"advertising"
+   },
+             {
+    "id":"2222",
+    "media_type":"1",
+    "filename":"nissan_juke_vice_weather",
+    "title":"Nissan",
+    "page":"portfolio",
+    "category":"advertising"
+   },
+      {
+    "id":"2224",
+    "media_type":"1",
+    "filename":"LegoBanner1",
+    "title":"Lego Banners",
+    "page":"portfolio",
+    "category":"advertising"
+   },
+      {
+    "id":"2530",
+    "media_type":"1",
+    "filename":"vice_airappv2",
+    "title":"VICE Air Facebook App",
+    "page":"portfolio",
+    "category":"advertising"
+   },
+    {
+    "id":"2540",
+    "media_type":"1",
+    "filename":"Geico_vent",
+    "title":"GEICO Ventriloquist",
+    "page":"portfolio",
+    "category":"advertising"
+   },
+   {
+    "id":"2550",
+    "media_type":"1",
+    "filename":"WalmartBannners_2",
+    "title":"Walmart Banners",
+    "page":"portfolio",
+    "category":"advertising"
+   },
+      {
+    "id":"2560",
+    "media_type":"1",
+    "filename":"carouselbanners_1",
+    "title":"Carousel Banners",
+    "page":"portfolio",
+    "category":"advertising"
+   },
+     {
+    "id":"2620",
+    "media_type":"1",
+    "filename":"arbys_stpattys",
+    "title":"Arby's Banners",
+    "page":"portfolio",
+    "category":"advertising"
+   },
+    {
+    "id":"2750",
+    "media_type":"1",
+    "filename":"GoogleBanners3",
+    "title":"Google Banners",
+    "page":"portfolio",
+    "category":"advertising"
+   }
+  ],
+  "related_links":[
+  {"href":"http://www.clickfiremedia.com/index.php/portfolio/advertising", "title":"Advertising"}
+  ]
+ }
+}

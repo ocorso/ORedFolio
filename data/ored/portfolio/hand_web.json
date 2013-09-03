@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/left_hand",
+      "filename":"Hand_web",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"",
+      "title":"Left Hand",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"Hand_web",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

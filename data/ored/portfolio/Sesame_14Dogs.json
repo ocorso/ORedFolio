@@ -1,0 +1,47 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/Sesame_14Dogs",
+      "filename":"Sesame_14Dogs",
+      "related_posts":[
+{
+            "id":"119",
+            "filename":"Sesame_Violin",
+            "title":"Sesame Violin",
+            "media_type":"1",
+             "page":"portfolio",
+   			 "category":"broadcast_entertainment"
+         },
+           {
+            "id":"117",
+            "filename":"Sesame_Hand_Zebra",
+            "title":"Sesame Street Hand Zebra",
+            "media_type":"1",
+            "page":"portfolio",
+   			 "category":"broadcast_entertainment"
+         },
+        {
+            "id":"116",
+            "filename":"Sesame_Hand_Turkey",
+            "title":"Sesame Street Hand Turkey",
+            "media_type":"1",
+             "page":"portfolio",
+   			 "category":"broadcast_entertainment"
+         }
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"",
+      "title":"Sesame Street 14 Dogs",
+      "assets":[
+         {
+            "id":"1",
+            "description":"Sesame Street workshop reached out to Click3X to created a fun expressive way to help young viewers as they learn to count.  Using the medium of illustrated animation, Click3x was able to tell the story of Regina a young girl who was tasked with walking 14 dogs for her neighbor.",
+            "filename":"Sesame Street 14 Dogs",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

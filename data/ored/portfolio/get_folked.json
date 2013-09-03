@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"QueerAsFolk_Babylon"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"",
+      "detail_name":"portfolio/get_folked",
+      "title":"Get Folked",
+      "filename":"QueerAsFolk_Babylon"
+   }
+}

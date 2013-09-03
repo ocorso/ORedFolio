@@ -1,0 +1,52 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/syfy_integrated_marketing",
+      "filename":"Carfax",
+      "related_posts":[
+
+      ],
+      "client":"SyFy",
+      "related_links":[
+
+      ],
+      "description":"When SyFy and CarFax paired up on an integrated marketing campaign, they turned to Click3X’s imagination for their “Imagine That” campaign.  Through a combination of 2D and 3D animation, our creative team was able to create a narrative that depicted the importance of a CarFax history report, while staying true to the SyFy branding palate. \n\nIn this :15 spot, the viewer follows a hero car into the SyFy logo, which then morphs into a fully composited 3D parking garage. The camera follows our hero car through the garage, passing by three cars that reveal the damaged history (lemon titles, flood damage, and severe accidents) their used car may have endured.  \n        \nSyfy and Click 3x have recently partnered on a series of integrated marketing campaigns that create a more cost-effective way for their sponsored transformations to take the brand attributes of a sponsor’s product and tie them in with the Syfy Brand and Imagine Greater.  The trick was also that these transformations also needed to help build a consistent campaign device that invited further interaction with the consumer at Syfy.com.   To date Click 3x has created campaigns for Bud Light, Hershey’s, Pep Boys, and Progresso Soup.",
+      "title":"SyFy Integrated Marketing",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"Carfax",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "filename":"syfy_p",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"3",
+            "description":"",
+            "filename":"Syfy_R",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"4",
+            "description":"",
+            "filename":"Syfy_B",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"5",
+            "description":"",
+            "filename":"Syfy_3",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

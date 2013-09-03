@@ -1,0 +1,17 @@
+#logo img{
+	width:161px;
+	height:27px;
+	margin-top:-1px;
+}
+#sidebar{
+	background-color: #ff0000;
+}
+#sidebar li a{
+	color: #EECCCC !important;
+}
+#sidebar li a:hover{
+	color: #330000 !important;
+}
+#sidebar_inner{
+	border-bottom-color:#CC4444;
+}

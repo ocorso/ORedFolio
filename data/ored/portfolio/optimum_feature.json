@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"optimum_new"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"Gardner Nelson",
+      "description":"We filmed the talent on green screen and created a bank of CGI monitors, where we composited the actress. The work, which was for Gardner Nelson and their client, Cablevision, was completed using Maya and Flame.",
+      "detail_name":"portfolio/optimum_feature",
+      "title":"Optimum",
+      "filename":"optimum_new"
+   }
+}

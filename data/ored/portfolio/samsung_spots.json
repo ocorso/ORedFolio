@@ -1,0 +1,45 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"12959_Samsung_MONTAGE_700"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"samsung_timesSquare_02"
+         },
+         {
+            "id":"3",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"samsung_LCD_01"
+         },
+         {
+            "id":"4",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"samsung_fridge_03"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"CCA",
+      "description":"CG televisions were created in Maya and composited with the live action peacock. The peacock also had additional CG and practical elements added to it using Flame.",
+      "detail_name":"portfolio/samsung_spots",
+      "title":"Samsung Spots",
+      "filename":"12959_Samsung_MONTAGE_700"
+   }
+}

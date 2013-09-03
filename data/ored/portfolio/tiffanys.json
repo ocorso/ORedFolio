@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/tiffany_co",
+      "filename":"Tiffanys",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"We used VFX techniques to touch up this spot.",
+      "title":"Tiffany & Company",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"Tiffanys",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

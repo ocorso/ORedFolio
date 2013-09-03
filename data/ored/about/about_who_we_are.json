@@ -1,0 +1,27 @@
+{"post_detail":
+ {
+  "title":"Who We Are",
+  "client":"",
+  "description":"In a constantly evolving landscape, ClickFire Media puts all the tools along with amazing creative and technology talent under one roof to create rich, innovative interactive experiences - with an assist from Click 3X and their deep and rich resources in video, audio, VFX and CGI. We use ground-breaking technology.  We bend the rules of what's possible,  and we create entirely new realities in the form of brand experiences that stick to the roof of your brain.",
+  "assets":[
+   {
+    "id":"1",
+    "media_type":"2",
+    "filename":"about_who_we_are",
+    "title":"Who We Are"
+   }
+  ],
+  "related_posts":[
+   {
+    "media_type":"1",
+    "filename":"CFM_spring2012",
+    "title":"Clickfire Media",
+    "id":"799",
+    "page":"portfolio",
+    "category":"featured"
+   }
+  ],
+  "related_links":[
+  ]
+ }
+}

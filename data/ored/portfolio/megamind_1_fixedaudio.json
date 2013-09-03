@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/megamind_remix",
+      "filename":"Megamind_1_FixedAudio",
+      "related_posts":[
+
+      ],
+      "client":"MTV",
+      "related_links":[
+
+      ],
+      "description":"Click 3X Editor Jeremy Baumann edited this spot. Our broadcast team did all the compositing in Flame.",
+      "title":"Megamind Remix",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"Megamind_1_FixedAudio",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

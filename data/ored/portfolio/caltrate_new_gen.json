@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/caltrate",
+      "filename":"CALTRATE_NEW_GEN",
+      "related_posts":[
+
+      ],
+      "client":"JWT",
+      "related_links":[
+
+      ],
+      "description":"We created this demo sequence using CG generated packages and CG Real Flow to create the chocolate bars. Final composites and lighting were done in Flame.",
+      "title":"Caltrate",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"CALTRATE_NEW_GEN",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

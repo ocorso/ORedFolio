@@ -1,0 +1,45 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"timeWarner_montage_01"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"timeWarner_choices_01"
+         },
+         {
+            "id":"3",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"time_warner_signal"
+         },
+         {
+            "id":"4",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"12684_Time_Warner_Cab"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"Bernstein Rein",
+      "description":"We shot live action talent on a green screen and combined it with Maya 3D generated graphic design backgrounds in Flame.",
+      "detail_name":"portfolio/time_warner",
+      "title":"Time Warner",
+      "filename":"timeWarner_montage_01"
+   }
+}

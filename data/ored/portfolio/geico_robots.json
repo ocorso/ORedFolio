@@ -1,0 +1,103 @@
+{
+   "post_detail":{
+      "related_posts":[
+{
+    "id":"190",
+    "media_type":"1",
+    "filename":"Geico_Date",
+    "title":"GEICO Date",
+    "page":"portfolio",
+    "category":"visual_effects"
+   },
+   {
+    "id":"200",
+    "media_type":"1",
+    "filename":"Geico_Plane",
+    "title":"GEICO Plane",
+    "page":"portfolio",
+    "category":"visual_effects"
+   },
+   {
+    "id":"630",
+    "media_type":"1",
+    "filename":"GEICO_lugev2",
+    "title":"GEICO Piggy Returns",
+    "page":"portfolio",
+    "category":"visual_effects"
+   },
+   {
+    "id":"780",
+    "media_type":"1",
+    "filename":"GEICO_BEFOREANDAFTERV3",
+    "title":"Making of GEICO Piggy",
+    "page":"portfolio",
+    "category":"visual_effects"
+   },
+   {
+    "id":"781",
+    "media_type":"1",
+    "filename":"geicopiggyv3",
+    "title":"GEICO Piggy Pinwheels App",
+    "page":"portfolio",
+    "category":"interactive"
+   },
+      {
+    "id":"2830",
+    "media_type":"1",
+    "filename":"brostache_fwa",
+    "title":"GEICO Brostache App",
+    "page":"portfolio",
+    "category":"interactive"
+   },
+   {
+    "id":"160",
+    "media_type":"1",
+    "filename":"Geico_Pig_Cop",
+    "title":"GEICO Cop",
+    "page":"portfolio",
+    "category":"visual_effects"
+   },
+      {
+    "id":"240",
+    "media_type":"1",
+    "filename":"Geico_Piglandia",
+    "title":"GEICO Portlandia",
+    "page":"portfolio",
+    "category":"visual_effects"
+   },
+    {
+    "id":"2540",
+    "media_type":"1",
+    "filename":"Geico_vent",
+    "title":"GEICO Ventriloquist",
+    "page":"portfolio",
+    "category":"interactive"
+   },
+  {
+    "id":"70",
+    "media_type":"1",
+    "filename":"syfy_geico",
+    "title":"Syfy GEICO",
+    "page":"portfolio",
+    "category":"visual_effects"
+   }
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"GEICO_DAYCARE_TV_"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"",
+      "detail_name":"portfolio/geico_robots",
+      "title":"GEICO Robots",
+      "filename":"GEICO_DAYCARE_TV_"
+   }
+}

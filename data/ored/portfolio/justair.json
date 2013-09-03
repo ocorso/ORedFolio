@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/just_air",
+      "filename":"JUSTAIR",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"",
+      "title":"Just Air",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"JUSTAIR",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

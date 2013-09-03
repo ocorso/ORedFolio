@@ -1,0 +1,38 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"Walmart_Bike"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"Walmart_Bike_Before&After_1206"
+         },
+         {
+            "id":"3",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"WalmartBannners_2"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"The Martin Agency",
+      "description":"Using provided live action footage, we manipulated the scene to create various effects for multiple Walmart spots.",
+      "detail_name":"portfolio/walmart_spots",
+      "title":"Walmart Spots",
+      "filename":"Walmart_Bike"
+   }
+}

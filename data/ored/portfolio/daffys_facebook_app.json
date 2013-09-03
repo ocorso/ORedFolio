@@ -1,0 +1,38 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"DAFFYs_CREATIVITYv3"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"DAFFY_922v2"
+         },
+         {
+            "id":"3",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"DaffysNYPost"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"Devito/Verdi",
+      "description":"<h2>Challenge:\n</h2><p>ClickFire Media was challenged by Devito/Verdi to create a Facebook app for Daffy's 50th birthday.</p>\n<p><h2>Execution:\n</h2></p>In true CFM fashion, ClickFire Media created a virtual birthday cake, where Facebook fans could blow out the candle using their computer's built-in microphone. The Flash-based app was optimized to account for varying sound sensitivity issues as well as different mic arrangements for MACs and PC computers.</p>  <p><h2>\nResults:</h2></P> <p>\n4,350+ active users used the Facebook app \nFeatured in Creativity (affiliated with Ad Age).",
+      "detail_name":"portfolio/daffys_facebook_app",
+      "title":"Daffy's Facebook App",
+      "filename":"DAFFYs_CREATIVITYv3"
+   }
+}

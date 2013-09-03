@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"mtv_sprint_01"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"Using Maya, we created the CG phone and cosmic environment.  All elements were composited in Flame to create this promo for MTV and Sprint.",
+      "detail_name":"portfolio/mtv_sprint",
+      "title":"MTV Sprint",
+      "filename":"mtv_sprint_01"
+   }
+}

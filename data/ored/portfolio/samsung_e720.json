@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/samsung_e70",
+      "filename":"samsung_E720",
+      "related_posts":[
+
+      ],
+      "client":"J. Walter/London",
+      "related_links":[
+
+      ],
+      "description":"We created the CG phone and graphic animations. Then combined it all in Flame.",
+      "title":"Samsung e70",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"samsung_E720",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

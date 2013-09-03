@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/lysol_shower_curtain",
+      "filename":"LysolShower",
+      "related_posts":[
+
+      ],
+      "client":"Euro",
+      "related_links":[
+
+      ],
+      "description":"We created the CG germs in Maya and composited them into a live action bathtub in Flame.",
+      "title":"Lysol Shower Curtain",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"LysolShower",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

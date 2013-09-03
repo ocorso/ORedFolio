@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/the_limited_app",
+      "filename":"limitedv2",
+      "related_posts":[
+
+      ],
+      "client":"DBA",
+      "related_links":[
+
+      ],
+      "description":"Challenge: \nClickFireMedia was challenged to create a Facebook app for DBA and their client, The Limited.\n\nExecution: \nUsing the Instagram API, CFM built a photo gallery Facebook app. The app automatically included any Instagram photo with The Limited's designated campaign hashtag, #ColorYourWorld. Each photo with the #ColorYourWorld hashtag was automatically entered into a photo contest. The photo with the most likes and shares wins.",
+      "title":"The Limited App",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"limitedv2",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

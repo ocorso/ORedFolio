@@ -1,0 +1,20 @@
+{"post_detail":
+ {
+  "title":"Jamie Beck & Kevin Burg",
+  "client":"Cinemagraphs",
+  "description":"New York City fashion photographer Jamie Beck and digital artist Kevin Burg developed a new form of photography in 2011 called the Cinemagraph - a mesmerizing combination of video and photo that allows a moment to live and breathe. The combination of their romantic aesthetic and the eye catching appeal of the living moment allowed this format to grow quite popular in fashion advertising. Jamie and Kevin now count among their clients Google, Chopard, Tiffany &amp; Co., Veuve Cliquot, Lincoln Motor Co., and many others. They have also created Cinemagraphs of such notable people as models Coco Rocha, Karlie Kloss and Joan Smalls as well as talents as Carine Roitfield and Jenna Lyons.<br/>Their work can be found on their website, Ann Street Studio, and their travels and photographic adventures can be tracked via their Instagram, @annstreetstudio.",
+  "assets":[
+   {
+    "id":"1",
+    "media_type":"3",
+    "filename":"jamie_beck",
+    "title":"Jamie Beck & Kevin Burg"
+   }
+  ],
+  "related_posts":[
+  ],
+  "related_links":[
+  {"href":"http://annstreetstudio.com/", "title":"Ann Street Studio"}
+  ]
+ }
+}

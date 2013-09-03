@@ -1,0 +1,73 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"Background: \nClickFireMedia was challenged by Quaker City Mercantile to create an app for their client, Sailor Jerry. The iOS app allows users to to preview various Sailor Jerry themed tattoos by using their iphone or ipad camera.  \n\nExecution: \nUsers can slide through a large tattoo gallery. Once they find the art they like, they can tap it and drag it into position. By pinching and pulling the image, they can adjust the tattoo until it fits just right.\n\nThe user can then snap a photo, save it and even post the photo of their newly tattooed self  to Facebook and Twitter.\n\nIf they want to make the tattoo permanent, users can also search for the closest Sailor Jerry Tattoo Artist using the Google Maps API without leaving the app.\n\nResults: \nFeatured as the FWA Mobile App/Site of the Day",
+            "media_type":"1",
+            "title":"Mobile",
+            "filename":"sailor_jerry"
+         },
+         {
+            "id":"2",
+            "description":"Challenge:\nClickFire Media created a mobile app for GEICO. The app features Maxwell, GEICO’s signature piggy.\n\nExecution:\nUsers begin by selecting their background as well as Maxwell’s signature pinwheel colors. To start spinning the pinwheel, users can blow into to mobile device’s camera. If you can make it spin fast enough, Maxwell will join the fun. Wheeeeee!!!!! Users can unlock bonus features by sharing the app with their friends on Facebook and Twitter.  Users can also learn more about GEICO, get a rate quote and download additional apps, including the Brostache and GECKO Ventriloquist app, which CFM built, through the GEICO apps setting.",
+            "media_type":"1",
+            "title":"GEICO Piggy Pinwheels App",
+            "filename":"geicopiggyv3"
+         },
+         {
+            "id":"3",
+            "description":"Going to PromaxBDA?  Click 3x proudly presents this year's official conference app, filled with maps, speaker information, session schedules, and ample social integration through Facebook and Twitter.  Download the Free App Today!\n        \nResults:\nApproximately 1,000 downloads\nUsers spent 425 hours inside the app itself\n16,860 sessions opened ",
+            "media_type":"1",
+            "title":"Promax App",
+            "filename":"promaxapp2"
+         },
+         {
+            "id":"4",
+            "description":"Background:\nClickFire Media worked with The Martin Agency to build a mobile app for their client, GEICO. The app features the GEICO Gecko as a ventriloquist dummy. \n\nExecution: \nThe Gecko can be viewed in two settings: a close-up head shot or a shot of the gecko sitting on a stool. Users also have the option to select different backgrounds. To control the Gecko’s mouth, the user moves their finger to cover and expose the lens of their mobile device’s camera.  In order to make the ventriloquist act smoother, users can adjust the light sensitivity of their camera. Users can unlock bonus features by sharing the app with their friends on Facebook and Twitter.  Unlockable features include special sound effects. Users can also learn more about GEICO, get a rate quote and download additional apps, including the Brostache app, which CFM also built, through the GEICOness setting.",
+            "media_type":"1",
+            "title":"GEICO Ventriloquist",
+            "filename":"Geico_vent"
+         },
+         {
+            "id":"5",
+            "description":"Challenge:\nClickFire Media was tasked by NBC Universal to develop a promotional iPhone and Android app for their upcoming movie, The Lorax.\n\nExecution:\nThe new app allows iphone, Android and ipad users to \"see\" how they would look as the Lorax (mustache and all). The app allows you to test out the stache directly with your device’s camera. Users can also upload and stache photos from their mobile device’s camera roll. The app includes full shareability with Facebook and Twitter.\n\nResults:\nRanked in the Top 25 of the entertainment category in the app store\nRanked in the top 200 in the entire app store.",
+            "media_type":"1",
+            "title":"Lorax App",
+            "filename":"Loraxdemo"
+         },
+         {
+            "id":"6",
+            "description":"Challenge: \nThe Travel Channel and Scripps Network challenged CFM to build an engaging, free and easy-to-use mobile game application for their popular show, Man v. Food.\nExecution: \nCFM began the process by developing the game concept with the client, and then creating the layout, all required graphics, and identifying any other creative assets needed to build out the concept (achievements, audio/video, etc) . CFM then partnered with Brisk Mobile for the creation of the game code. The app, which runs on both the iPhone and Android platforms, also has several special features including video clips from the hit TV show, voice activation within the gameplay, and in-app purchasing.\nResults: \nFeatured as the FWA mobile site/app of the day\nBuilt a game app for iphone, Android and ipad platforms on time and on budget \nRanked #85 in strategy game category ",
+            "media_type":"1",
+            "title":"Man V Food App",
+            "filename":"MvFcasestudY"
+         },
+         {
+            "id":"7",
+            "description":"Challenge: \nClickFire Media was tasked by the Martin Agency to develop an iphone and Android app for their client, GEICO. \nExecution: \nThe new Brostache app allows iphone, Android and ipad users to \"see\" how they would look with a mustache. The Brostache app includes three different mustaches to choose from as well as full shareability with Facebook and Twitter. The app was also fully integrated into a GEICO TV commercial centered around people doing dumb things with their smartphones.\nResults: \nMore than 3 million downloads \nRanked #9 in the entertainment category of the app store \nRanked in the top #72 in the app store ",
+            "media_type":"1",
+            "title":"GEICO Brostache",
+            "filename":"brostache_fw"
+         },
+         {
+            "id":"8",
+            "description":"Challenge: \nClickFire Media was challenged to execute a unique iPad app for Starz based on its popular TV series Spartacus: Blood and Sand.\nExecution: \nCollaborating closely with Starz and with its strategic partner for app development, Brisk Mobile, ClickFire Media developed the concept, designed its graphics, and managed the entire production process. The free app is a script reader that allows users to read all 13 episodes of the series' first season. The scripts in the app are enhanced with show clips, audio and video extras, behind-the-scenes footage, and production stills that can be converted into iPad wallpaper. The app contains several unique features that combine elements of antiquity with modern life. Scaling Capua, for example, is an interactive widget detailing the social networks and back stories of the most fascinating citizens in Capua, the ancient city in which the series is set.",
+            "media_type":"1",
+            "title":"Spartacus",
+            "filename":"Spartacus_v2"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"Background: \nClickFireMedia was challenged by Quaker City Mercantile to create an app for their client, Sailor Jerry. The iOS app allows users to to preview various Sailor Jerry themed tattoos by using their iphone or ipad camera.  \n\nExecution: \nUsers can slide through a large tattoo gallery. Once they find the art they like, they can tap it and drag it into position. By pinching and pulling the image, they can adjust the tattoo until it fits just right.\n\nThe user can then snap a photo, save it and even post the photo of their newly tattooed self  to Facebook and Twitter.\n\nIf they want to make the tattoo permanent, users can also search for the closest Sailor Jerry Tattoo Artist using the Google Maps API without leaving the app.\n\nResults: \nFeatured as the FWA Mobile App/Site of the Day",
+      "detail_name":"portfolio/mobile",
+      "title":"Mobile",
+      "filename":"sailor_jerry"
+   }
+}

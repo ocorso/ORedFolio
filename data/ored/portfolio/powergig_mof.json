@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/power_gig_mof",
+      "filename":"PowerGig_MOF",
+      "related_posts":[
+
+      ],
+      "client":"Droga5",
+      "related_links":[
+
+      ],
+      "description":"Using the live action footage as a backplate, we created the effect of an active volcano by compositing smoke, flame and partical elements together in Flame.",
+      "title":"Power Gig MOF",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"PowerGig_MOF",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

@@ -1,0 +1,19 @@
+{"post_detail":
+ {
+  "title":"Fur Insider",
+  "client":"",
+  "description":"<h2>Challenge:</h2><p>ClickFire Media was challenged by the Fur Information Council of America (FICA), to create a website for all things fur-related.</p> <h2>Execution:</h2><p>FICA, the Fur Information Council of America, wanted to create a hub of the latest in fur styles, trends and fashion to generate positive content on fur. ClickFire accomplished this by building FurInsider.com to house their blog and media gallery, including original video content shot, edited and produced by CFM. </p><h2>Results: </h2><p>Built an online community site from the ground-up for fur enthusiasts to browse  and talk about all things fur-related. Produced several videos and photo galleries. Generated lots of positive buzz about the fur industry </p>",
+  "assets":[
+   {
+    "id":"1",
+    "media_type":"1",
+    "filename":"Fur_Insider_01",
+    "title":"Fur Insider"
+   }
+  ],
+  "related_posts":[
+  ],
+  "related_links":[ {"href":"http://www.furinsider.com/", "title":"Fur Insider"}
+  ]
+ }
+}

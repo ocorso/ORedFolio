@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"MadStyle_Agency"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"Nickelodean",
+      "description":"Directed by Peter Corbett, we shot the talent on green screen and then added the liquid effects in Flame. Liquid effects were created using Real Flow software.",
+      "detail_name":"portfolio/madstyle",
+      "title":"Madstyle ",
+      "filename":"MadStyle_Agency"
+   }
+}

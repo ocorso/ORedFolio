@@ -1,0 +1,26 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"2",
+            "title":"",
+            "filename":"GMC"
+         }
+      ],
+      "related_links":[
+       {"href":"https://itunes.apple.com/us/app/most-powerful-voices/id632242491?mt=8", "title":"iTunes"},
+       {"href":"https://play.google.com/store/apps/details?id=com.clickfiremedia.mostpowerfulvoices", "title":"Google Play"}
+
+      ],
+      "client":"",
+      "description":"Most Powerful Voices is a music exploration app created for Gospel Music Channel (now UpTV) and the American Heart Association.  Most Powerful Voices is an online music competition where amateur musicians from across the United States upload their Gospel music for a chance to be crowed the Most Powerful Voice.  The application, created for both iOS and Android, allows users to search contestants, watch their submission videos, leave comments, and vote for the winners all from within the app.",
+      "detail_name":"portfolio/GMC",
+      "title":"Gospel Music Channel",
+      "filename":"GMC"
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/grammar_nazis",
+      "filename":"Grammar_Nazi_CutDown",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"Comedy directors Josh and Vince both received Webby Awards for their work on Grammar Nazis, a parody of Quentin Tarantinos Inglorious Bastards.",
+      "title":"Grammar Nazis",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"Grammar_Nazi_CutDown",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

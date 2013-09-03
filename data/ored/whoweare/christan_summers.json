@@ -1,0 +1,26 @@
+{"post_detail":
+ {
+  "title":"Christan Summers",
+  "client":"Director, Creative & Strategy",
+  "description":"Christan Summers is a stylist, creative director and brand consultant of rare and discerning taste &#x2013; a young talent already boasting nearly a decade of professional achievement in the realms of fashion and e-commerce. Summers currently serves as the Director of Creative Strategy for Raison D'etre, an offshoot of NYC-based Click 3X and ClickFire Media, which specializes in content for fashion, beauty, and luxury brands. The up-and-coming company has proven to be the perfect platform for Summers&#x2019; impeccable aesthetic sense, exceptional business acumen, and countless relationships with photographers and designers in the US and France.<br/><br/>In addition to her duties at Raison D&#x2019;etre, Summers is also Founder and acting CEO of ICUINPARIS, an online boutique offering curated selections from independent designers across the globe. Summers&#x2019; holistic approach to ICU &#x2013; where she personally worked to establish the image, brand positioning, photography and styling for each new designer &#x2013; made the ideal proving ground for her work as Director of Creative Strategy. <br/><br/>Summers signed on as Director of Creative Strategy at Raison D&#x2019;etre in early 2013. In the previous year, she launched Showroom ICU, a sister division to ICUINPARIS and all-inclusive virtual sales and consulting agency introducing new design talent to the US marketplace through B2B and wholesale relationships.",
+  "assets":[
+   {
+    "id":"1",
+    "media_type":"2",
+    "filename":"christan",
+    "title":"Christan Summers"
+   }
+  ],
+  "related_posts":[
+  {
+   "id":"880",
+   "media_type":"1",
+   "filename":"ICUinParis",
+   "title":"ICUINPARIS",
+   "page":"portfolio"
+   }
+  ],
+  "related_links":[
+  ]
+ }
+}

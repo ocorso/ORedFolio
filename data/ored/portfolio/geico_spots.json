@@ -1,0 +1,66 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"GEICO_GUINEAPIG_WEB_V8"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"Piggy30_HD_Generic"
+         },
+         {
+            "id":"3",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"GEICO_DUNK_COMMERCIAL_"
+         },
+         {
+            "id":"4",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"GEICO_DAYCARE_TV_"
+         },
+         {
+            "id":"5",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"GEICO_SMARTPHONE"
+         },
+         {
+            "id":"6",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"GEICO_CATSnDOGS"
+         },
+         {
+            "id":"7",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"Woodchuck30_ISCI"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"The Martin Agency",
+      "description":"We combined live action and practical animatronic animal footage in Flame to create these spots for GEICO.",
+      "detail_name":"portfolio/geico_spots",
+      "title":"GEICO Spots",
+      "filename":"GEICO_GUINEAPIG_WEB_V8"
+   }
+}

@@ -1,0 +1,73 @@
+{
+   "post_detail":{
+      "related_posts":[
+{
+            "id":"810",
+            "filename":"JonYi_Paris_DirCut_Conform",
+            "title":"Gawker Paris",
+            "media_type":"1",
+             "page":"portfolio",
+   			 "category":"featured"
+         }
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"CS_INTEL_GAWKER_V2_small"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"Gawker_SF"
+         },
+         {
+            "id":"3",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"Gawker_CostaRica"
+         },
+         {
+            "id":"4",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"Gawker_Miami"
+         },
+         {
+            "id":"5",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"JonYi_Paris_DirCut_Conform"
+         },
+         {
+            "id":"6",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"Gawker_Austin_Conform_091012"
+         },
+         {
+            "id":"7",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"Boston_Gawker_Intel_Final"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"To get the word out about the new, sleek UltraBooks, Jonathan collaborated with Gawker Media for this co-branded promotion with the Gawker Media Gizmodo Shooting Challenge editorial series and Intel. \n\nThe campaign sent six celebrated photographers to cities around the globe to create a compelling portfolio based on a one-word theme and a specific technical photography challenge, while Yi filmed their journey. Former pro skier Scott Rinckenberger captured mountain biking and surfing in Costa Rica for the theme “sports” and the challenge “solarization”, while Ryan Russell set out to capture “competition” in the video-gaming culture in a San Francisco arcade. Douglas Sonders captured the style of Miami with a photoshoot using some of the most high profile luxury cars in the world, including a gold Lamborghini for his challenge of shooting cars. Steven Taylor, Taylor Davidson, and Diana Levine used everything from black and white cameras to iPhones to get the perfect shots in Paris, Boston and Austin covering themes of style, sports and music.\n\nWe also handled the editorial, graphics, compositing, and color correct work.",
+      "detail_name":"portfolio/gawker_intel_case_study",
+      "title":"Gawker Intel Case Study",
+      "filename":"CS_INTEL_GAWKER_V2_small"
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/fuse",
+      "filename":"Fuse_Demo",
+      "related_posts":[
+
+      ],
+      "client":"FUSE",
+      "related_links":[
+
+      ],
+      "description":"C3X was tasked by Fuse to create a toolkit for on and off-air promos for the quarterly ‘Fuse Presents’ concert specials.   Conceived in a darkly lit abstract world, the Presents package shows the explosiveness of Fuse events and literally ties together the music world with a series of audio cables.  This comprehensive show package continued an open, mortise, transitions, backgrounds, and lower thirds.",
+      "title":"FUSE",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"Fuse_Demo",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

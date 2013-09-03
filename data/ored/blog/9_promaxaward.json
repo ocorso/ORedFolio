@@ -1,0 +1,61 @@
+{"post_detail":
+ {
+  "title":"PromaxBDA 2013 Awards",
+  "client":"",
+  "description":"<h2>Click 3X is proud to announce that we won several PromaxBDA Awards</h2><p>GOLD for Best On-Air Typography - Lifetime 'My Life is a Lifetime Movie'</p><p> GOLD for Special Event Campaign (using Multiple Media) - MTV 2012 VMAs</p><p> GOLD - The Marketing Team of the Year was FX (work featured included our The League work)</p><p> SILVER for Art Direction / Sports - 2012 Brooklyn Nets Launch / Nets</p><p> Thank you to everyone involved!</p>",
+  "assets":[
+   {
+    "id":"1",
+    "media_type":"2",
+    "filename":"9_promaxaward",
+    "title":"PromaxBDA 2013 Awards"
+   }
+   
+  ],
+  "related_posts":[
+  {
+   "id":"220",
+   "media_type":"1",
+   "detail_name":"portfolio/vmas_2012",
+   "filename":"083012_MTV_VMA_30_LARGE_LIVE_MASTER_30FPS_C",
+   "title":"PromaxBDA 2013 Awards",
+   "description":"<h2>Click 3X is proud to announce that we won several PromaxBDA awards this year:</h2> <p>GOLD for Best On-Air Typography - Lifetime 'My Life is a Lifetime Movie'</p><p> GOLD for Special Event Campaign (using Multiple Media) - MTV 2012 VMAs</p><p> GOLD - The Marketing Team of the Year was FX (work featured included our The League work)</p><p> SILVER - for Art Direction / Sports - 2012 Brooklyn Nets Launch / Nets</p><p> Thank you to everyone involved!</p>",
+   "page":"portfolio"
+   },
+     {
+   "id":"260",
+   "media_type":"1",
+   "detail_name":"portfolio/lifetime",
+   "filename":"C3X_Life_Time_Movie_60_ProRes",
+   "title":"PromaxBDA 2013 Awards",
+   "description":"<h2>Click 3X is proud to announce that we won several PromaxBDA awards this year:</h2><p>GOLD for Best On-Air Typography - Lifetime 'My Life is a Lifetime Movie'</p><p> GOLD for Special Event Campaign (using Multiple Media) - MTV 2012 VMAs</p><p> GOLD - The Marketing Team of the Year was FX (work featured included our The League work)</p><p> SILVER for Art Direction / Sports - 2012 Brooklyn Nets Launch / Nets</p><p> Thank you to everyone involved!</p>",
+   "page":"portfolio"
+   },
+      {
+   "id":"225",
+   "media_type":"1",
+   "detail_name":"portfolio/league",
+   "filename":"League4_skinnyandre",
+   "title":"PromaxBDA 2013 Awards",
+   "description":"<h2>Click 3X is proud to announce that we won several PromaxBDA awards this year:</h2><p>GOLD for Best On-Air Typography - Lifetime 'My Life is a Lifetime Movie'</p><p> GOLD for Special Event Campaign (using Multiple Media) - MTV 2012 VMAs</p><p> GOLD - The Marketing Team of the Year was FX (work featured included our The League work)</p><p> SILVER for Art Direction / Sports - 2012 Brooklyn Nets Launch / Nets</p><p> Thank you to everyone involved!</p>",
+   "page":"portfolio"
+   },
+    {
+   "id":"225",
+   "media_type":"1",
+   "detail_name":"portfolio/Yes_Nets_30_promo",
+   "filename":"Yes_Nets_30_promo",
+   "title":"PromaxBDA 2013 Awards",
+   "description":"<h2>Click 3X is proud to announce that we won several PromaxBDA awards this year:</h2><p>GOLD for Best On-Air Typography - Lifetime 'My Life is a Lifetime Movie'</p><p> GOLD for Special Event Campaign (using Multiple Media) - MTV 2012 VMAs</p><p> GOLD - The Marketing Team of the Year was FX (work featured included our The League work)</p><p> SILVER for Art Direction / Sports - 2012 Brooklyn Nets Launch / Nets</p><p> Thank you to everyone involved!</p>",
+   "page":"portfolio"
+   }
+ 
+  ],
+  "related_links":[
+  {"href":"http://www.click3x.com/index.php/home#/home/_all/220", "title":"MTV - VMA 2012"},
+  {"href":"http://www.click3x.com/index.php/home#/home/_all/260", "title":"Lifetime - My Life is a Lifetime Movie"},
+  {"href":"http://www.click3x.com/index.php/portfolio/broadcast_entertainment#/portfolio/broadcast_entertainment/225", "title":"FX - The League Promos"},
+  {"href":"http://www.click3x.com/index.php/portfolio/broadcast_entertainment#/portfolio/broadcast_entertainment/2461", "title":"YES Nets"}
+  ]
+ }
+}

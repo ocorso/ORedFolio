@@ -1,0 +1,45 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"iDog_FullCircle_deinterlaced"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"FordF150_NewEngland_01"
+         },
+         {
+            "id":"3",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"RATTLERZ_HD_GEN"
+         },
+         {
+            "id":"4",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"MadStyle_Agency"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"Having enjoyed a remarkable career as an advertising agency creative and commercial director, Peter Corbett founded Click 3X in 1993. Peter's awards include several Cannes Lions, Clios and The Crystal Apple Award from the City of New York for his contributions to the film industry.",
+      "detail_name":"portfolio/peter_corbett_director",
+      "title":"Peter Corbett Director",
+      "filename":"iDog_FullCircle_deinterlaced"
+   }
+}

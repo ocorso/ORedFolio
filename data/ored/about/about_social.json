@@ -1,0 +1,116 @@
+{"post_detail":
+ {
+  "title":"Social",
+  "client":"",
+  "description":"Users of social media have been kind enough make most of their personal lives public.  While we have no plans to do anything nefarious with that info (we'll leave that to Big Brother), we do create mind-bending experiences and mash-ups with Google Maps, Facebook, Twitter, Vine and Instagram APIs.  And if the API doesn't exist we'll create one.",
+  "assets":[
+   {
+    "id":"1",
+    "media_type":"2",
+    "filename":"about_social",
+    "title":"Social"
+   }
+  ],
+  "related_posts":[
+   {
+    "id":"3321",
+    "media_type":"1",
+    "filename":"stride",
+    "title":"Stride",
+    "page":"portfolio",
+    "category":"social"
+   },
+    {
+    "id":"2940",
+    "media_type":"1",
+    "filename":"GoodskinLabs",
+    "title":"Goodskin Labs",
+    "page":"portfolio",
+    "category":"social"
+   },
+       {
+    "id":"2890",
+    "media_type":"1",
+    "filename":"getDunkd_edit",
+    "title":"Dunkin Donuts Get Dunk'd",
+    "page":"portfolio",
+    "category":"social"
+   },
+          {
+    "id":"2831",
+    "media_type":"1",
+    "filename":"2011_shredsled",
+    "title":"Shred Sled",
+    "page":"portfolio",
+    "category":"social"
+   },
+          {
+    "id":"2760",
+    "media_type":"1",
+    "filename":"seventhgenV5",
+    "title":"Seventh Generation App",
+    "page":"portfolio",
+    "category":"social"
+   },
+      {
+    "id":"4434",
+    "media_type":"1",
+    "filename":"Mikillstokk",
+    "title":"Mikillstokk",
+    "page":"portfolio",
+    "category":"social"
+   },
+      {
+    "id":"2660",
+    "media_type":"1",
+    "filename":"InfluencerAwardsv3",
+    "title":"Influencer Awards",
+    "page":"portfolio",
+    "category":"social"
+   },
+    {
+    "id":"890",
+    "media_type":"1",
+    "filename":"limitedv2",
+    "title":"The Limited",
+    "page":"portfolio",
+    "category":"social"
+   },
+   {
+    "id":"850",
+    "media_type":"1",
+    "filename":"roxy_cs",
+    "title":"Roxy",
+    "page":"portfolio",
+    "category":"social"
+   },
+      {
+    "id":"211",
+    "media_type":"1",
+    "filename":"armorallforcasestudy",
+    "title":"ArmorAll",
+    "page":"portfolio",
+    "category":"social"
+   },
+     {
+    "id":"900",
+    "media_type":"1",
+    "filename":"CS_BCA_APP_V2_Small",
+    "title":"Breast Cancer Awareness",
+    "page":"portfolio",
+    "category":"social"
+   },
+    {
+    "id":"2480",
+    "media_type":"1",
+    "filename":"samsung_camera",
+    "title":"Samsung Camera",
+    "page":"portfolio",
+    "category":"social"
+   }
+  ],
+  "related_links":[
+   {"href":"http://www.clickfiremedia.com/index.php/portfolio/social", "title":"Social"}
+  ]
+ }
+}

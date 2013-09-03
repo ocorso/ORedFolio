@@ -1,0 +1,52 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/loreal",
+      "filename":"CS11_L'OREAL_approval",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"What this case study demonstrates: \nOur ability to produce 19 informational, localized videos for six different brands over the course of one week.  \n\nBackground: \nClick 3X created instructional videos, which accompanied a new global print rebranding campaign. The videos were distributed in 54 different countries.  \n\n\nExecution:\nAll the videos were shot in a simple, visual style with voiceovers. The videos consisted primarily of beauty tips. Shooting with voiceover allowed us to speed up the process, and made it easier to translate into other languages.",
+      "title":"L'Oreal",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"CS11_L'OREAL_approval",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "filename":"0525_DP_SmoothAddict_",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"3",
+            "description":"",
+            "filename":"0605_RetouchApplicati",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"4",
+            "description":"",
+            "filename":"0605_VirginApplicatio",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"5",
+            "description":"",
+            "filename":"060612_BioReplenish_v",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

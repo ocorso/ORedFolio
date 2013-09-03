@@ -1,0 +1,31 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"FRANCO_30sec"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"FRANCO_2minVersion"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"Cheil USA",
+      "description":"James Franco shows off his superb multitasking skills in this spot for the Samsung Galaxy Note. We edited and composited this spot.",
+      "detail_name":"portfolio/samsung_mobile",
+      "title":"Samsung Mobile",
+      "filename":"FRANCO_30sec"
+   }
+}

@@ -1,0 +1,61 @@
+{"post_detail":
+ {
+  "title":"DBA",
+  "client":"",
+  "description":"DBA is a transformative boutique agency that expertly juxtaposes digital communications and curation marketing with talent management of online influencers. Rooted in marketing and branding, our guiding philosophy is to always stay true to the core DNA of our clients while elevating the social media conversation through practical application and creative engagement. Holistically combining all facets of brand building, online and off &#x2013; advertising, marketing, public relations, events, e-commerce &#x2013; our approach builds awareness, traffic and drives the brand voice forward. Operating under three distinct and separate arms, DBA&#x2019;s global reach includes offices in New York, Los Angeles and Milan.",
+  "assets":[
+   {
+    "id":"1",
+    "media_type":"2",
+    "filename":"R2B_Client_Thumbnails_05",
+    "title":"DBA"
+   }
+  ],
+  "related_posts":[
+  {
+    "id":"20",
+    "media_type":"1",
+    "filename":"Breast_Cancer_Awareness_01",
+    "title":"Breast Cancer Awareness",
+    "page":"portfolio"
+   },
+     {
+    "id":"220",
+    "media_type":"1",
+    "filename":"Nine_West_01",
+    "title":"Nine West",
+    "page":"portfolio"
+   },
+     {
+    "id":"200",
+    "media_type":"1",
+    "filename":"Limited_01",
+    "title":"The Limited",
+    "page":"portfolio"
+   },
+     {
+    "id":"260",
+    "media_type":"1",
+    "filename":"Roxy_01",
+    "title":"Roxy",
+    "page":"portfolio"
+   },
+      {
+    "id":"811",
+    "media_type":"1",
+    "filename":"tiffany_cookie",
+    "title":"Tiffany's QR Code Campaign",
+    "page":"portfolio"
+   },
+     {
+    "id":"10",
+    "media_type":"1",
+    "filename":"7_For_All_Mankind_01",
+    "title":"7 For All Mankind",
+    "page":"portfolio"
+   }
+  ],
+  "related_links":[
+  ]
+ }
+}

@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"US_Open_fade"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"CBS Sports",
+      "description":"When CBS Sports wanted to create an exciting new graphic package for the 2011 US Open, they knew that they could task Click 3X with the job.  The Click 3X team was faced with having to retro-fit about 100 graphic elements, as well as needing to rebuild the elements from the ground up while being sure they covered the functionality of the pre-existing package. The team also shot back-plates, which were later composited with the graphic elements. Using the Adobe suite of programs along with Maxon Cinema 4D, the team ultimately created a tool-kit so that CBS Sports could then take the elements and create whatever they needed.\n\nCBS Creative Director, Pete Radovich, had this to say about his experience working with Click 3X, “Having been through this process countless times, I can honestly say that the experience with Click 3X was one of the more pleasurable and pain-free projects I have ever been a part of.”",
+      "detail_name":"portfolio/us_open",
+      "title":"US Open",
+      "filename":"US_Open_fade"
+   }
+}

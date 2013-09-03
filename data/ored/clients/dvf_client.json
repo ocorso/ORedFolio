@@ -1,0 +1,26 @@
+{"post_detail":
+ {
+  "title":"DVF",
+  "client":"",
+  "description":"",
+  "assets":[
+   {
+    "id":"1",
+    "media_type":"2",
+    "filename":"dvf_client",
+    "title":"dfv"
+   }
+  ],
+  "related_posts":[
+   {
+    "id":"60",
+    "media_type":"1",
+    "filename":"dvf_01",
+    "title":"DVF",
+    "page":"portfolio"
+   }
+  ],
+  "related_links":[
+  ]
+ }
+}

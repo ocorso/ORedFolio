@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"MTV_FOO_FIGHTERS"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"MTV",
+      "description":"We did the compositing, Flame and VFX for this music video for the rock band, The Foo Fighters.",
+      "detail_name":"portfolio/foo_fighters",
+      "title":"Foo Fighters",
+      "filename":"MTV_FOO_FIGHTERS"
+   }
+}

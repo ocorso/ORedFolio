@@ -1,0 +1,117 @@
+{"post_detail":
+ {
+  "title":"Innovations & Technology",
+  "client":"",
+  "description":"<p>Any movie villain will tell you that they are nothing without their use of technology. Knowing which tool to use and when to use it is just as important as knowing how to use it.  We're not superheros, but we could probably save the world if you asked.  Or had a brief. For those that need to know such things, here are the many platforms and languages our resident development geniuses work in.</p><table width='600' border='0' cellspacing='0' cellpadding='0'><tr><td width='250' valign='top'><h2>Languages:</h2><ul><li>Objective-C (iOS)</li><li>Java (Android)</li><li>JavaScript/AJAX</li><li>HTML/CSS</li><li>ActionScript</li><li>Flex</li><li>Unity</li><li>Ruby</li><li>PHP</li><li>Rails</li><li>MySQL</li><li>.NET</li><li>&nbsp;</li></ul><h2>API's:</h2><ul><li>Facebook</li><li>Twitter</li><li>Instagram</li><li>Vine</li><li>YouTube</li><li>Google</li></ul></td><td width='350'valign='top'><h2>Frameworks:</h2><ul><li>Drupal</li><li>Wordpress</li><li>jQuery</li><li>Corona</li><li>Titanium</li><li>Isotope</li><li>MooTools</li><li>Twitter Bootstrap</li><li>CodeIgniter</li><li>Zend, Cocos2d</li><li>Box2D</li><li>PureMVC</li><li>Robotlegs</li></ul><h2>Services:</h2><ul><li>MediaMind</li><li>DoubleClick</li><li>iRep</li><li>ThisMoment</li><li>Tellegent</li><li>Curalate</li></ul></td></tr></table>",
+  "assets":[
+   {
+    "id":"1",
+    "media_type":"2",
+    "filename":"about_innovations_technology",
+    "title":"Innovations & Technology"
+   }
+  ],
+  "related_posts":[
+    {
+    "id":"114",
+    "media_type":"1",
+    "filename":"Pedigree",
+    "title":"CS_BBDO_PEDIGREE_REV 2_WITH LOGO_Small",
+    "page":"portfolio",
+    "category":"innovations"
+   },
+       {
+    "id":"120",
+    "media_type":"1",
+    "filename":"CS_7FAM",
+    "title":"7 For All Mankind",
+    "page":"portfolio",
+    "category":"innovations"
+   },
+          {
+    "id":"131",
+    "media_type":"1",
+    "filename":"CS_VICE_INTEL_DAVID BLAINE_NoLogo_V2_Small",
+    "title":"Intel",
+    "page":"portfolio",
+    "category":"innovations"
+   },
+          {
+    "id":"2221",
+    "media_type":"1",
+    "filename":"CS09_JENNIE-O_approval",
+    "title":"Jennie-O",
+    "page":"portfolio",
+    "category":"innovations"
+   },
+             {
+    "id":"132",
+    "media_type":"1",
+    "filename":"DAFFYs_CREATIVITYv3",
+    "title":"Daffy's Candle",
+    "page":"portfolio",
+    "category":"innovations"
+   },
+      {
+    "id":"211",
+    "media_type":"1",
+    "filename":"armorallforcasestudy",
+    "title":"ArmorAll",
+    "page":"portfolio",
+    "category":"innovations"
+   },
+      {
+    "id":"900",
+    "media_type":"1",
+    "filename":"CS_BCA_APP_V2_Small",
+    "title":"Breast Cancer Awareness",
+    "page":"portfolio",
+    "category":"innovations"
+   },
+    {
+    "id":"2540",
+    "media_type":"1",
+    "filename":"Geico_vent",
+    "title":"GEICO Ventriloquist",
+    "page":"portfolio",
+    "category":"innovations"
+   },
+   {
+    "id":"2580",
+    "media_type":"1",
+    "filename":"CS_AFS_V2_Small",
+    "title":"AFS",
+    "page":"portfolio",
+    "category":"innovations"
+   },
+      {
+    "id":"2640",
+    "media_type":"1",
+    "filename":"footballbannersv7",
+    "title":"AT&T Football Banners",
+    "page":"portfolio",
+    "category":"innovations"
+   },
+   {
+    "id":"2700",
+    "media_type":"1",
+    "filename":"uniqlo",
+    "title":"Uniqlo",
+    "page":"portfolio",
+    "category":"innovations"
+   },
+     {
+    "id":"2850",
+    "media_type":"1",
+    "filename":"LittleTikes_interaction_vid_v01_NoneComprssn",
+    "title":"Uniqlo",
+    "page":"portfolio",
+    "category":"Little Tikes Campaign"
+   }
+   
+  ],
+  "related_links":[
+  {"href":"http://www.clickfiremedia.com/index.php/portfolio/innovations", "title":"Innovations & Technology"}
+  ]
+ }
+}

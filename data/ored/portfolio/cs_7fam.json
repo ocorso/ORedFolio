@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/7_for_all_mankind",
+      "filename":"CS_7FAM",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"What We Did:\n        \nFacebook Tab/Social Community Page\n\nHow We Did It:\n\nChallenge:\n\nClickFireMedia was tasked by their client, Digital Brand Architects, to create a community page for 7 For All Mankind using the ThisMoment platform.\n\nExecution:\n\nCFM used the ThisMoment CMS platform API to combine content from 7 For All Mankind's Pinterest, Instagram, Facebook, Twitter, and blog pages into one combined brand experience.",
+      "title":"7 For All Mankind",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"CS_7FAM",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

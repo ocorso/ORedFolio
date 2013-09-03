@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/sam_adams",
+      "filename":"Sam Adams",
+      "related_posts":[
+
+      ],
+      "client":"IFC",
+      "related_links":[
+
+      ],
+      "description":"The Independent Film Channel reached out to us directly to create a 3-part installment for their ‘One Good Deed’ series. Their goal was to highlight the Samuel Adams ‘Brewing the American Dream’ program as a means of mentoring a small business with lofty dreams. Jim Koch was on to something big when he brewed his first batch of beer in his own kitchen sink. From there, his passion and determination propelled a newfound product into one of the world’s most successful craft beers: Samuel Adams Lager. This short series celebrates the true spirit of entrepreneurship, as Jim mentors the fledgling Roc Brewing Company through the challenges faced by a startup craft brewery.",
+      "title":"Sam Adams",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"IFC_Adams3",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

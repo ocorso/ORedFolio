@@ -1,0 +1,31 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/desitin",
+      "filename":"Desitinv2",
+      "related_posts":[
+
+      ],
+      "client":"BBDO",
+      "related_links":[
+
+      ],
+      "description":"Challenge:\nClickFire Media was tasked to execute three rich media banner ads for BBDO and their client, Desitin.\n\nExecution:\nCFM produced the banners from start to finish. The banners showed Desitin baby powder being sprinkled into a bathtub, and then a baby being lowered into the tub and it's frown turning into a smile.  CFM was tasked with compositing a face that changed expression over Desitin's original approved baby photograph.   The process began with an in house video shoot of an actress doing the face expressions and hand modeling. Using Flame and the same process developed by Click3X to create the E-trade talking babies TV spots, we created a video to composite the actresses eyes and mouth over the still image.  The remaining video work was finished in AfterEffects. All elements were then assembled in Flash and the interactivity was added.",
+      "title":"Desitin",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"Desitinv2",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "filename":"Desitin_v",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

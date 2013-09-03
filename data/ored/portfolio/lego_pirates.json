@@ -1,0 +1,91 @@
+{
+   "post_detail":{
+      "related_posts":[
+{
+    "id":"250",
+    "media_type":"1",
+    "filename":"LEGO_STAR_WARS_CLICK3X_VERSION",
+    "title":"LEGO Star Wars",
+    "page":"portfolio",
+    "category":"animation"
+   },
+      {
+    "id":"882",
+    "media_type":"1",
+    "filename":"lego_club_tv",
+    "title":"Lego Club TV",
+    "page":"portfolio",
+    "category":"broadcast_entertainment"
+   },
+         {
+    "id":"1000",
+    "media_type":"1",
+    "filename":"LEGO_PIRATES_EP1_CLICK3x_VER",
+    "title":"LEGO Pirates Shorts",
+    "page":"portfolio",
+    "category":"featured"
+   },
+        {
+    "id":"1110",
+    "media_type":"1",
+    "filename":"LEGO_ROADTRIP_CLICK3X_version",
+    "title":"LEGO Road Trip",
+    "page":"portfolio",
+    "category":"animation"
+   },
+{
+    "id":"180",
+    "media_type":"1",
+    "filename":"LEGO_buildtogether2012",
+    "title":"LEGO Build Together 2012",
+    "page":"portfolio",
+    "category":"animation"
+   }
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"CS12_LEGO_approval"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"LEGO_PIRATES_EP1_CLICK3x_VER"
+         },
+         {
+            "id":"3",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"LEGO_POTC_EP2_3_C3x_VERSION"
+         },
+         {
+            "id":"4",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"LEGO_EP4_5_COMBO_CLICk3x_VERSION"
+         },
+         {
+            "id":"5",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"LEGO_DESIGNVIDEO"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"<h2>What this case study demonstrates:</h2>Our ability to create five animated shorts episodes specifically for the Web. <h2>Background:</h2>LEGO reached out to us directly to create a series of short films for a marketing tie-in with the Pirates of the Caribbean movie launch with Disney.<h2>Execution:</h2>We created five character-animated mini movies loosely based off of the Pirates of the Caribbean movie, using characters and backgrounds made to look like they were made completely from LEGOs. The LEGO characters were created using Maya animation software, and the VFX were composited in Flame. <h2>Results:</h2>In addition to planned distribution, all of the LEGO character animated shorts were featured in the Pirates of the Caribbean Blu-Ray DVD.",
+      "detail_name":"portfolio/lego_pirates",
+      "title":"LEGO Pirates",
+      "filename":"CS12_LEGO_approval"
+   }
+}

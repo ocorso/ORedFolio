@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/lyrica",
+      "filename":"Lyrica_SC",
+      "related_posts":[
+
+      ],
+      "client":"CDMi",
+      "related_links":[
+
+      ],
+      "description":"Challenge: \nClickFire Media, working in partnership with CDMi, was tasked to build the magically flipping scrapbook. The look had to be photographic to tie in seamlessly to the previously shot video.  The scrapbook then becomes a navigation device and each page turn from the book's \"contents\" had a separate action, from placing a Polaroid, to the page being torn out.  The user can then flip the book back to the content list.  \n\nExecution: \nCFM decided that the best approach was to film the actual scrapbook and use a stop-motion technique to precisely animate the various page turns.  This stop motion then could invisibly transition to the live action scenes.  The scenes were filmed in HD and finished in our Flame suites.",
+      "title":"Lyrica",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"Lyrica_SC",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

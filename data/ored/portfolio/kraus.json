@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"Kraus_0"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"Challenge: \nIn collaboration with William Burk Inc, ClickFire Media was challenged to create a virtual showroom to showcase and walk through the home automation services provided by Kraus Hi-Tech. \n\nExecution: \nThe virtual showroom is comprised of five 3D scenes, all of which were modeled and animated by ClickFire Media. In addition to animation, ClickFire Media was responsible for live action casting, producing, directing and shooting the showroom host on a green screen. The host was then placed inside each of the virtual rooms, helping to guide the user experience of the showroom. Using the host footage and 3D animations, the completed showroom was built using ActionScript 3 and XML. Leveraging the technology, a user can follow multiple video paths and enter the showroom at various points in the demonstration. Finally, in-navigation menus were designed to allow users to pause, skip, adjust volume, and add closed captions while viewing the demonstration.",
+      "detail_name":"portfolio/kraus",
+      "title":"Kraus",
+      "filename":"Kraus_0"
+   }
+}

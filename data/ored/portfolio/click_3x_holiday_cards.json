@@ -1,0 +1,38 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"Shred_Sled"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"2009_Holid"
+         },
+         {
+            "id":"3",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"2008_Holid"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"To celebrate the holiday season, ClickFire created an interactive holiday card that lets you take one of our senior staff members for a ride on the “Click 3X Shred Sled.” Complete with “ooo’s” and “ouch!” effects made in our sound studio, the rider tumbles down the mountain as Click employees watch from the start and finish lines. Leveraging Box2D, a powerful 2D Physics API, as well as our own custom codebase, our development team crafted a humorous (if somewhat sadistic) e-card to spread a bit of holiday cheer. Viewers can share the card with their friends by emailing it or posting their Shred Sled score to Facebook. The card had received over 5,000 page views and had a 45% click through rate. A true company-wide effort, the 2010 Click 3X Holiday e-card involved the combined talents of our video, sound and interactive departments. Enjoy!",
+      "detail_name":"portfolio/click_3x_holiday_cards",
+      "title":"Click 3X Holiday Cards",
+      "filename":"Shred_Sled"
+   }
+}

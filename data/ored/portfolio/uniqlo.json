@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"uniqlo"
+         }
+      ],
+      "related_links":[
+{"href":"http://staging.click3x.com/digitas/uniqlo/gifbox/", "title":"Uniqlo GIF Box"}
+      ],
+      "client":"",
+      "description":"<p>For the holiday season, Uniqlo wanted to create a giveaway engagement to live on their homepage that revolved around the animated GIF resurgence. Uniqlo gave away the opportunity to win 100% off (up to $500), and everyone wins a coupon and GIF to share on Facebook, Twitter, and Email. Click was charged by Digitas and Uniqlo with developing the experience as well as creating close to 50 share-worthy animated GIFs. The HTML5 engagement runs seamlessly on desktops and mobile devices alike.</p>",
+      "detail_name":"portfolio/uniqlo",
+      "title":"Uniqlo",
+      "filename":"uniqlo"
+   }
+}

@@ -1,0 +1,31 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/LEICA_Alma",
+      "filename":"LEICA_Alma",
+      "related_posts":[
+ {
+            "id":"444571",
+            "filename":"vellas",
+            "title":"",
+            "media_type":"1",
+            "category": "directors",
+            "page":"people"
+         }
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"Directed by Vellas, winner of five 2013 Cannes Lions. Between wars and loves, this is an engaging story of a photographer narrated from the unusual point of view of his own camera. Shot in black and white, the movie sports unconventional angles and, sometimes, deliberately blurred images, as if the camera was held in the actual hand or slung round the neck of the photographer himself.",
+      "title":"Leica",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"LEICA_Alma",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

@@ -1,0 +1,52 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"CS11_L'OREAL_approval"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"0525_DP_SmoothAddict_v3"
+         },
+         {
+            "id":"3",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"0605_RetouchApplication_v3"
+         },
+         {
+            "id":"4",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"0605_VirginApplication_v5a_hires"
+         },
+         {
+            "id":"5",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"060612_BioReplenish_v6"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"<h2>What this case study demonstrates:</h2><p>Our ability to produce 19 informational, localized videos for six different brands over the course of one week.</p><h2>Background:</h2> <p>Click 3X created instructional videos, which accompanied a new global print rebranding campaign. The videos were distributed in 54 different countries.</p><h2>Execution:</h2><p>All the videos were shot in a simple, visual style with voiceovers. The videos consisted primarily of beauty tips. Shooting with voiceover allowed us to speed up the process, and made it easier to translate into other languages.</p>",
+      "detail_name":"portfolio/loreal",
+      "title":"L'Oreal",
+      "filename":"CS11_L'OREAL_approval"
+   }
+}

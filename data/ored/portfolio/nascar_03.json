@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/nascar",
+      "filename":"nascar_03",
+      "related_posts":[
+
+      ],
+      "client":"The Martin Agency",
+      "related_links":[
+
+      ],
+      "description":"We created a CG book for Nascar and composited the live action footage in Flame for these series of spots.",
+      "title":"NASCAR",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"nascar_03",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

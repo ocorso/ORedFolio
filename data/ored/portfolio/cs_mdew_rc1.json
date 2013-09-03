@@ -1,0 +1,31 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/mountain_dew",
+      "filename":"CS_MDEW_rc1",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"Challenge: \nAs part of Mountain Dew's art campaign, the Pepsi Co. subsidary got together with NuAmerica, BET, and Click 3X to create an online video. \n        \nExecution: \nThe project featured the artists selected by Mountain Dew to design the new aluminum bottle labels. Our animations were tailored specifically to celebrate each artist in their own style.",
+      "title":"Mountain Dew",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"CS_MDEW_rc1",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "filename":"Mount_Dew_G",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

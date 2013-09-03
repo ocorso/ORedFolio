@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"Meijer_WhatSpringsUp"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"Meijer",
+      "description":"Combining still photography and CG elements in Flame, we created this whimsical spot for Mejier.",
+      "detail_name":"portfolio/what_springs_up",
+      "title":"What Springs Up",
+      "filename":"Meijer_WhatSpringsUp"
+   }
+}

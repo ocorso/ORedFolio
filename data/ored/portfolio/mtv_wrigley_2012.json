@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/mtv_wrigley_2012",
+      "filename":"mtv_wrigley_2012",
+      "related_posts":[
+
+      ],
+      "client":"MTV",
+      "related_links":[
+
+      ],
+      "description":"",
+      "title":"MTV Wrigley",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"mtv_wrigley_2012",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

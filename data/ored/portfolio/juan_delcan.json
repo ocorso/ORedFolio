@@ -1,0 +1,52 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"This spot was directed and designed by Juan Delcan, with all creative execution done by the Click3x team.",
+            "media_type":"1",
+            "title":"American Express",
+            "filename":"AMEX_Chip Signature_Membership Evolved_FINAL_0925"
+         },
+         {
+            "id":"2",
+            "description":"Juan Delcan is the prolific and versatile director of numerous live-action and animated projects, often combining both worlds to create stunning VFX. Throughout his 20 years in the business, he has worked successively as a designer, illustrator, videogame creator, creative director in audiovisual production houses, live-action filmmaker, and director of animation and motion graphics. His varied work includes TV ads, the creation of IDs and broadcast pieces for TV channels in Europe and the United States, short film and documentary.",
+            "media_type":"1",
+            "title":"Juan Delcan Director",
+            "filename":"SAMSUNG_BUBBLES_30_BILLBONES"
+         },
+         {
+            "id":"3",
+            "description":"Directed by Click 3X Director Juan Delcan, we filmed all 30 spots in just 2 days for McGarryBowen and Verizon. Then, we color corrected, designed and animated all the videos in house, under a complex timeline.",
+            "media_type":"1",
+            "title":"Juan Delcan Director",
+            "filename":"01_HOTSPOTCAFE_FNL1002"
+         },
+         {
+            "id":"4",
+            "description":"Juan shot and directed this elegant, high-fashion spot for Carolina Herrera",
+            "media_type":"1",
+            "title":"Carolina Herrera",
+            "filename":"Herrera_Final_mix_effects"
+         },
+         {
+            "id":"5",
+            "description":"",
+            "media_type":"1",
+            "title":"St. Thomas Heart",
+            "filename":"st_thomas_heart"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"Juan Delcan is the prolific and versatile director of numerous live-action and animated projects, often combining both worlds to create stunning VFX. Throughout his 20 years in the business, he has worked successively as a designer, illustrator, videogame creator, creative director in audiovisual production houses, live-action filmmaker, and director of animation and motion graphics. His varied work includes TV ads, the creation of IDs and broadcast pieces for TV channels in Europe and the United States, short film and documentary.",
+      "detail_name":"portfolio/juan_delcan",
+      "title":"Juan Delcan",
+      "filename":"AMEX_Chip Signature_Membership Evolved_FINAL_0925"
+   }
+}

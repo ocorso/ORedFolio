@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/litter_genie_mario",
+      "filename":"littergenie",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"",
+      "title":"Litter Genie",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"littergenie",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

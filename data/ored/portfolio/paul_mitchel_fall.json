@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/paul_mitchell_fall",
+      "filename":"Paul_Mitchel_Fall",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"We shot the talent on green screen and then combined with CG foreground and background plates in Flame.",
+      "title":"Paul Mitchell Fall",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"Paul_Mitchel_Fall",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

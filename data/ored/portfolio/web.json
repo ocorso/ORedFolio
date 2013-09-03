@@ -1,0 +1,80 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"Challenge: \t\nClickFireMedia was challenged by AFS to build a fully, functional social media site to be used by current and former foreign exchange students. \n\nExecution: \nWe developed an enteprise-grade social platform that connected volunteers around the world. We created a number of custom features, such as a map that displays a feed of the  latest tweets and Instagram images from the community. The site, which was mobile-optimized, was integrated into the Tellegent system.",
+            "media_type":"1",
+            "title":"AFS",
+            "filename":"afs_site"
+         },
+         {
+            "id":"2",
+            "description":"ClickFire teamed with our client RAPP to create a very cool visual experience for the main site of Bahamas Tourism, http://www.bahamas.com/\n\nWe modeled all 16 of the Bahamian Islands. Users can explore each island in detail, zooming in where they desire and clicking hot spots of interest to learn about this exciting destination.",
+            "media_type":"1",
+            "title":"Bahamas",
+            "filename":"bahamas_"
+         },
+         {
+            "id":"3",
+            "description":"Challenge:\nMunchkin tasked ClickFire Media to execute a redesign and redevelopment of their website, munchkin.com\nExecution:\nIn true CFM fashion, ClickFire Media designed and developed the Munchkin site from start to finish. CFM developed the site in Drupal. The site included product pages, store locator, information station, customer service, company info and ecommerce store.  All the design elements were created in Photoshop, Illustrator and After Effects. In addition to the website design and development, CFM also helped market and promote the Munchkin cute baby voting contest on their site. Through the contest, Munchkin received more than 48,000 votes.",
+            "media_type":"1",
+            "title":"Munchkin",
+            "filename":"MUNCHKIN"
+         },
+         {
+            "id":"4",
+            "description":"Challenge: \nClickFireMedia was challenged by Card Cubby to redesign their website.  \n\nExecution: \nCFM reworked the user experience and design of Card Cubby’s site. The new design features a simplified layout, which highlighted the site’s content in a more engaging, concise and user-friendly manner. The site featured calls-to-actions to their products as well as ample social media integration. CFM also oversaw the Web development process and helped with Card Cubby's marketing efforts.",
+            "media_type":"1",
+            "title":"Card Cubby",
+            "filename":"cardcubb"
+         },
+         {
+            "id":"5",
+            "description":"Challenge: \nClickFire Media was tasked by the Zimmerman Agency to develop two HTML microsites for their client, Cooper Tires. \n\nExecution: \nUsing the .NET CMS and Flash, CFM developed two microsites for the Discover A/T3 and Zeon RS3 tires. Each site had four separate sections, which essentially allowed you to follow the path of the tire from how it was made to where you could buy one. Both sites had an introductory video as well as several Flash graphics showing the tires’ details, which were designed by CFM. \n\nResults: \nBuilt two successful microsites for Cooper Tires' new marketing promotions.",
+            "media_type":"1",
+            "title":"Cooper Tires",
+            "filename":"cooperze"
+         },
+         {
+            "id":"6",
+            "description":"Challenge: \nClickFire Media was challenged by the Fur Information Council of America (FICA), to create a website for all things fur-related. \n\nExecution:\nFICA, the Fur Information Council of America, wanted to create a hub of the latest in fur styles, trends and fashion to generate positive content on fur. ClickFire accomplished this by building FurInsider.com to house their blog and media gallery, including original video content shot, edited and produced by CFM. \n\nResults: \nBuilt an online community site from the ground-up for fur enthusiasts to browse  and talk about all things fur-related. \nProduced several videos and photo galleries. \nGenerated lots of positive buzz about the fur industry.",
+            "media_type":"1",
+            "title":"Fur Insider",
+            "filename":"FICA_web"
+         },
+         {
+            "id":"7",
+            "description":"Challenge: \nClickFire Media was challenged by Bernstein Rein to give pet lovers the opportunity this holiday season to immortalize their furry family members in an animated family portrait that stylistically nods to the classic Rudolph the Red-Nosed Reindeer holiday special. \n\nExecution: \nHoliday Pawtraits puts a contemporary twist on Rankin/Bass’ hybrid “Animagic” style by placing the card’s customizable, 3D-animated characters into handcrafted miniature model sets. Users can customize up to three pets and five family members and choose from three backgrounds to create their photo-real holiday scene. \n\nThe production took place over an intensive two-and-a-half-month period that started with meticulous storyboarding of all the character variations. There was no set process for compositing and matching 3D characters with filmed model scenes so CFM forged their own path, combining 3D and flash and compositing it back into video in Flash and rendered on the fly. Users can share their portraits via Facebook or email, rotate their scenes, activate mini-animations and hook up to Snapfish to order traditional photo prints.",
+            "media_type":"1",
+            "title":"Petsmart",
+            "filename":"petsmart"
+         },
+         {
+            "id":"8",
+            "description":"Challenge: \nClickFireMedia was challenged by GoodSkin Labs to create a cutting-edge online diagnostic tool to allow users to explore the full array of Goodskin Labs products. \nExecution: \nClickFire created a cutting-edge online diagnostic tool to allow users to interact with and explore the different products under the GoodSkin Labs hierarchy. Our goal was to personalize the interactive experience to make it different than other standard skincare quizzes.\nUsers can upload their photo via Facebook Connect or from their computer so they can easily identify and prioritize problem areas. After completing the experience, you can download or email yourself your personalized “prescription” that explains your skincare solutions, the product information and also links to kohls.com where you can make your purchase. The experience is shareable and allows users to easily send an email or post it to their Facebook newsfeed. We also resized the tool for a customized Facebook tab to provide content for the brand page’s fans and link back to the site.",
+            "media_type":"1",
+            "title":"Goodskin Labs",
+            "filename":"Goodskin"
+         },
+         {
+            "id":"9",
+            "description":"Challenge: \nCFM collaborated with ad agency DeVito/Verdi and their client E.P. Carrillo to create a site using the Twitter and Google Maps APIs. \nExecution: \nTo create the site's functionality, the team at ClickFire accessed the APIs of Twitter and Google Maps. While a community of developers has sprung up around Google Maps API, this particular solution scrapes live tweets, selects for the keyword \"cigar\" from all Twitter feeds 150 times an hour (the maximum number of requests allowed), then verifies each user's location and filters the messages for relevance. Every five seconds, it publishes a new tweet on a 2D global map, time-stamped GMT.",
+            "media_type":"1",
+            "title":"E.P. Carrillo",
+            "filename":"epcarril"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"Challenge: \nClickFireMedia was challenged by AFS to build a fully, functional social media site to be used by current and former foreign exchange students. \n\nExecution: \nWe developed an enteprise-grade social platform that connected volunteers around the world. We created a number of custom features, such as a map that displays a feed of the  latest tweets and Instagram images from the community. The site, which was mobile-optimized, was integrated into the Tellegent system.",
+      "detail_name":"portfolio/web",
+      "title":"Web",
+      "filename":"afs_site"
+   }
+}

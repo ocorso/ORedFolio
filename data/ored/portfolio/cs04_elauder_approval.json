@@ -1,0 +1,45 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/estee_lauder",
+      "filename":"CS04_ELAUDER_Approval",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"What this case study demonstrates: \nOur ability to film 10 high-quality instructional videos with an edgy high fashion-editorial look in 2 days. \n\nBackground: \nClick 3X created 10 consumer facing how-to videos for Estee Lauder. \n\nExecution: \nWe filmed top beauty models showing how to use products, which were featured in Estee Lauder’s holiday promotional package. The videos also had to be shot and edited in a way to make versioning and translating seamless for non English speaking countries.",
+      "title":"Estee Lauder",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"CS04_ELAUDER_Approval",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "filename":"MODERNPinkLips",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"3",
+            "description":"",
+            "filename":"ModernDramaticLips",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"4",
+            "description":"",
+            "filename":"BB_Day_CCGFX_v3s",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

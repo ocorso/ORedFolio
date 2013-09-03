@@ -1,0 +1,31 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/motodanica",
+      "filename":"motodanica_01",
+      "related_posts":[
+
+      ],
+      "client":"Draft FCB",
+      "related_links":[
+
+      ],
+      "description":"Challenge:  \nIn an effort to leverage the popularity of Motorola’s sponsorship partnership with Danica Patrick, one of the hottest female sports stars in the country, DraftFCB came to ClickFire Media to show how their devices play an integral role in all aspects of her life. The site must play the dual role of having an entertaining cultural presence, while offering access to product information. \nExecution: \nClickFire Media designed, shot, produced, and composited a 360-degree frozen-view of Danica Patrick's life with layers of visuals, hot-spots, and sound effects, detailing clock-stopping moments in the life of the Indy car superstar and Motorola in addition to 3D views of each Motorola device.",
+      "title":"Motodanica",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"motodanica_01",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "filename":"moto_before_a",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

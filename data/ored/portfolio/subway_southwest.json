@@ -1,0 +1,59 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/subway_apolo_ohno",
+      "filename":"Subway_Southwest",
+      "related_posts":[
+
+      ],
+      "client":"MMB",
+      "related_links":[
+
+      ],
+      "description":"We composited live action footage of Apolo Ohno with graphic animations created in After Effects.",
+      "title":"Subway Apolo Ohno",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"Subway_Southwest",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "filename":"Subway_Apollo_Oh",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"3",
+            "description":"",
+            "filename":"Subway_Scrabble",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"4",
+            "description":"",
+            "filename":"Subway_Live_Nati",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"5",
+            "description":"",
+            "filename":"Subway_Fuze_Iced",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"6",
+            "description":"",
+            "filename":"Cartoon_Network_",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

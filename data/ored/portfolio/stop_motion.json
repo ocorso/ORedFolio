@@ -1,0 +1,31 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"Directed by Mark Szumski, we produced a 15-day stop motion shoot on our stage. Then composited the VFX in Flame with some CG characters we created in Maya.",
+            "media_type":"1",
+            "title":"LEGO Roadtrip",
+            "filename":"LEGO_ROADTRIP_CLICK3X_version"
+         },
+         {
+            "id":"2",
+            "description":"Combining still photography and CG elements in Flame, we created this whimsical spot for Mejier.",
+            "media_type":"1",
+            "title":"Meijer",
+            "filename":"Meijer_WhatSpringsUp"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"Directed by Mark Szumski, we produced a 15-day stop motion shoot on our stage. Then composited the VFX in Flame with some CG characters we created in Maya.",
+      "detail_name":"portfolio/stop_motion",
+      "title":"Stop Motion",
+      "filename":"LEGO_ROADTRIP_CLICK3X_version"
+   }
+}

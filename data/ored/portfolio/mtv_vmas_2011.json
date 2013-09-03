@@ -1,0 +1,55 @@
+{
+   "post_detail":{
+      "related_posts":[
+ {
+            "id":"220",
+            "description":"",
+            "filename":"083012_MTV_VMA_30_LARGE_LIVE_MASTER_30FPS_C",
+            "title":"VMAs 2012",
+            "media_type":"1",
+            "page":"portfolio",
+            "category":"broadcast_entertainment"
+         },
+          {
+            "id":"881",
+            "description":"",
+            "filename":"mtv_vma_2009",
+            "title":"MTV VMA 2009",
+            "media_type":"1",
+            "page":"portfolio",
+            "category":"broadcast_entertainment"
+         }
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"MTV_Lady_Gaga_VMA_2011"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"MTV_VMA_BRUNO"
+         },
+         {
+            "id":"3",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"MTV_VMA_Britney"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"MTV",
+      "description":"This year's MTV Video Music Awards scored the show's—and the network's—biggest-ever audience: 12.4 million.  Lady Gaga and Beyonce's pregnancy may have contributed to this, but don't discount the Click 3x factor!  Teaming with three separate MTV teams, Click 3x assisted in promoting the VMAs through 4 artist specific promos counting down to the event, an integrated marketing campaign with Wrigley and MTV to promote voting for the Best New Artist Award, and a comprehensive graphics toolkit for MTV News weekend long coverage of the event.",
+      "detail_name":"portfolio/mtv_vmas_2011",
+      "title":"MTV VMAs 2011",
+      "filename":"MTV_Lady_Gaga_VMA_2011"
+   }
+}

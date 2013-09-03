@@ -1,0 +1,87 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"Using provided live action footage and various sparks in Flame, we created this promo for the VMA Awards.",
+            "media_type":"1",
+            "title":"MTV Lady Gaga 2011",
+            "filename":"MTV_Lady_Gaga_VMA_2011"
+         },
+         {
+            "id":"2",
+            "description":"Using provided live action green screen footage of Rihanna, we created animated backgrounds in After Effects and composited it all in Flame.",
+            "media_type":"1",
+            "title":"Rihanna Rude Boy",
+            "filename":"Rihanna_RudeBoy_Final_"
+         },
+         {
+            "id":"3",
+            "description":"The video is a sequence of close-up and medium-distance shots of various camera speeds and focus.  The goal was to show the band rocking onstage as the Haunt-generated chaos rains down around them with various explosions and debris around them enhancing the message of sadistic glee that bleeds through the song. We worked closely with the production company, Partizan and handled all the VFX and Flame work for the project.",
+            "media_type":"1",
+            "title":"Big Pink Dominoes",
+            "filename":"Big_Pink_Dominoes"
+         },
+         {
+            "id":"4",
+            "description":"TMark Ronson and Daniel Merriweather pair up for a song that brings enough tears to fill the streets. We worked with director Matt Lenski to create an original flash animation that would sit over footage, while helping to dive into the overall narrative.  Creative director Mark Szumski interpreted a method to help show an extra element that wouldn't overpower the overall performance.",
+            "media_type":"1",
+            "title":"Mark Ronson",
+            "filename":"mark_ronson"
+         },
+         {
+            "id":"5",
+            "description":"From the mind of Tim Saccenti, we worked on CGI and original character animation for this impeccably shot and edited music video for Animal Collective. The team used an original character study to build out 3D textures and animation for the final piece.",
+            "media_type":"1",
+            "title":"Peacebone",
+            "filename":"peacebone_fcp"
+         },
+         {
+            "id":"6",
+            "description":"We did the compositing, Flame and VFX for this music video for the Giraffes.",
+            "media_type":"1",
+            "title":"The Giraffes",
+            "filename":"The_Giraffes"
+         },
+         {
+            "id":"7",
+            "description":"We did the compositing, Flame and VFX for this music video for the rock band, The Foo Fighters.",
+            "media_type":"1",
+            "title":"Foo Fighters",
+            "filename":"MTV_FOO_FIGHTERS"
+         },
+         {
+            "id":"8",
+            "description":"Directed by Nick Hooker, we did the compositing, Flame and VFX for this music video.",
+            "media_type":"1",
+            "title":"Corporate Criminal",
+            "filename":"Grace_Jones_01"
+         },
+         {
+            "id":"9",
+            "description":"We did the compositing, Flame and VFX for this Fall Out Boy music video.",
+            "media_type":"1",
+            "title":"Fall Out Boy",
+            "filename":"fall_out_boy"
+         },
+         {
+            "id":"10",
+            "description":"Creative director and lead flame artist, Mark Szumski worked with the director on visual effects for the video highlighting, and in some cases, creating projected imagery onto smoky textures to mimic what was captured in camera.",
+            "media_type":"1",
+            "title":"Skeletons",
+            "filename":"SKELETONS"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"Using provided live action footage and various sparks in Flame, we created this promo for the VMA Awards.",
+      "detail_name":"portfolio/music_videos",
+      "title":"Music Videos",
+      "filename":"MTV_Lady_Gaga_VMA_2011"
+   }
+}

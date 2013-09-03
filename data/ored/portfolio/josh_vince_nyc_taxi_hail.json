@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"josh_vince_NYC_Taxi_Hail"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"Vincent Peone and Josh Ruben directing and starring in the PSA for the NY Taxi and Limousine Commission. Keep your eyes peeled for it the next time you are in a yellow cab!",
+      "detail_name":"portfolio/josh_vince_nyc_taxi_hail",
+      "title":"NYC Taxi Hail",
+      "filename":"josh_vince_NYC_Taxi_Hail"
+   }
+}

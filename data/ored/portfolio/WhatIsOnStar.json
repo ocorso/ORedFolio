@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/WhatIsOnStar",
+      "filename":"WhatIsOnStar",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"Click 3X produced a series of four product demonstration videos for OnStar.  These product demonstration videos cover not only specific features of the OnStar service, but also introduce and explain the OnStar service as a whole. Produced for three different markets (US, Mexico, and the Middle East), Click 3X was given an interesting design challenge: creating language independent videos that could be understood in all markets without the use of translation services.  Starting with minimal assets, Click 3X performed a full creative exploration incorporating our interactive, CGI, and animation departments to produce the :45 second final spots.",
+      "title":"What is OnStar",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"WhatIsOnStar",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

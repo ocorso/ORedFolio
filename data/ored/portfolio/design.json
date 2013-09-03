@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"C3X_Design_Reel_Feb13"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"View some of our latest design projects in this montage.",
+      "detail_name":"portfolio/design",
+      "title":"Design Montage",
+      "filename":"C3X_Design_Reel_Feb13"
+   }
+}

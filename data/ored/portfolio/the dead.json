@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/the_dead",
+      "filename":"The Dead",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"Using a poem written by Billy Collins and the style of artist Louise Bourgeois, Juan created this charming 'gift' for Louise, herself.",
+      "title":"The Dead",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"The Dead",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

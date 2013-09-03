@@ -1,0 +1,38 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/daffys_creativityv3",
+      "filename":"DAFFYs_CREATIVITYv3",
+      "related_posts":[
+
+      ],
+      "client":"Devito/Verdi",
+      "related_links":[
+
+      ],
+      "description":"<h2>Challenge:</h2><p>ClickFire Medir was challenged by Devito/Verdi to create a Facebook app for Daffy's 50th birthday.</p> <h2>Execution:</h2>In true CFM fashion, ClickFire Media created a virtual birthday cake, where Facebook fans could blow out the candle using their computer's built-in microphone. The Flash-based app was optimized to account for varying sound sensitivity issues as well as different mic arrangements for MACs and PC computers.</p>  <h2>Results:</h2> 4,350+ active users used the Facebook app Featured in Creativity (affiliated with Ad Age).",
+      "title":"Daffy's Facebook App",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"DAFFYs_CREATIVITYv3",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "filename":"DAFFY_922v2",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"3",
+            "description":"",
+            "filename":"DaffysNYPost",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

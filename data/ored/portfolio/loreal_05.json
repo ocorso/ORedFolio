@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/loreal_blonde",
+      "filename":"loreal_05",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"CG titles and demos were added to this live action spot using Flame.",
+      "title":"L'Oreal Blonde",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"loreal_05",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

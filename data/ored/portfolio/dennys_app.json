@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/dennys_facebook_app",
+      "filename":"dennys_app",
+      "related_posts":[
+
+      ],
+      "client":"Gotham",
+      "related_links":[
+
+      ],
+      "description":"<h2>Challenge:</h2>\nClickFireMedia was challenged to create a Facebook app, which used the Instagram API, for Gotham and their client, Denny's.<h2> \n\nExecution: </h2>\nThe Facebook app was designed as a 30 day photo contest that would take advantage of CFM's experience with the Instagram API.  Each day a new hashtag, based off Denny's and various food themes (#blueberries, #pancakes, #butter), was used for photo entries.  Users were encouraged to submit their photos with the correct hashtag of the day via Instagram, or upload them directly to the site.  Each day a winning photo is selected, and that user is given a $10 Denny's gift card.",
+      "title":"Denny's Facebook App",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"dennys_app",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

@@ -1,0 +1,31 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/mariah_carey_lollipop_bling",
+      "filename":"mariah",
+      "related_posts":[
+
+      ],
+      "client":"Elizabeth Arden",
+      "related_links":[
+
+      ],
+      "description":"Challenge: \nClickFireMedia was challenged to create a microsite for the launch of Mariah Carey’s new fragrance line, “Lollipop Bling.”\nExecution: \nCFM created an interactive guilt-free candy wonderland inspired by Mariah’s NYC hometown skyline to introduce the launch of Lollipop Bling--her new trio of delightful sugary-scented fragrances. We also developed interactive digital engagements with social media integration to increase awareness, buzz, site traffic (new and returning), and site stickiness.",
+      "title":"Mariah Carey Lollipop Bling",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"mariah",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "filename":"Mariah",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

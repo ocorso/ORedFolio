@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/h&m_conscious",
+      "filename":"hm_r2b_cs",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"What We Did: \nClickFire Media was challenged to create a microsite as the hub for H&M's new Be Conscious campaign. H&M shoppers were encouraged to recycle their old garments at their local store, where they would receive a code that scored them 15% off their next purchase while entering them into a sweepstakes to win a gift card, select merchandise, or a trip to L.A. The hub included user code entry for the sweepstakes, embedded video of a featured vlogger, user generated YouTube and Instagram galleries, and an interactive infographic created by partner, GOOD. Click also designed banner ad units to complement the campaign. \n\nHow We Did It:\nTo cater to users both redeeming their code on mobile devices in the store and those browsing on their home computers, the microsite was developed using responsive design to work seamlessly across all platforms. A green initiative from the ground up, the microsite was hosted on an eco-friendly server that employs wind energy.",
+      "title":"H&M Conscious",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"hm_r2b_cs",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

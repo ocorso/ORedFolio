@@ -1,0 +1,103 @@
+{
+   "post_detail":{
+      "related_posts":[
+{
+    "id":"190",
+    "media_type":"1",
+    "filename":"Geico_Date",
+    "title":"GEICO Date",
+    "page":"portfolio",
+    "category":"visual_effects"
+   },
+   {
+    "id":"200",
+    "media_type":"1",
+    "filename":"Geico_Plane",
+    "title":"GEICO Plane",
+    "page":"portfolio",
+    "category":"visual_effects"
+   },
+   {
+    "id":"630",
+    "media_type":"1",
+    "filename":"GEICO_lugev2",
+    "title":"GEICO Piggy Returns",
+    "page":"portfolio",
+    "category":"visual_effects"
+   },
+   {
+    "id":"780",
+    "media_type":"1",
+    "filename":"GEICO_BEFOREANDAFTERV3",
+    "title":"Making of GEICO Piggy",
+    "page":"portfolio",
+    "category":"visual_effects"
+   },
+   {
+    "id":"781",
+    "media_type":"1",
+    "filename":"geicopiggyv3",
+    "title":"GEICO Piggy Pinwheels App",
+    "page":"portfolio",
+    "category":"interactive"
+   },
+      {
+    "id":"2830",
+    "media_type":"1",
+    "filename":"brostache_fwa",
+    "title":"GEICO Brostache App",
+    "page":"portfolio",
+    "category":"interactive"
+   },
+    {
+    "id":"3310",
+    "media_type":"1",
+    "filename":"GEICO_DAYCARE_TV_",
+    "title":"GEICO Daycare",
+    "page":"portfolio",
+    "category":"visual_effects"
+   },
+   {
+    "id":"160",
+    "media_type":"1",
+    "filename":"Geico_Pig_Cop",
+    "title":"GEICO Cop",
+    "page":"portfolio",
+    "category":"visual_effects"
+   },
+    {
+    "id":"2540",
+    "media_type":"1",
+    "filename":"Geico_vent",
+    "title":"GEICO Ventriloquist",
+    "page":"portfolio",
+    "category":"interactive"
+   },
+  {
+    "id":"70",
+    "media_type":"1",
+    "filename":"syfy_geico",
+    "title":"Syfy GEICO",
+    "page":"portfolio",
+    "category":"visual_effects"
+   }
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"Geico_Piglandia"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"Looking to stand out in a crowded marketplace IFC and GEICO turned to longtime partner Click 3X to create a co-branded vignette featuring Maxwell the Pig for season 3 of Portlandia. \n \nWritten by Click 3X’s EP Rob Meyers and Directed by Creative Director Mark Szumski, this collaboration allowed Click access to create a Maxwell spot from concept through completion (which included all shoot, edit, and VFX) for the first time.\n \nThe result is a sidesplitting 30-second sketch that features Geico’s Maxwell the Pig mascot and references the show’s \"Is It Local?\" skit thatmocked the Pacific Northwest city's farm-to-table restaurant craze.\n \nThe ad is running during all 10 episodes of IFC’s Portlandia, which stars comic Fred Armisen and musician-turned-actress Carrie Brownstein.",
+      "detail_name":"portfolio/portlandia",
+      "title":"GEICO Portlandia",
+      "filename":"Geico_Piglandia"
+   }
+}

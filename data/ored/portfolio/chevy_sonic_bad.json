@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"chevysonicv2"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"Big Fuel",
+      "description":"<h2>Challenge:</h2><p>\nClickFire Media was challenged by Big Fuel to create a unique car customizer Facebook app for their client, Chevrolet for their Sonic car line.</p><h2>\n\nExecution:</h2><p>\nThe app allows users to decorate and customize a Chevy Sonic car. The user begins by selecting a background or uploading their own from their computer. They can select the car color, add car “wraps,” decals, window tints and wheels. Users also had the option to touch-up and/or paint their own patterns and decals too. After the user creates their car, they will be able to save their image to a gallery. Viewers can also browse through the gallery and rate the submitted customized cars. Each image is also fully shareable on Facebook, Twitter and email.</p>",
+      "detail_name":"portfolio/chevy_sonic",
+      "title":"Chevy Sonic",
+      "filename":"chevysonicv2"
+   }
+}

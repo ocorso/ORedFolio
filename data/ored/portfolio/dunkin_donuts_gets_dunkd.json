@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"getDunkd_edit"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"Hill Holiday",
+      "description":"<h2>Challenge:</h2> \nWorking with agency Hill Holliday, ClickFire Media created a rich, immersive Facebook application for Dunkin' Donuts to support its Valentine's Day Chocolate promotion.<h2>\nExecution:</h2> \nClickFire Media utilized its full resources and expertise in robust Flash development and 3D modeling to give users the ability to create a chocolate version of themselves, wrap it, and share with friends. The application was also heavily integrated into Facebook. The analytics integration was particularly challenging and we were able to combine both Facebook's native analytics with Google Analytics.",
+      "detail_name":"portfolio/dunkin_donuts_gets_dunkd",
+      "title":"Dunkin Donuts Get Dunk'd",
+      "filename":"getDunkd_edit"
+   }
+}

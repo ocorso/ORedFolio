@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"Charter 30 sec_1"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"Charter",
+      "description":"Using provided live action footage and CG titles & elements that we created in Maya, we combined them all in Flame to make the effect of the objects flying around the talent.",
+      "detail_name":"portfolio/charter",
+      "title":"Charter",
+      "filename":"Charter 30 sec_1"
+   }
+}

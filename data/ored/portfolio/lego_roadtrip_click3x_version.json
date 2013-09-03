@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/lego_road_trip",
+      "filename":"LEGO_ROADTRIP_CLICK3X_version",
+      "related_posts":[
+
+      ],
+      "client":"LEGO",
+      "related_links":[
+
+      ],
+      "description":"Directed by Mark Szumski, we produced a 15-day stop motion shoot on our stage. Then composited the VFX in Flame with some CG characters we created in Maya.",
+      "title":"LEGO Road Trip",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"LEGO_ROADTRIP_CLICK3X_version",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/connect_four",
+      "filename":"Hasbroconnect4",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"Click 3X created the CG Connect 4 character pieces using Maya. It was combined with live action footage, which was provided, and composited in Flame.",
+      "title":"Connect Four",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"Hasbroconnect4",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

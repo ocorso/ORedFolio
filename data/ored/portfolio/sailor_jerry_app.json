@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"sailor_jerry"
+         }
+      ],
+      "related_links":[
+       {"href":"http://itunes.apple.com/us/app/sailor-jerry/id506491510?mt=8", "title":"Download"}
+      ],
+      "client":"Quaker City Mercantile",
+      "description":"<h2>Background:</h2><p>ClickFireMedia was challenged by Quaker City Mercantile to create an app for their client, Sailor Jerry. The iOS app allows users to to preview various Sailor Jerry themed tattoos by using their iphone or ipad camera.</p><h2>Execution:</h2><p>Users can slide through a large tattoo gallery. Once they find the art they like, they can tap it and drag it into position. By pinching and pulling the image, they can adjust the tattoo until it fits just right.The user can then snap a photo, save it and even post the photo of their newly tattooed self  to Facebook and Twitter.If they want to make the tattoo permanent, users can also search for the closest Sailor Jerry Tattoo Artist using the Google Maps API without leaving the app.</p><h2>Results:</h2> <p>Featured as the FWA Mobile App/Site of the Day</p>",
+      "detail_name":"portfolio/sailor_jerry_app",
+      "title":"Sailor Jerry App",
+      "filename":"sailor_jerry"
+   }
+}

@@ -1,0 +1,82 @@
+{"post_detail":
+ {
+  "title":"Juan Delcan",
+  "client":"Director",
+  "description":"Juan Delcan is the prolific and versatile director and creative director of numerous live-action and animated projects for beauty, fashion and luxury brands, often combining both worlds to create stunning visuals. Throughout his 20 years in the business, he has worked successively as a designer, illustrator, videogame creator, creative director, live-action filmmaker, and director of animation and motion graphics. His varied work includes television, interactive experiences, the creation of IDs and broadcast pieces for TV channels in Europe and the US, short film and documentary.<br/><br/>His work has been honored by Cannes, New York Festival, Siggraph, London International Advertising and Design Awards, AIGA, BDA, Telly and Monitor, and continues to be featured at numerous film festivals. Major art institutions, including MoMA and the Centre George Pompidou in Paris have featured his work.",
+  "assets":[
+   {
+    "id":"1",
+    "media_type":"2",
+    "filename":"Juan",
+    "title":"Juan Delcan"
+   }
+   ],
+  "related_posts":[
+  {
+   "id":"170",
+   "media_type":"1",
+   "filename":"Juan_Delcan_Reel_01",
+   "title":"Juan Delcan's Reel",
+   "page":"portfolio"
+   },
+   {
+   "id":"50",
+   "media_type":"1",
+   "filename":"CFDA_Joan_Kaner_01",
+   "title":"CFDA Joan Kaner",
+   "page":"portfolio"
+   },
+    {
+   "id":"30",
+   "media_type":"1",
+   "filename":"Carolina_Herrera_01",
+   "title":"Carolina Herrera Mystery",
+   "page":"portfolio"
+   },
+    {
+   "id":"40",
+   "media_type":"1",
+   "filename":"Carolina_Herrera_02",
+   "title":"Carolina Herrera Inspiration",
+   "page":"portfolio"
+   },
+    {
+   "id":"140",
+   "media_type":"1",
+   "filename":"Herbal_Essences_01",
+   "title":"Herbal Essences Lion Tamer",
+   "page":"portfolio"
+   },
+    {
+   "id":"111",
+   "media_type":"1",
+   "filename":"Estee_Lauder_01",
+   "title":"Estee Lauder",
+   "page":"portfolio"
+   },
+     {
+   "id":"180",
+   "media_type":"1",
+   "filename":"L_Oreal_01",
+   "title":"L'Oreal",
+   "page":"portfolio"
+   },
+     {
+   "id":"210",
+   "media_type":"1",
+   "filename":"Mac_Cosmetics_01",
+   "title":"Mac Cosmetics",
+   "page":"portfolio"
+   },
+   {
+   "id":"880",
+   "media_type":"1",
+   "filename":"AMEX_EDIT_ALT_0913c",
+   "title":"AMEX",
+   "page":"portfolio"
+   }
+  ],
+  "related_links":[ {"href":"http://click3x.com/#/people/juan_delcan", "title":"Juan's Reel"}
+  ]
+ }
+}

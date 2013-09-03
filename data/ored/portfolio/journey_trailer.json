@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"EINHORN_JOURNEY_TRAILER"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"Click 3X Editor Ed Einhorn edited this trailer about the rock band, Journey.",
+      "detail_name":"portfolio/journey_trailer",
+      "title":"Journey Trailer",
+      "filename":"EINHORN_JOURNEY_TRAILER"
+   }
+}

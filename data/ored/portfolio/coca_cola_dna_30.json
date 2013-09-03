@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/coca_cola_dna",
+      "filename":"Coca_Cola_DNA_30",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"Starting with paper cutouts, adding tiny miniatures, and CG elements for the molecular, Simon created this campaign that plunges us into the DNA of Coke.",
+      "title":"Coca Cola DNA",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"Coca_Cola_DNA_30",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/pedigreecasestudyv2",
+      "filename":"CS_BBDO_PEDIGREE_REV 2_WITH LOGO_Small",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+  {"href":"http://www.facebook.com/Pedigree/app_389662347753935", "title":"Pedigree"}
+      ],
+      "description":"<h2>Challenge:</h2><p>ClickFire Media was challenged by their client BBDO/NY to create a Facebook app for their client, Pedigree.  The app, Pedigree Woofer, serves as a social media tool to help with pet adoption.</p> <h2>Execution:</h2><p> Pedigree Woofer was created by leveraging CFM's familiarity with the Facebook and Instagram platforms.  Using Instagram, animal shelters across the country post photographs of the dogs they have available for adoption, along with descriptions and pertinent information.  The photographs are then collected and displayed in the Woofer gallery, which can be searched by dog age, size, and breed.  Each listing can be commented on, liked, and shared on both Facebook and Twitter to increase the likelihood of adoption.</p.>",
+      "title":"Pedigree",
+      "assets":[
+         {
+            "id":"1",
+            "description":"<h2>Challenge:</h2><p>ClickFire Media was challenged by their client BBDO/NY to create a Facebook app for their client, Pedigree.  The app, Pedigree Woofer, serves as a social media tool to help with pet adoption.</p> <h2>Execution:</h2><p> Pedigree Woofer was created by leveraging CFM's familiarity with the Facebook and Instagram platforms.  Using Instagram, animal shelters across the country post photographs of the dogs they have available for adoption, along with descriptions and pertinent information.  The photographs are then collected and displayed in the Woofer gallery, which can be searched by dog age, size, and breed.  Each listing can be commented on, liked, and shared on both Facebook and Twitter to increase the likelihood of adoption.</p>",
+            "filename":"CS_BBDO_PEDIGREE_REV 2_WITH LOGO_Small",
+            "title":"Pedigree",
+            "media_type":"1"
+         }
+      ]
+   }
+}

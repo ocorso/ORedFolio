@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/lorax_app",
+      "filename":"Loraxdemo",
+      "related_posts":[
+
+      ],
+      "client":"NBC Universal",
+      "related_links":[
+
+      ],
+      "description":"Challenge:\nClickFire Media was tasked by NBC Universal to develop a promotional iPhone and Android app for their upcoming movie, The Lorax.\n\nExecution:\nThe new app allows iphone, Android and ipad users to \"see\" how they would look as the Lorax (mustache and all). The app allows you to test out the stache directly with your device’s camera. Users can also upload and stache photos from their mobile device’s camera roll. The app includes full shareability with Facebook and Twitter.\n\nResults:\nRanked in the Top 25 of the entertainment category in the app store\nRanked in the top 200 in the entire app store.",
+      "title":"Lorax App",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"Loraxdemo",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

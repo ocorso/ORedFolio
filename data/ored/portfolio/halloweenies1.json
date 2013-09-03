@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/halloweenies",
+      "filename":"halloweenies1",
+      "related_posts":[
+
+      ],
+      "client":"Zimmerman Agency",
+      "related_links":[
+
+      ],
+      "description":"<h2>Challenge:</h2><p>Pigs-in-a-blanket, cocktail wieners, kilted sausages: Hot dogs can be very popular at a party. Party City's agency of record Zimmerman challenged ClickFireMedia to create an online haunted house populated entirely by animated hot dogs in costume.</p><h2>Execution:</h2><p>The resulting website brings together 3D animated characters, Facebook Connect, interactivity, viral video, and a link to buy the real costumes from Party City. The two companies worked in constant collaboration.</p>",
+      "title":"Halloweenies",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"halloweenies1",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

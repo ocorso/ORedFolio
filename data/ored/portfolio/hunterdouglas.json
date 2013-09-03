@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/hunter_douglas_furniture",
+      "filename":"HunterDouglas",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"We shot the live action talent on green screen. Then combined that with additional practical elements in Flame to create these spots for Hunter Douglas.",
+      "title":"Hunter Douglas Furniture",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"HunterDouglas",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

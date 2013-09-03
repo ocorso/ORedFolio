@@ -1,0 +1,45 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/experiential",
+      "filename":"MariahAR",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"Challenge: \nClickFireMedia was challenged to create a microsite for the launch of Mariah Carey’s new fragrance line, “Lollipop Bling.”\nExecution: \nCFM created an interactive guilt-free candy wonderland inspired by Mariah’s NYC hometown skyline to introduce the launch of Lollipop Bling--her new trio of delightful sugary-scented fragrances. We also developed interactive digital engagements with social media integration to increase awareness, buzz, site traffic (new and returning), and site stickiness.",
+      "title":"Experiential",
+      "assets":[
+         {
+            "id":"1",
+            "description":"Challenge: \nClickFireMedia was challenged to create a microsite for the launch of Mariah Carey’s new fragrance line, “Lollipop Bling.”\nExecution: \nCFM created an interactive guilt-free candy wonderland inspired by Mariah’s NYC hometown skyline to introduce the launch of Lollipop Bling--her new trio of delightful sugary-scented fragrances. We also developed interactive digital engagements with social media integration to increase awareness, buzz, site traffic (new and returning), and site stickiness.",
+            "filename":"MariahAR",
+            "title":"Mariah Carey Lollipop Bling",
+            "media_type":"1"
+         },
+         {
+            "id":"2",
+            "description":"Challenge\nClickFireMedia was challenged to make an interactive storefront ad for DeVito/Verdi and their client, Daffy's. Daffy's wanted to break through the advertising clutter of Times Square with their display showcasing just how much 80 percent really is. \n\nExecution: \nCFM began by producing a full day video shoot, which included filming an exotic dancer taking off 20 percent, 40 percent, 60 percent and finally 80 percent off her clothing. The interactive store front shows what 80% off\nactually looks like by filming an exotic dancer removing up to 80% of her clothing. The interactive peep show works by allowing participants to simply place their palms, for free, against the window which activates the motion sensor to start the dancing.\n\nResults: \nFeatured in several prominent industry-specific media outlets and blogs, including <a href=\"http://ow.ly/8oGzK\" target=\"_blank\">Creativity</a>, <a href=\"http://ny.racked.com/archives/2012/01/10/this_is_what_the_daffys_time_square_peep_show_looks_like.php\" target=\"_blank\">Racked </a>, <a href=\"http://ow.ly/8oGzK\" target=\"_blank\">Ads of The World</a>, <a href=\"http://marketersmix.com/2012/01/daffy%E2%80%99s-peep-show-on-times-square/\" target=\"_blank\">Marketers Mix</a>, <a href=\"http://www.creativeguerrillamarketing.com/guerrilla-marketing/daffys-virtual-peep-show-times-square-york/\" target=\"_blank\">Creative Guerilla Marketing</a>, and Comm Arts.",
+            "filename":"DAFFYS_F",
+            "title":"Daffy's Window",
+            "media_type":"1"
+         },
+         {
+            "id":"3",
+            "description":"Challenge:\nClickFire Media was challenged by Devito/Verdi to create a Facebook app for Daffy's 50th birthday.\nExecution\nIn true CFM fashion, ClickFire Media created a virtual birthday cake, where Facebook fans could blow out the candle using their computer's built-in microphone. The Flash-based app was optimized to account for varying sound sensitivity issues as well as different mic arrangements for MACs and PC computers.  \nResults: \n4,350+ active users used the Facebook app \nFeatured in Creativity (affiliated with Ad Age).",
+            "filename":"DAFFYs_C",
+            "title":"Daffy's Candle",
+            "media_type":"1"
+         },
+         {
+            "id":"4",
+            "description":"Challenge: \nClickFire Media was challenged by BBDO to develop an in-game banner ad for their client, AT&T. \n\nExecution: \nCFM created an interactive football-themed banner game called \"Flick Kick.\" The game begins when a user clicks on the banner ad. The ad fires up the user’s webcam. Users are instructed to hold their hand in front of their webcam, and make a flicking motion to “kick” the football. The object of the game is to get as many points as possible in 60 seconds. Every time they score, fireworks go off in the sky and pyrotechnics explode on the field. If they make five in a row, they get a “money ball,” which is made of fire and worth an additional five points.  The banner ad game also included a leader board, which displayed the current high scores, and encouraged repeat usage. CFM also built a Facebook version of the game to launch soon. Users can post their high score to their Facebook wall and challenge their friends to play the game. Click also handled all of the audio featured in the game.",
+            "filename":"football",
+            "title":"Football Banner Game",
+            "media_type":"1"
+         }
+      ]
+   }
+}

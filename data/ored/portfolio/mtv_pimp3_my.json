@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/mtv_pimp_my_ride",
+      "filename":"MTV_Pimp3_my",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"We shot this live action stop motion animation on our own stage, and added effects and finished the project in Flame.",
+      "title":"MTV Pimp My Ride",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"MTV_Pimp3_my",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

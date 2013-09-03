@@ -1,0 +1,66 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/josh_and_vince",
+      "filename":"Start_Up_Guys_CutDown",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"Josh and Vince have shot, directed, produced and even acted in thousands of comedic web videos for the #1 comedy site collegehumor.com over the past 6 years. Several of their videos have reached over 15 million views. These are six of their most-watched videos.",
+      "title":"Josh and Vince",
+      "assets":[
+         {
+            "id":"1",
+            "description":"Josh and Vince have shot, directed, produced and even acted in thousands of comedic web videos for the #1 comedy site collegehumor.com over the past 6 years. Several of their videos have reached over 15 million views. These are six of their most-watched videos.",
+            "filename":"Start_Up_Guys_CutDown",
+            "title":"Start Up Guys",
+            "media_type":"1"
+         },
+         {
+            "id":"2",
+            "description":"Comedy Directors Josh and Vince directed a music video parody about the tv show \"Downton Abbey\" while using music from \"The Fresh Prince of Bel Air.\"",
+            "filename":"CHO_TheFreshPrinceofD",
+            "title":"The Fresh Prince of Downton Abbey",
+            "media_type":"1"
+         },
+         {
+            "id":"3",
+            "description":"Vincent Peone and Josh Ruben directing and starring in the PSA for the NY Taxi and Limousine Commission. Keep your eyes peeled for it the next time you are in a yellow cab!",
+            "filename":"josh_vince_NYC_Taxi_H",
+            "title":"NYC Taxi Hail",
+            "media_type":"1"
+         },
+         {
+            "id":"4",
+            "description":"Comedy directing duo Josh and Vince shot and directed this \"Gangnam Style\" parody video for College Humor.",
+            "filename":"CHO_RomneyStyle_20121",
+            "title":"Mitt Romney Style",
+            "media_type":"1"
+         },
+         {
+            "id":"5",
+            "description":"Comedy directing duo Josh and Vince directed this hilarious Sesame Street parody, featuring Katy Perry for College Humor.",
+            "filename":"JOSH_VINCE_KATY PERRY",
+            "title":"Katy Perry",
+            "media_type":"1"
+         },
+         {
+            "id":"6",
+            "description":"Comedy directing duo Josh and Vince directed this hilarious Patrick Wilson's Stock Photos parody for College Humor.",
+            "filename":"CHO_StockPhotos",
+            "title":"Stock Photos",
+            "media_type":"1"
+         },
+         {
+            "id":"7",
+            "description":" Comedy directing duo Josh and Vince directed this hilarious spot about the heinous fashion crimes students are committing for College Humor.",
+            "filename":"Jeggings_CutDown",
+            "title":"Jeggings",
+            "media_type":"1"
+         }
+      ]
+   }
+}

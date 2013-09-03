@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/football_banners",
+      "filename":"footballbannersv7",
+      "related_posts":[
+
+      ],
+      "client":"BBDO",
+      "related_links":[
+
+      ],
+      "description":"<h2>Challenge:</h2><p>ClickFire Media was challenged by BBDO to develop an in-game banner ad for their client, AT&T. \n\nExecution: \nCFM created an interactive football-themed banner game called \"Flick Kick.\" The game begins when a user clicks on the banner ad. The ad fires up the user’s webcam. Users are instructed to hold their hand in front of their webcam, and make a flicking motion to “kick” the football. The object of the game is to get as many points as possible in 60 seconds. Every time they score, fireworks go off in the sky and pyrotechnics explode on the field. If they make five in a row, they get a “money ball,” which is made of fire and worth an additional five points.  The banner ad game also included a leader board, which displayed the current high scores, and encouraged repeat usage. CFM also built a Facebook version of the game to launch soon. Users can post their high score to their Facebook wall and challenge their friends to play the game. Click also handled all of the audio featured in the game.</p>",
+      "title":"AT&T Football Banners",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"footballbannersv7",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

@@ -1,0 +1,66 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"Using a mix of live action and stop motion combined with CG elements, Simon created this engaging spot, which was  part of an ongoing campaign on behalf of AT&T -- and the ampersand.",
+            "media_type":"1",
+            "title":"AT&T Unlimited Porfolio",
+            "filename":"ATT_Unlimited_Portfolio"
+         },
+         {
+            "id":"2",
+            "description":"Simon Blake, and Click 3X animator Justin Wolfson, working with a few of Simon's favorite creative partners, Ross Sutherland and Ken Yagoda, directed this fun spot for Maine Lottery.\n\nBlake said, \"The concept was to create a quirky, fun world based on currency graphics. I loved the idea of using physical 'scratching' as an animation technique like a flip book. The happy/sad faces were based on the right side-up and upside-down optical illustrations popular during the late 19th and early 20th century.\"",
+            "media_type":"1",
+            "title":"Maine Lotto",
+            "filename":"maine_lotto_man"
+         },
+         {
+            "id":"3",
+            "description":"This spot was part of a larger campaign built around the notion that AT&T can tie all of your different technological needs together into one bundle. As is usual with his work, he used specially built props and augmented them with CG elements. The result is a whimsical metaphor for wrapping all your needs into one stream.",
+            "media_type":"1",
+            "title":"AT&T Spool",
+            "filename":"ATT_Spool_30"
+         },
+         {
+            "id":"4",
+            "description":"Starting with paper cutouts, adding tiny miniatures, and CG elements for the molecular, Simon created this campaign that plunges us into the DNA of Coke.",
+            "media_type":"1",
+            "title":"Coca Cola DNA",
+            "filename":"Coca_Cola_DNA_30"
+         },
+         {
+            "id":"5",
+            "description":"Actors for this spot were shot in live action. The frames were printed out on paper, then cut up and combined digitally to create this spot for Microsoft Encarta.",
+            "media_type":"1",
+            "title":"Microsoft Glen",
+            "filename":"Microsoft_Glen_30"
+         },
+         {
+            "id":"6",
+            "description":"An amazing eight foot diameter prop of the world was built with real trains running around the outside via tracks and magnets. Final individual miniatures were put into CG environments and combined in Flame to create this highly engaging spot -- part of a larger, ‘boundless’, campaign.",
+            "media_type":"1",
+            "title":"AT&T Train",
+            "filename":"ATT_Train_30"
+         },
+         {
+            "id":"7",
+            "description":"This spot was first created using drawings. He photographed a rotating globe as well as a detailed model plane. Then, printouts were pasted inside a real passport that had been turned into a flipbook. All this was augmented in Flame to create a unique and beautiful spot for United Airlines. Directed and animated by Simon Blake.",
+            "media_type":"1",
+            "title":"United Airlines",
+            "filename":"United_Airlines"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"Born in London, Director Simon Blake began\ndrawing as soon as he could pickup a pencil. He began his career working with noted mixed-media directors Osbert Parker, Michel Gondry, Alex Proyas and Gore Vebrinski at Limelight Productions - an award winning company that specialized in television commercials, music videos and films in Europe and the US. \n\nAfter a short film for surrealist writer Barry Yourgrau based on his book 'The Sadness of Sex,' he moved to New York and joined the production company Chelsea Pictures. He went on to direct short mixed-media films and commercials for a broad range of clients that includes Microsoft, AT&T, Chase Bank, United Airlines, Burger King, Nestlé, Heineken, Disney and Coca-Cola. His work has garnered two AICP awards and is in the permanent collection of the Museum of Modern Art.",
+      "detail_name":"portfolio/simon_blake",
+      "title":"Simon Blake",
+      "filename":"ATT_Unlimited_Portfolio"
+   }
+}

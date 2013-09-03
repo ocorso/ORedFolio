@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"SAP_Pinkberry"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"Jonathan shot and directed this docu-style video for SAP. The video was part of a mini-series, which highlighted SAP's Customer Success Stories, which also included Skullcandy, Forbes and Tommy Hilfiger, among others.",
+      "detail_name":"portfolio/sap_pinkberry",
+      "title":"SAP Pinkberry",
+      "filename":"SAP_Pinkberry"
+   }
+}

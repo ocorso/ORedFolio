@@ -1,0 +1,26 @@
+{"post_detail":
+ {
+  "title":"Twitter",
+  "client":"",
+  "description":"‏<p>@Raisondetrenyc: prepping, prepping, prepping... pause, eat some chocolate</p><p>@Raisondetrenyc: Last day to RSVP for our #IWNY panel May 22 - panel 2 will discuss digital pr strategies with @eye4style @Curalate @KendraBracken & more</p><p>@Raisondetrenyc: Rachel Weiss of L'Oreal speaks towards the power of women in digital #IWNY pic.twitter.com/Yf909ZdHnz</><p>@Raisondetrenyc: Let the games begin #IWNY @petcorbett @Click3X pic.twitter.com/XmFfh0110t</p><p>@Raisondetrenyc: Kanye West projects his new music video 'Slaves' on buildings across the world. Williamsburg chosen for NYC http://bit.ly/13BUQMM</p>",
+  "assets":[
+   {
+    "id":"1",
+    "media_type":"2",
+    "filename":"twitter_v1",
+    "title":"Twitter"
+    },
+    {
+    "id":"2",
+    "media_type":"2",
+    "filename":"twitter",
+    "title":"Twitter"
+    }
+  ],
+  "related_posts":[
+  ],
+  "related_links":[
+  {"href":"https://twitter.com/Raisondetrenyc", "title":"Follow us on Twitter"}
+  ]
+ }
+}

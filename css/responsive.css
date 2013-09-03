@@ -1,0 +1,216 @@
+@media (max-width: 1300px) {
+	#post-detail-content{
+		width:100%;
+		left:0;
+		margin-left:70px;
+	}
+	#post_detail_header{
+		margin-left:-1px;
+		margin-right:0;
+		padding-left:0;
+		padding-right:200px;
+	}
+}
+
+@media (max-width: 1120px) {
+	#detail_sidebar img{
+		width:60px;
+		height:60px;
+	}
+	#post_detail_header{
+		margin-left:-1px;
+		margin-right:0;
+		padding-left:0;
+		padding-right:200px;
+	}
+}
+
+@media (max-width: 1050px) {
+	#detail_sidebar{
+		width:200px;
+	}
+}
+
+@media (max-width: 980px) {
+	#post_detail_main{
+		width:650px;
+	}
+	#video_player{
+		width:650px !important;
+		height:365px !important;
+	}
+}
+
+@media (max-width: 930px) {
+	#post_detail_main{
+		width:600px;
+	}
+	#video_player{
+		width:600px !important;
+		height:337px !important;
+	}
+}
+
+@media (max-width: 880px) {
+	#post_detail_main{
+		width:550px;
+	}
+	#video_player{
+		width:550px !important;
+		height:309px !important;
+	}
+}
+
+@media (max-width: 830px) {
+	#post_detail_main{
+		width:650px;
+	}
+	#video_player{
+		width:650px !important;
+		height:365px !important;
+	}
+	#post_detail_main p{
+		display:none;
+	}
+	#detail_sidebar{
+		width:650px;
+		padding-top:20px;
+		margin-left:-10px;
+	}
+	#detail_sidebar h3{
+		display:none;
+		
+	}
+	#related_posts{
+		display:none;
+	}
+}
+
+@media (max-width: 780px) {
+	#post_detail_main{
+		width:650px;
+	}
+	#video_player{
+		width:650px !important;
+		height:365px !important;
+	}
+	#post_detail_main p{
+		display:none;
+	}
+	#detail_sidebar{
+		width:650px;
+		padding-top:20px;
+		margin-left:-10px;
+	}
+	#detail_sidebar h3{
+		display:none;
+		
+	}
+	#related_posts{
+		display:none;
+	}
+}
+
+@media (max-width: 780px) {
+	#post_detail_main{
+		width:600px;
+	}
+	#video_player{
+		width:600px !important;
+		height:337px !important;
+	}
+}
+
+@media (max-width: 720px) {
+	#post_detail_main{
+		width:550px;
+	}
+	#video_player{
+		width:550px !important;
+		height:309px !important;
+	}
+}
+
+@media (max-width: 680px) {
+	#main{
+		margin-left:-55px;
+	}
+	#post-detail-content{
+		left:0;
+	}
+	#post_detail_main{
+		width:550px;
+	}
+	#video_player{
+		width:550px !important;
+		height:309px !important;
+	}
+	#post_detail_header{
+		padding-right:150px;
+	}
+}
+
+@media (max-width: 640px) {
+	#post_detail_header{
+		padding-left:20px;
+		padding-right:130px;
+	}
+	#post_detail_main{
+		width:100%;
+	}
+	#video_player{
+		width:640px !important;
+		height:360px !important;
+	}
+	#detail_sidebar{
+		width:600px;
+		margin-left:10px;
+	}
+	#post-detail-content{
+		margin-left:50px;
+		padding:0;
+	}
+}
+
+@media (max-width: 530px) {
+	#video_player{
+		width:530px !important;
+		height:298px !important;
+	}
+	#detail_sidebar{
+		width:480px;
+	}
+}
+
+@media (max-width: 480px) {
+	#filter-menu{
+		width:150px;
+	}
+	#video_player{
+		width:480px !important;
+		height:270px !important;
+	}
+	#detail_sidebar{
+		width:470px;
+	}
+}
+
+@media (max-width: 360px) {
+	#video_player{
+		width:360px !important;
+		height:202px !important;
+	}
+	#detail_sidebar{
+		width:300px;
+	}
+}
+
+@media (max-width: 320px) {
+	#video_player{
+		width:320px !important;
+		height:180px !important;
+	}
+	#detail_sidebar{
+		width:280px;
+	}
+}

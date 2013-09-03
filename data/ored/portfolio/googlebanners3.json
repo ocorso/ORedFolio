@@ -1,0 +1,45 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/google_banners",
+      "filename":"GoogleBanners3",
+      "related_posts":[
+ {
+            "id":"2980",
+            "description":"",
+            "media_type":"1",
+            "title":"Google DemoSlam",
+            "filename":"google_demoSlam",
+            "category": "interactive"
+         }
+      ],
+      "client":"Johannes Leonardo",
+      "related_links":[
+
+      ],
+      "description":"Challenge:ClickFire Media was challenged by Johannes Leonardo to create a series of rich media banner ads for their client, Google.\nExecution:\nCFM created a series of banner ads for three separate creatives for the Google Sparkle campaign. These ads consisted of a series of metaphors showcasing the “perfect banner ad.” They included the full assortment of Google rich media technologies, including in banner youtube videos, Google teracent technology and moat ad analytics. For example, one set of rich-media ads had an embedded keynote video from the IAB conference. All these ads were created using Flash, Photoshop and After Effects. \nResults: \nExecuted the banners on time and within budget for Johannes Leonardo, and their client, Google.",
+      "title":"Google Banners",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"GoogleBanners3",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "filename":"GoogleBanners2",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"3",
+            "description":"",
+            "filename":"GoogleBanners1",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

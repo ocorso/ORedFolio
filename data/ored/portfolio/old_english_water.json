@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/old_english",
+      "filename":"old_english_water",
+      "related_posts":[
+
+      ],
+      "client":"Euro RSCG",
+      "related_links":[
+
+      ],
+      "description":"We shot the table and glass, practically, on our stage and added the CG water, that we made using Real Flow software, and composited it all Flame.",
+      "title":"Old English",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"old_english_water",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

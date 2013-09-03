@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/virgin_mobile",
+      "filename":"MTV_Skate",
+      "related_posts":[
+
+      ],
+      "client":"MTV",
+      "related_links":[
+
+      ],
+      "description":"We created a CG crab and composited it into the live action backplate to create this promo for MTV and Virgin Mobile.",
+      "title":"Virgin Mobile",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"MTV_Skate",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

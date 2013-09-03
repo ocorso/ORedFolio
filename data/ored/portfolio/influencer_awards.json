@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"InfluencerAwardsv3"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"Social Media Society",
+      "description":"<h2>Challenge:</h2><p>ClickFire Media was challenged to create a Facebook voting application for the second annual Social Media Society Influencer Awards. The Influencer Awards celebrate the year’s most highly touted social media campaigns, videos and profiles.</p><h2>Execution:</h2><p>CFM created an application that allowed fans to vote for their favorite social media campaigns without ever leaving the Social Media Society Facebook page. The landing tab featured a thumbnail image of each campaign. Before voting for their favorite projects, users could read a short case study as well as view project links. The winners were announced at a party during Social Media Week in New York City.</p><h2>Results:</h2><p>350 campaign submissions garnering 110,000 votes A 300% increase in site traffic,4,300 tweets sent Press coverage in prestigious trade magazines and blogs, as well as garnered additional exposure for the Social Media Society and it’s sponsors.</p>",
+      "detail_name":"portfolio/influencer_awards",
+      "title":"Influencer Awards",
+      "filename":"InfluencerAwardsv3"
+   }
+}

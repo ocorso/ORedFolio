@@ -1,0 +1,92 @@
+{"post_detail":
+ {
+  "title":"Mobile",
+  "client":"",
+  "description":"We live in the future, folks. And fine, we didn't get the jetpacks (yet) or the robot cops (no please), we did get nifty personal communicators.  And I mean nifty. iPhones, and Android, iPads and Kindle Fires all with subtle nuances that demand our attention. With all these options comes the need for a team like us to understand it's power and design a host of clever – even smart - apps and mobile-customized sites that work on today’s and tomorrow’s platforms (A Phablet anyone?)",
+  "assets":[
+   {
+    "id":"1",
+    "media_type":"2",
+    "filename":"about_mobile",
+    "title":"Mobile"
+   }
+  ],
+  "related_posts":[
+   {
+    "id":"4",
+    "media_type":"1",
+    "filename":"promaxbda_2013",
+    "title":"PromaxBDA",
+    "page":"portfolio",
+    "category":"mobile"
+   },
+    {
+    "id":"781",
+    "media_type":"1",
+    "filename":"geicopiggyv3",
+    "title":"GEICO Piggy Pinwheels App",
+    "page":"portfolio",
+    "category":"mobile"
+   },
+       {
+    "id":"2510",
+    "media_type":"1",
+    "filename":"promaxapp2",
+    "title":"Promax App",
+    "page":"portfolio",
+    "category":"mobile"
+   },
+          {
+    "id":"2540",
+    "media_type":"1",
+    "filename":"Geico_vent",
+    "title":"GEICO Ventriloquist",
+    "page":"portfolio",
+    "category":"mobile"
+   },
+          {
+    "id":"2610",
+    "media_type":"1",
+    "filename":"sailor_jerry",
+    "title":"Sailor Jerry App",
+    "page":"portfolio",
+    "category":"mobile"
+   },
+             {
+    "id":"2710",
+    "media_type":"1",
+    "filename":"Loraxdemo",
+    "title":"Lorax App",
+    "page":"portfolio",
+    "category":"mobile"
+   },
+      {
+    "id":"2820",
+    "media_type":"1",
+    "filename":"MvFcasestudY",
+    "title":"Man V Food App",
+    "page":"portfolio",
+    "category":"mobile"
+   },
+      {
+    "id":"2530",
+    "media_type":"1",
+    "filename":"brostache_fwa",
+    "title":"GEICO Brostache App",
+    "page":"portfolio",
+    "category":"mobile"
+   },
+    {
+    "id":"2860",
+    "media_type":"1",
+    "filename":"Spartacus_v2",
+    "title":"Spartacus App",
+    "page":"portfolio",
+    "category":"mobile"
+   }
+  ],
+  "related_links":[
+   {"href":"http://www.clickfiremedia.com/index.php/portfolio/mobile", "title":"Mobile"}
+  ]
+ }
+}

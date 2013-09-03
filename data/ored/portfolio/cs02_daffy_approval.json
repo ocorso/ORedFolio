@@ -1,0 +1,38 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/daffys",
+      "filename":"CS02_DAFFY_approval",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"<h2>Challenge</h>2\nClickFireMedia was challenged to make an interactive storefront ad for DeVito/Verdi and their client, Daffy's. Daffy's wanted to break through the advertising clutter of Times Square with their display showcasing just how much 80 percent really is. <h2>\n\nExecution:</h2> \nCFM began by producing a full day video shoot, which included filming an exotic dancer taking off 20 percent, 40 percent, 60 percent and finally 80 percent off her clothing. The interactive store front shows what 80% off\nactually looks like by filming an exotic dancer removing up to 80% of her clothing. The interactive peep show works by allowing participants to simply place their palms, for free, against the window which activates the motion sensor to start the dancing.\n\nResults: \nFeatured in several prominent industry-specific media outlets and blogs, including <a href=\"http://ow.ly/8oGzK\" target=\"_blank\">Creativity</a>, <a href=\"http://ny.racked.com/archives/2012/01/10/this_is_what_the_daffys_time_square_peep_show_looks_like.php\" target=\"_blank\">Racked </a>, <a href=\"http://ow.ly/8oGzK\" target=\"_blank\">Ads of The World</a>, <a href=\"http://marketersmix.com/2012/01/daffy%E2%80%99s-peep-show-on-times-square/\" target=\"_blank\">Marketers Mix</a>, <a href=\"http://www.creativeguerrillamarketing.com/guerrilla-marketing/daffys-virtual-peep-show-times-square-york/\" target=\"_blank\">Creative Guerilla Marketing</a>, and Comm Arts.",
+      "title":"Daffy's",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"CS02_DAFFY_approval",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "filename":"DAFFYS_FINALv3_bc",
+            "title":"",
+            "media_type":"1"
+         },
+           {
+            "id":"3",
+            "description":"",
+            "filename":"CS_ATT_DAFFYS_Small",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

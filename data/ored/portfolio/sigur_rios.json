@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/sigor_ros",
+      "filename":"Sigur_Rios",
+      "related_posts":[
+
+      ],
+      "client":"Sigor Ros",
+      "related_links":[
+
+      ],
+      "description":"We did the compositing, Flame and VFX for this music video for Sigor Ros.",
+      "title":"Sigor Ros",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"Sigur_Rios",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/light_table",
+      "filename":"Light_Tablev2",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"Using hand drawn images and a light table, Juan created this charming stop motion animation.",
+      "title":"Light Table",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"Light_Tablev2",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

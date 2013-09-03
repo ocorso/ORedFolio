@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"poolhouse"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"Challenge: \nThe Poolhouse site collected 30 plus senior freelance television producers to provide a single resource for agencies and studios searching for producers. The site targeted Heads of Production and Executive Producers at major ad agencies throughout the country. The Poolhouse required a clean design, clean functionality and a simple CMS to update information on each producer.",
+      "detail_name":"portfolio/poolhouse",
+      "title":"Poolhouse",
+      "filename":"poolhouse"
+   }
+}

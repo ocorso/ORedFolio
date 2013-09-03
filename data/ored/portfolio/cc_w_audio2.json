@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/comedy_central_dvd_intro",
+      "filename":"CC_w_audio2",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"",
+      "title":"Comedy Central DVD Intro",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"CC_w_audio2",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

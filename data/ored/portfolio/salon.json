@@ -1,0 +1,31 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/cablevision",
+      "filename":"SALON",
+      "related_posts":[
+
+      ],
+      "client":"Cablevision",
+      "related_links":[
+
+      ],
+      "description":"We shot all of the live action footage on location.  It was then edited here with audio mixing handled by Sounds Like Click.",
+      "title":"Cablevision",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"SALON",
+            "title":"",
+            "media_type":"1"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "filename":"TRAIN",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

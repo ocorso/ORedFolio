@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/ford_f150",
+      "filename":"FordF150_NewEngland_01",
+      "related_posts":[
+
+      ],
+      "client":"JWT Detroit",
+      "related_links":[
+
+      ],
+      "description":"The Click3x team created this liquid CG using Real Flow software and compositing it in Flame.  The live action was also directed and edited by artists at Click3x.",
+      "title":"Ford F150",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"FordF150_NewEngland_01",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

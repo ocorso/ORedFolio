@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/staples_christmas_tree",
+      "filename":"Staples_Cane2Tree_Inhouse",
+      "related_posts":[
+
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"We created all of the elements in this spot using Maya. Compositing was done in Flame.",
+      "title":"Staples Christmas Tree",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"Staples_Cane2Tree_Inhouse",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"MvFcasestudY"
+         }
+      ],
+      "related_links":[
+ {"href":"https://itunes.apple.com/us/app/man-v-food-challenge/id443135764", "title":"Download"}
+      ],
+      "client":"Scripps Network",
+      "description":"Challenge: \nThe Travel Channel and Scripps Network challenged CFM to build an engaging, free and easy-to-use mobile game application for their popular show, Man v. Food.\nExecution: \nCFM began the process by developing the game concept with the client, and then creating the layout, all required graphics, and identifying any other creative assets needed to build out the concept (achievements, audio/video, etc) . CFM then partnered with Brisk Mobile for the creation of the game code. The app, which runs on both the iPhone and Android platforms, also has several special features including video clips from the hit TV show, voice activation within the gameplay, and in-app purchasing.\nResults: \nFeatured as the FWA mobile site/app of the day\nBuilt a game app for iphone, Android and ipad platforms on time and on budget \nRanked #85 in strategy game category",
+      "detail_name":"portfolio/man_v_food_app",
+      "title":"Man V Food App",
+      "filename":"MvFcasestudY"
+   }
+}

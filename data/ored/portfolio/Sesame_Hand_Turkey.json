@@ -1,0 +1,47 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/Sesame_Hand_Turkey",
+      "filename":"Sesame_Hand_Turkey",
+      "related_posts":[
+{
+            "id":"119",
+            "filename":"Sesame_Violin",
+            "title":"Sesame Violin",
+            "media_type":"1",
+             "page":"portfolio",
+   			 "category":"broadcast_entertainment"
+         },
+          {
+            "id":"115",
+            "filename":"Sesame_14Dogs",
+            "title":"Sesame Street 14 Dogs",
+            "media_type":"1",
+            "page":"portfolio",
+   			 "category":"broadcast_entertainment"
+         }
+      ],
+      "client":"",
+      "related_links":[
+
+      ],
+      "description":"",
+      "title":"Sesame Street Hand Turkey",
+      "assets":[
+      
+         {
+            "id":"1",
+            "description":"Inspired the amazing works of Guido Daniele. Click3x was commissioned by Sesame Street workshop to create two short films teaching young viewers about the letters T and Z.  Through the use of VO and the make up talents of Derrick Little, we were able to create a fun film having the children figure out the animal forming on a hand.",
+            "filename":"Sesame_Hand_Turkey",
+            "title":"Sesame Street Hand Turkey",
+            "media_type":"1"
+         },
+          {
+            "id":"2",
+            "description":"Inspired the amazing works of Guido Daniele. Click3x was commissioned by Sesame Street workshop to create two short films teaching young viewers about the letters T and Z.  Through the use of VO and the make up talents of Derrick Little, we were able to create a fun film having the children figure out the animal forming on a hand.",
+            "filename":"Sesame_Hand_Zebra",
+            "title":"Sesame Street Hand Zebra",
+            "media_type":"1"
+         }
+      ]
+   }
+}

@@ -1,0 +1,117 @@
+{"post_detail":
+ {
+  "title":"Websites",
+  "client":"",
+  "description":"The wild frontier that is the web, still continues to be a band of wild horses, wandering free.  As majestic as that sounds, what we are really saying is that the web landscape continues to keep you guessing and hard to pin down.  That's why it is our mission to ensure that all of our experiences are easy to use and update, remain cross-platform and utilize responsive design all while staying as beautiful as a bright white wild stallion.",
+  "assets":[
+   {
+    "id":"1",
+    "media_type":"2",
+    "filename":"about_web",
+    "title":"Websites"
+   }
+  ],
+  "related_posts":[
+   {
+    "id":"90",
+    "media_type":"1",
+    "filename":"hm_case_study",
+    "title":"H&M Conscious",
+    "page":"portfolio",
+    "category":"websites"
+   },
+    {
+    "id":"512",
+    "media_type":"1",
+    "filename":"army",
+    "title":"Go Army",
+    "page":"portfolio",
+    "category":"websites"
+   },
+       {
+    "id":"2001",
+    "media_type":"1",
+    "filename":"rover",
+    "title":"Rover Evology",
+    "page":"portfolio",
+    "category":"websites"
+   },
+          {
+    "id":"2220",
+    "media_type":"1",
+    "filename":"seeflikv8",
+    "title":"Seeflik",
+    "page":"portfolio",
+    "category":"websites"
+   },
+          {
+    "id":"2580",
+    "media_type":"1",
+    "filename":"CS_AFS_V2_Small",
+    "title":"AFS",
+    "page":"portfolio",
+    "category":"websites"
+   },
+             {
+    "id":"2590",
+    "media_type":"1",
+    "filename":"cardcubby",
+    "title":"Card Cubby",
+    "page":"portfolio",
+    "category":"websites"
+   },
+      {
+    "id":"2595",
+    "media_type":"1",
+    "filename":"bahamas_cs",
+    "title":"Bahamas",
+    "page":"portfolio",
+    "category":"websites"
+   },
+      {
+    "id":"2700",
+    "media_type":"1",
+    "filename":"uniqlo",
+    "title":"Uniqlo",
+    "page":"portfolio",
+    "category":"websites"
+   },
+    {
+    "id":"2810",
+    "media_type":"1",
+    "filename":"MUNCHKINSv2_928",
+    "title":"Munchkin",
+    "page":"portfolio",
+    "category":"websites"
+   },
+   {
+    "id":"2880",
+    "media_type":"1",
+    "filename":"cooperzeonv2_928",
+    "title":"Cooper Tires",
+    "page":"portfolio",
+    "category":"websites"
+   },
+      {
+    "id":"2881",
+    "media_type":"1",
+    "filename":"Fur_Insider_01",
+    "title":"Fur Insider",
+    "page":"portfolio",
+    "category":"websites"
+   },
+    {
+    "id":"2923",
+    "media_type":"1",
+    "filename":"Ford_Urban_F",
+    "title":"Ford Urban",
+    "page":"portfolio",
+    "category":"websites"
+   }
+
+  ],
+  "related_links":[
+   {"href":"http://www.clickfiremedia.com/index.php/portfolio/websites", "title":"Web"}
+  ]
+ }
+}

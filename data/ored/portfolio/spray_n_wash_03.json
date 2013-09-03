@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/spray_n_wash",
+      "filename":"spray_n_wash_03",
+      "related_posts":[
+
+      ],
+      "client":"Euro RSCG",
+      "related_links":[
+
+      ],
+      "description":"We created the CG washer and dryer in Maya and combined it with the CG bottle and 2D animated type in Flame.",
+      "title":"Spray n Wash",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"spray_n_wash_03",
+            "title":"",
+            "media_type":"1"
+         }
+      ]
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"vice_airappv2"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"VICE",
+      "description":"<h2>Background:</h2>\n        CFM worked with Vice and Air to create a photo contest Facebook app. Users could upload their photos directly through the app or by using the #airparties hashtag on Twitter, Flickr and Instagram. The app was part of an integrated campaign to launch Air, a vodka drink, through a series of West Coast summer dance parties. The winner of the contest receives an all-expense paid trip to Air’s big West Coast dance party finale in San Francisco.",
+      "detail_name":"portfolio/vice_air",
+      "title":"VICE Air Facebook App",
+      "filename":"vice_airappv2"
+   }
+}

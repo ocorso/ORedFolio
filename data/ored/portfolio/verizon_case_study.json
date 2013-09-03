@@ -1,0 +1,45 @@
+{
+   "post_detail":{
+      "related_posts":[
+
+      ],
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"CS_VERIZON_V4"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"01_HOTSPOTCAFE_FNL1002"
+         },
+         {
+            "id":"3",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"20_MUSIC_FNL1002"
+         },
+         {
+            "id":"4",
+            "description":"",
+            "media_type":"1",
+            "title":"",
+            "filename":"06_GLOBALCAP_FNL1003"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "client":"",
+      "description":"<h2>Background</h2><p>\nClick 3X worked with McGarryBowen and Verizon to shoot and finish approximately 30 videos, which showcased the new Droid interface.</p><h2>  \n\nExecution:</h2><p>\nDirected by Click 3X Director Juan Delcan, we filmed all 30 spots in just 2 days. Then, we color corrected, designed and animated all the videos in house, under a complex timeline.</p>",
+      "detail_name":"portfolio/verizon_case_study",
+      "title":"Verizon Case Study",
+      "filename":"CS_VERIZON_V4"
+   }
+}
