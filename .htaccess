@@ -5,16 +5,20 @@
     RewriteRule ^(.*)$ /index.php?/$1 [L]
     RewriteCond %{REQUEST_URI} ^application.*
     RewriteRule ^(.*)$ /index.php?/$1 [L]
+
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^(.*)$ index.php?/$1 [L]
+
+    SetEnvIf Host oredfolio SITE=ored
+    SetEnvIf Host ored SITE=ored
+    SetEnvIf Host dev$ ENVIRONMENT=local
+    SetEnvIf Host net$ ENVIRONMENT=production
+
 </IfModule>
 <IfModule !mod_rewrite.c>
      ErrorDocument 404 /index.php
 </IfModule>
-
-SetEnvIf Host oredfolio SITE=ored
-SetEnvIf Host dev$ ENVIRONMENT=local
 
 AddType video/ogg   .ogv
 AddType video/mp4   .mp4

@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'jtordsen';
-$db['default']['password'] = 'jasont1234';
-$db['default']['database'] = 'click3x_master';
+$db['default']['hostname'] = 'oredfolio.db.5977079.hostedresource.com';
+$db['default']['username'] = 'oredfolio';
+$db['default']['password'] = 'h@ckp40F';
+$db['default']['database'] = 'oredfolio';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;

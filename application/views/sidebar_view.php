@@ -6,10 +6,10 @@
 			if( !empty( $val['link'] ) ){
 				$link = $val['link'];
 			} else {
-				$link = base_url()."index.php/".$val['id'];
+				$link = base_url() . $val['id'];
 			} 
 		?>
-        <li><a href="<?php echo $link; ?>"><?php echo $val["label"]; ?></a></li>
+        <li><a href="<?= $link; ?>"><?= $val["label"]; ?></a></li>
     	<?php endforeach ?>
 	</ul>
 </div>
