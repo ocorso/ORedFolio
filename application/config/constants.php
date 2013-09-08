@@ -8,23 +8,12 @@
 */
 
 switch (SITE) {
-	case 'cfm':
-		define("FB_APP_ID", "385637378204897");
-		define("FB_APP_SECRET", "4c04e32ffb27cffd9e5fcbbdcf49428c");
-		define("SITE_TITLE", "Clickfire Media");
-		define("SITE_DESCRIPTION", "Compelling, shareable content has become the primary catalyst for interactions between brands and consumers. Clickfire Media creates digital engagements.");
-		break;
-	case 'r2b':
-		define("FB_APP_ID", "201511586639916");
-		define("FB_APP_SECRET", "4c04e32ffb27cffd9e5fcbbdcf49428c");
-		define("SITE_TITLE", "Raison D'Être");
-		define("SITE_DESCRIPTION", "Compelling, shareable content has become the primary catalyst for interactions between brands and consumers. Raison D'etre creates digital engagements and video content focusing on fashion, luxury, and beauty brands.");
-		break;
+
 	default: //c3x
 		define("FB_APP_ID", "144438949083813");
 		define("FB_APP_SECRET", "4c04e32ffb27cffd9e5fcbbdcf49428c");
-		define("SITE_TITLE", "Click 3X");
-		define("SITE_DESCRIPTION", "Compelling, shareable content has become the primary catalyst for interactions between brands and consumers. Click 3X creates digital engagements and video content.");
+		define("SITE_TITLE", "O Red is Pure Production Power");
+		define("SITE_DESCRIPTION", "I like red things.");
 		break;
 }
 
