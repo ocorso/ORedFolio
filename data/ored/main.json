@@ -31,12 +31,7 @@
                "id":"games",
                "label":"Games",
                "heading":"Games"
-            },
-            {
-               "id":"brands",
-               "label":"Brands",
-               "heading":"Brands"
-            }                
+            }             
          ]
       },
       {
@@ -66,12 +61,7 @@
                "id":"games",
                "label":"Games",
                "heading":"Games"
-            },
-            {
-               "id":"brands",
-               "label":"Brands",
-               "heading":"Brands"
-            }                
+            }            
          ]
       },
       {
@@ -80,7 +70,7 @@
          "heading":"About"
       },
       {
-         "id":"my_music",
+         "id":"music",
          "label":"Music",
          "heading":"Music",
           "categories":[

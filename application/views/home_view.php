@@ -171,10 +171,6 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
                     <h2></h2>
 	            </div>
 	            <div id="post_detail_main">
-	            	 <ul id="share-module">
-                    	<li class="facebook"><a><img width="30" height="30" src="<?php echo base_url();?>img/facebook_share.jpg" alt="Share on Facebook" title="Share on Facebook"/></a></li>
-                    	<li class="twitter"><a><img width="30" height="30" src="<?php echo base_url();?>img/twitter_share.jpg" alt="Share on Twitter" title="Share on Twitter"/></a></li>
-                    </ul>
                     <img id="detail_image" src="" width="700" width="394">
                     <video id="video_player" class="video-js vjs-default-skin" controls preload="auto" width="700" height="394" poster="" data-setup="{}">
 						<source src="" type='video/mp4' />
@@ -250,7 +246,7 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
     <script src="<?php echo base_url(); ?>js/master.js"></script>
 
     <!-- Google Analytics --> 
-    <?php //$this->load->view(SITE.'/'.SITE."_ga_view")?>
+    <?php $this->load->view(SITE.'/'.SITE."_ga_view")?>
 	<!-- End Google Analytics --> 
     <script>console.log("Environment: <?= ENVIRONMENT; ?>"); </script>
     <script>console.log("Site: <?= SITE; ?>"); </script>

@@ -1,0 +1,30 @@
+{
+   "post_detail":{
+      "detail_name":"portfolio/nickandcampbell",
+      "filename":"ored_nickandcampbell",
+      "related_posts":[],
+      "client":"Nicholas Lemons",
+      "related_links":[
+           {"href":"https://github.com/ocorso/nickandcampbell_bin", "title":"Code on Github"},
+           {"href":"http://archives.ored.net/nickandcampbell", "title":"Website"}
+      ],
+      "description":"<h2>Execution:</h2><p>This was a freelance project I took on because it offered the opportunity to combine my skills as a creative technologist with those required to run a business.  A fashion designer came to me requesting an ecommerce site but lacked a process in which to accept orders, administer payments, ship packages, etc.</p><p>Acting as a technology consultant, I created a storefront for his brand, partner with a merchant account provider and streamlined operations.",
+      "title":"Nick + Campbell",
+      "assets":[
+          {
+            "id":"1",
+            "description":"",
+            "filename":"ored_nickandcampbell1",
+            "title":"",
+            "media_type":"2"
+          },
+          {
+            "id":"2",
+            "description":"",
+            "filename":"ored_nickandcampbell2",
+            "title":"",
+            "media_type":"2"
+          }
+      ]
+   }
+}

@@ -192,13 +192,9 @@ jQuery( function($){
     //Add Event Handlers.
     $('#nav_toggler').mousedown(function(){$(this).css('background-position', "0 -88px");}).mouseup(function(){$(this).css('background-position', "");});
 	$('#nav_toggler').click( main.nav.click );
-    $("#header_search_input").on('input', main.search.update );
-    $("#header_search_input").change( main.search.change );
     $("#post-detail .close-btn").click( main.detail.close );
-    //$(".page-header ul.dropdown-menu.category-menu li a").click( main.category.click );
     $(".page-header ul.dropdown-menu.subcategory-menu li a").click( main.subcategory.click );
-    $("#share-module li.facebook a").click( main.facebook.publish );
-    $("#share-module li.twitter a").click( main.twitter.publish );
+
 
     $(".post:not(.detail)").each(function(){
     	$p = $(this);
@@ -227,138 +223,6 @@ jQuery( function($){
 		_gaq.push(['_trackPageview']);
 });
 
-// =======================================================================================================================
-// ================ @Facebook Methods
-// =======================================================================================================================
-main.facebook.updatePostLikeStatus = function(){
-	$(".fbpost button").each(function(){
-		var btn = $(this);
-		var post_id = btn.attr("data-id");
-
-		//post_id = post_id.substring( post_id.search("_")+1 );
-
-		console.log("checking like status : " + post_id);
-
-		main.facebook.checkLikeStatus(String(post_id),btn);
-	});
-}
-
-main.facebook.checkLikeStatus = function( $post_id, $btn){
-	FB.api($post_id + "/likes?fields=id", function(response) {
-		if (!response || response.error) {
-			console.log(response);
-		} else {
-			var likes = false;
-			console.log(response);		
-
-			for(var i = 0; i<response.data.length; i++){
-				if(response.data[i].id == String(main.facebook.currentUserId)){
-					console.log(response.data[i].id);
-					likes = true;
-					break;
-				}
-			}	
-
-			if( likes && !$btn.hasClass("liked") ){
-				$btn.addClass("liked");
-			}
-		}
-	});
-}
-
-main.facebook.publish = function( $e ){
-	console.log("Posting to Facebook");
-	
-	main.facebook.postdata.picture = $("#post-detail #related_assets li.selected img").attr("src");
-	main.facebook.postdata.description = $(".post.selected .over-state p").text();
-	main.facebook.postdata.link = main.base_url + "index.php/" + main.filters.page + "#/" + main.address.pathNames.join("/");
-	main.facebook.postdata.name = $("#post_detail_header h1").text();
-	main.facebook.postdata.caption = $("#post_detail_header h2").text();
-	
-	console.log(main.facebook.postdata);
-	
-	FB.ui( main.facebook.postdata, function (response){} );
-    
-    return false;
-}
-
-main.facebook.initLike = function($e){
-	var id = $($e).attr("data-id");
-
-	console.log("init like post id : " + id);
-	
-
-	FB.getLoginStatus(function(response) {
-		console.log(response);
-
-	 	if (response.status === 'connected') {
-	    	// the user is logged in and has authenticated your
-	    	// app, and response.authResponse supplies
-	    	// the user's ID, a valid access token, a signed
-	    	// request, and the time the access token 
-	    	// and signed request each expire
-	    	main.facebook.uid = response.authResponse.userID;
-	    	main.facebook.access_token = response.authResponse.accessToken;
-	    	console.log("user " + main.facebook.uid + " is logged in using access token : " + main.facebook.access_token);
-
-	    	main.facebook.like(id, $($e));
-	  	} else {
-	    	FB.login(function(response) {
-			    if (response.authResponse) {
-			    	// The person logged into your app
-			    	main.facebook.uid = response.authResponse.userID;
-			    	main.facebook.access_token = response.authResponse.accessToken;
-			    	console.log("user " + main.facebook.uid + " is logged in using access token : " + main.facebook.access_token);
-
-			    	main.facebook.like(id, $($e));
-			    } else {
-			        // The person cancelled the login dialog
-			        console.log("user cancelled login");
-			    }
-			},{scope: 'create_note,photo_upload,publish_actions,publish_stream,share_item,status_update,user_likes,video_upload'});
-
-			console.log("not connected");
-	  	}
-	});
-
-	return false;
-}
-
-main.facebook.like = function($id, $button){
-	var unlike = false;
-	if( $button.hasClass("liked") ) unlike = true;
-
-	FB.api($id+'/likes', unlike ? 'delete' : 'post', function(response) {
-		if (!response || response.error) {
-			console.log(response);
-		} else {
-			console.log(response);
-
-			if(unlike && $button.hasClass("liked"))
-				$button.removeClass("liked");
-			else if(!unlike && !$button.hasClass("liked"))
-				$button.addClass("liked");
-		}
-	});
-}
-	
-// =======================================================================================================================
-// ================ @Twitter @Bitly Methods
-// =======================================================================================================================
-
-main.twitter.publish = function( $e ){
-	console.log("-- Posting to Twitter --");
-	
-	main.twitter.postdata.status = escape( "Check out " + $("#post_detail_header h2").text() + ", by Click 3X : " );
-
-	main.twitter.postdata.link =  main.address.pathNames.join("-");
-
-	
-	window.open( 	base_url + "index.php/home/twitter_share/" + main.twitter.postdata.status + "/" + main.twitter.postdata.link + "/" + main.filters.page, 
-					"_blank", "width=500,height=300,top=200px,left=" + $(window).width()*.5);
-	
-	return false;
-}
 
 // =======================================================================================================================
 // ================ @Main Methods
@@ -410,12 +274,12 @@ main.address.change	= function (){
 	console.log("-- jQuery Address Change -- : " + $.address.pathNames());
 	console.log("-- categorieswithsubcategories -- : " + categorieswithsubcategories);
 
-	main.address.pathNames =  $.address.pathNames();
-	main.curPathLevels = main.address.pathNames.length;
+	main.address.pathNames 	=  $.address.pathNames();
+	main.curPathLevels 		= main.address.pathNames.length;
 	
-	var categoryChanged = false;
-	var pageChanged = false;
-	var detailChanged = false;
+	var categoryChanged 	= false;
+	var pageChanged 		= false;
+	var detailChanged 		= false;
 
 	$("#portfolio-categories div:last-child").css("display","none");
 	$(".page-header .subcategory-menu").css("opacity","0").css("z-index","-1");
@@ -652,22 +516,6 @@ main.detail.init = function( $post_id ){
 			element.addClass("start");
 		}
 
-		if($post_id == "81"){
-			if(!element.hasClass("facebook"))
-				element.addClass("facebook");
-		} else {
-			if(element.hasClass("facebook"))
-				element.removeClass("facebook");
-		}
-
-		if($post_id == "82"){
-			if(!element.hasClass("twitter"))
-				element.addClass("twitter");
-		} else {
-			if(element.hasClass("twitter"))
-				element.removeClass("twitter");
-		}
-		
 		console.log("insert detail complete");
 		console.log(element.position().top);
 		console.log(main.currentPost.position().top);
