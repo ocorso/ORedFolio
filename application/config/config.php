@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= '';
+$config['base_url']	= 'http://ored.dev/';
 $config['media_url'] = 'http://media.click3x.com/';
 
 

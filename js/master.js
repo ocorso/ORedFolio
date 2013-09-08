@@ -179,22 +179,6 @@ jQuery( function($){
 	//Init Isotope.
     $("#content").isotope(main.isotope.config, isotopeComplete );
     
-    //oc: Local loading
-    //Init Facebook.
-    // FB.init({ appId: main.facebook.settings.appid, status: false, cookie: false });
-
-    // //get login status
-    // FB.getLoginStatus( function(response) {
-    // 	console.log("get facebook login status");
-    // 	console.log(response);
-
-    // 	if(response.status == "connected"){
-    // 		console.log("current facebook user is : " + response.authResponse.userID);
-    // 		main.facebook.currentUserId = response.authResponse.userID;
-    // 		main.facebook.updatePostLikeStatus();
-    // 	}
-    // });
-
     //Init Jquery Address.
     $.address.init( function( event ){
     	console.log(" - Init jQuery Address - : ");
@@ -781,7 +765,6 @@ main.detail.asset.deselectAll = function(){
 	$("#related_assets li").removeClass("selected");
 
 	$("#post_detail_main").removeClass();
-
 
 	$("#video_player img").attr("src", base_url + "img/blank_img.jpg");
 	$("#post_detail_main #detail_image").attr("src", base_url + "img/blank_img.jpg");

@@ -29,4 +29,4 @@ VALUES
 	(403,'blog','_all blog interactive',NULL,'sharp_blog','blog/sharp_blog','CFM Creates The Ultimate Tailgate Experience For Sharp',NULL,'To commemorate the start of football season, CFM developed a Facebook app that encouraged Sharp\'s fans to create their ultimate tailgate experience. ','200x200',NULL,NULL,NULL,504),
 
 	(500,'contact','_all','tag1 tag2','ored_contact_map','','Post','Client','','830x410',0,'none','http://bit.ly/14BUm7f',457),
-	(501,'contact','_all','tag1 tag2','ored_contact_map_small','','410 East 13th Street','New York, NY 10003','p:201.602.0069<br><a href=\"mailto:owen@ored.net\" title=\"Email O Red\">owen@ored.net</a>','410x200',0,'half fixed light','http://bit.ly/14BUm7f',458);
+	(501,'contact','_all','tag1 tag2','ored_contact_map_small','','410 East 13th Street','New York, NY 10003','p:201.602.0069','410x200',0,'half fixed light','http://bit.ly/14BUm7f',458);

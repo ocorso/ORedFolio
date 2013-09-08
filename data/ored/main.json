@@ -7,32 +7,7 @@
  {
          "id":"home",
          "label":"Home",
-         "heading":"O Red Folio",
-         "categories":[
-
-            {
-               "id":"development",
-               "label":"Development"
-            },
-            {
-               "id":"user_experience",
-               "label":"User Experience"
-            },
-            {
-               "id":"social",
-               "label":"Social"
-            },
-            {
-               "id":"design",
-               "label":"Design",
-               "heading":"Design"
-            },
-            {
-               "id":"games",
-               "label":"Games",
-               "heading":"Games"
-            }             
-         ]
+         "heading":"Home"
       },
       {
          "id":"portfolio",

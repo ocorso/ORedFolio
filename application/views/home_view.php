@@ -20,26 +20,26 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/><!--320-->
 		
 		<!-- Apple Device Icons -->
-		<link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?php echo base_url(); ?>img/vendor/apple/apple-touch-icon-57x57-precomposed" />
-		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url(); ?>img/vendor/apple/apple-touch-icon-72x72-precomposed.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url(); ?>img/vendor/apple/apple-touch-icon-114x114-precomposed.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url(); ?>img/vendor/apple/apple-touch-icon-144x144-precomposed.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?= base_url(); ?>img/vendor/apple/apple-touch-icon-57x57-precomposed" />
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?= base_url(); ?>img/vendor/apple/apple-touch-icon-72x72-precomposed.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?= base_url(); ?>img/vendor/apple/apple-touch-icon-114x114-precomposed.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?= base_url(); ?>img/vendor/apple/apple-touch-icon-144x144-precomposed.png" />
 
 		<!-- Bootstrap Styles -->
-	    <link rel="stylesheet" href="<?php echo base_url(); ?>css/vendor/bootstrap.min.css">
-	    <link rel="stylesheet" href="<?php echo base_url(); ?>css/vendor/bootstrap-responsive.min.css">
+	    <link rel="stylesheet" href="<?= base_url(); ?>css/vendor/bootstrap.min.css">
+	    <link rel="stylesheet" href="<?= base_url(); ?>css/vendor/bootstrap-responsive.min.css">
 
 	    <!-- Custom Styles -->
-	    <link rel="stylesheet" href="<?php echo base_url(); ?>css/fonts.css">
-	    <link rel="stylesheet" href="<?php echo base_url(); ?>css/master.css">
+	    <link rel="stylesheet" href="<?= base_url(); ?>css/fonts.css">
+	    <link rel="stylesheet" href="<?= base_url(); ?>css/master.css">
 	    
-	    <link rel="stylesheet" href="<?php echo base_url(); ?>css/<?php echo SITE; ?>_main.css">
+	    <link rel="stylesheet" href="<?= base_url(); ?>css/<?= SITE; ?>_main.css">
 
-	    <link rel="stylesheet" href="<?php echo base_url(); ?>css/responsive.css">
-	    <link rel="stylesheet" href="<?php echo base_url(); ?>css/vendor/video-js.css" rel="stylesheet">
+	    <link rel="stylesheet" href="<?= base_url(); ?>css/responsive.css">
+	    <link rel="stylesheet" href="<?= base_url(); ?>css/vendor/video-js.css" rel="stylesheet">
 
 	    <!-- Modernizer Styles -->
-	    <script src="<?php echo base_url(); ?>js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	    <script src="<?= base_url(); ?>js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
 
     <body>
@@ -86,8 +86,8 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 				<h1></h1>
 			</div>
 			<?php foreach ($pages as $value): ?>
-				<div class="page-header clearfix" data-page="<?php echo $value["id"]; ?>" style="display:none">
-					<h1><?php echo $value["heading"]; ?></h1>
+				<div class="page-header clearfix" data-page="<?= $value["id"]; ?>" style="display:none">
+					<h1><?= $value["heading"]; ?></h1>
 				
 					<div id="portfolio-categories" class="dropdown">
 						<div>
@@ -102,7 +102,7 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 									<a class="dropdown-toggle" data-toggle="dropdown" href="#">All</a>
 									<ul class="dropdown-menu category-menu" role="menu">
 										<?php foreach($categories as $cval): ?>
-											<li><a href="<?php echo base_url().$value["id"]."/".$cval["id"]; ?>"><?php echo $cval["label"]; ?></a></li>
+											<li><a href="<?= base_url().$value["id"]."/".$cval["id"]; ?>"><?= $cval["label"]; ?></a></li>
 										<?php endforeach ?>
 							 		</ul>
 							 	<?php endif ?>
@@ -119,9 +119,9 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 											else if( isset($subcategories) ) unset($subcategories);
 										?>
 										<?php if(isset($subcategories)): ?>
-										<ul class="dropdown-menu subcategory-menu" role="menu" data-category="<?php echo $catval["id"]; ?>">
+										<ul class="dropdown-menu subcategory-menu" role="menu" data-category="<?= $catval["id"]; ?>">
 											<?php foreach($subcategories as $subcatval): ?>
-												<li><a data-id="<?php echo $subcatval["id"]; ?>"><?php echo $subcatval["label"]; ?></a></li>
+												<li><a data-id="<?= $subcatval["id"]; ?>"><?= $subcatval["label"]; ?></a></li>
 											<?php endforeach ?>
 								 		</ul>
 								 		<?php endif ?>
@@ -139,15 +139,15 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 			<!--posts-->
 			<?php foreach ($posts as $post): ?>
 			<?php
-			 	$image_ext = ".jpg";
-			 	$size = ($this->agent->is_mobile && $post->size != "830x410") ? "200x200" : $post->size;
-
-			 	if( !empty($post->media_type) && $post->media_type == "3") $image_ext = ".gif";
-			 	$imagepath = $this->config->item("media_url")."images/".$size."/".$post->filename.$image_ext;
-			 	$classes = "post "."p".$size." ".$post->pages." ".$post->categories;
+			 	$image_ext 		= ".jpg";
+			 	$size 			= ($this->agent->is_mobile && $post->size != "830x410") ? "200x200" : $post->size;
+			 	if( !empty($post->media_type) && $post->media_type == "3") 
+			 		$image_ext 	= ".gif";
+			 	$imagepath 		= $this->config->item("media_url")."images/".$size."/".$post->filename.$image_ext;
+			 	$classes 		= "post "."p".$size." ".$post->pages." ".$post->categories;
 			 	$overstatestyle = "over-state";
-			 	$detail_name = "";
-			 	$href = "";
+			 	$detail_name 	= "";
+			 	$href	 		= "";
 
 			 	if(!empty($post->href))
 			 		$href = $post->href;
@@ -158,10 +158,10 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 		 		if(!empty($post->overstatestyle) && !$this->agent->is_mobile)
 					$overstatestyle .= " ".$post->overstatestyle;				
 			 ?>
-				<a <?php if(!empty($href)) echo "href='".$href."'"; ?> data-image="<?php echo $imagepath; ?>" data-id="<?php echo $post->id; ?>" data-title="<?php echo $post->title; ?>" data-client="<?php echo $post->client; ?>" data-detail-id="<?php echo $detail_name ?>" class="<?php echo $classes;?>">
-					<div id="rollover" class="<?php echo $overstatestyle; ?>">
-						<h1><?php echo $post->title; ?></h1>
-						<p><?php echo $post->description; ?></p>
+				<a <?php if(!empty($href)) echo "href='".$href."'"; ?> data-image="<?= $imagepath; ?>" data-id="<?= $post->id; ?>" data-title="<?= $post->title; ?>" data-client="<?= $post->client; ?>" data-detail-id="<?= $detail_name ?>" class="<?= $classes;?>">
+					<div id="rollover" class="<?= $overstatestyle; ?>">
+						<h1><?= $post->title; ?></h1>
+						<p><?= $post->description; ?></p>
 					</div>
 				</a>
 			<?php endforeach ?>
@@ -211,48 +211,47 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 	<!-- End Facebook Container --> 
 
 	<!-- jQuery --> 
-    <script src="<?php echo base_url(); ?>js/vendor/jquery-1.9.0.min.js"></script>
-	<script src="<?php echo base_url(); ?>js/vendor/jquery-migrate-1.1.1.min.js"></script>
-	<script src="<?php echo base_url(); ?>js/vendor/jquery.easing.1.3.js"></script>
+    <script src="<?= base_url(); ?>js/vendor/jquery-1.9.0.min.js"></script>
+	<script src="<?= base_url(); ?>js/vendor/jquery-migrate-1.1.1.min.js"></script>
+	<script src="<?= base_url(); ?>js/vendor/jquery.easing.1.3.js"></script>
 
 	<!-- Page Scripts --> 
 	<script type="text/javascript">
-		var fb_app_id = "<?php echo FB_APP_ID; ?>";
-		var base_url = "<?php echo base_url(); ?>";
-		var data_directory = "<?php echo base_url().'data/'.SITE.'/'; ?>";
-		var start_page = "<?php echo $page_id; ?>";
-		var start_category = "<?php echo $category_id; ?>";
+		var fb_app_id 		= "<?= FB_APP_ID; ?>";
+		var base_url 		= "<?= base_url(); ?>";
+		var data_directory 	= "<?= base_url().'data/'.SITE.'/'; ?>";
+		var start_page 		= "<?= $page_id; ?>";
+		var start_category 	= "<?= $category_id; ?>";
 
 		var categorieswithsubcategories = [];
 		$(".subcategory-menu").each(function(){
 			$a = $(this);
-			categorieswithsubcategories.push($a .attr("data-category"));
+			categorieswithsubcategories.push($a.attr("data-category"));
 		})
 	</script>
    	
    	<!-- Isotope --> 
-    <script src="<?php echo base_url(); ?>js/vendor/jquery.isotope.min.js"></script>
+    <script src="<?= base_url(); ?>js/vendor/jquery.isotope.min.js"></script>
 
     <!-- jQuery Address --> 
-    <script src="<?php echo base_url(); ?>js/vendor/jquery.address-1.5.js"></script>
+    <script src="<?= base_url(); ?>js/vendor/jquery.address-1.5.js"></script>
 
     <!-- Bootstrap --> 
-    <script src="<?php echo base_url(); ?>js/vendor/bootstrap.min.js"></script>
+    <script src="<?= base_url(); ?>js/vendor/bootstrap.min.js"></script>
    
    	<!-- Preloader --> 
-    <script src="<?php echo base_url(); ?>js/vendor/spin.min.js"></script>
-    <script src="<?php echo base_url(); ?>js/vendor/jquery.spin.js"></script>
+    <script src="<?= base_url(); ?>js/vendor/spin.min.js"></script>
+    <script src="<?= base_url(); ?>js/vendor/jquery.spin.js"></script>
 
-    <!-- Facebook  
-    <script src='http://connect.facebook.net/en_US/all.js'></script>
-	-->
+    <!-- History JS-->
+    <script src="<?= base_url(); ?>js/vendor/jquery.history.js"></script>
  	
  	<!-- Video JS --> 
-    <script src="<?php echo base_url(); ?>js/vendor/video.js"></script>
+    <script src="<?= base_url(); ?>js/vendor/video.js"></script>
 	
 	<!-- Custom --> 
-    <script src="<?php echo base_url(); ?>js/plugins.js"></script>
-    <script src="<?php echo base_url(); ?>js/master.js"></script>
+    <script src="<?= base_url(); ?>js/plugins.js"></script>
+    <script src="<?= base_url(); ?>js/master.js"></script>
 
     <!-- Google Analytics --> 
     <?php $this->load->view(SITE.'/'.SITE."_ga_view")?>

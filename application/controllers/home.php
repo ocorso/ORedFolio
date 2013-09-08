@@ -2,46 +2,15 @@
 
 class Home extends CI_Controller {
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -  
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in 
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see http://codeigniter.com/user_guide/general/urls.html
-	 */
-
 	public function index($pageId, $categoryId = "_all")
 	{
+		if( getenv("SECTION")  ) print_r(getenv("SECTION"));
+		else 						print_r("poopoo");
 		$main_data_s 	= file_get_contents( base_url()."data/".SITE."/main.json");
 		$main_data_json = json_decode( $main_data_s, true );
 		$pages 			= $main_data_json["pages"];
 		$suggestions 	= $main_data_json["suggestions"];
-
-		$posts = $this->posts(0,$pageId,$categoryId);
-
-		// oc: Comment out for local non-internet connected dev.
-		// $fb_wall_feed_url = FB_PAGE_URL."posts?limit=8&fields=picture,from,message&access_token=".FB_PAGE_TOKEN;
-		// $fb_feed_str = file_get_contents( $fb_wall_feed_url );
-		// $fb_feed_json = json_decode( $fb_feed_str, true );
-		
-		// $fb_feed = $fb_feed_json["data"];
-		// $twitter_feed_str = $this->twitter_feed();
-		// $twitter_feed_json = json_decode( $twitter_feed_str, true );
-
-		// $fb_posts_only = array();
-		// foreach ($fb_feed as $key => $value) {
-		// 	if(!empty($value["message"])){
-		// 		array_push($fb_posts_only, $value);
-		// 	}
-		// }
+		$posts 			= $this->posts(0,$pageId,$categoryId);
 
 		$this->load->view(	'home_view', 
 							array( 	"pages"=>$pages, 
@@ -53,17 +22,6 @@ class Home extends CI_Controller {
 									"category_id"=>$categoryId 
 								) 
 							);
-	}
-
-	public function twitter_share($status, $link, $page)
-	{
-		$long_url 	= base_url() . "index.php/" . $page . urlencode("#") . str_replace("-", "/", $link);
-		
-		$short_url 	= file_get_contents("https://api-ssl.bitly.com/v3/shorten?access_token=ce1cb3356808fcf009cda750ef8f1ce940c592a8&longUrl=" . $long_url  );
-		$short_url 	= json_decode($short_url);
-		$short_url 	= $short_url->data->url;
-
-		header( 'Location: https://twitter.com/intent/tweet?source=webclient&text=Check out this work from '.urlencode("#").'Click3X '. $short_url  ) ;
 	}
 
 	public function posts( $givemejson, $pages = "", $categories = ""){

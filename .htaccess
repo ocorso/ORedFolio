@@ -15,6 +15,11 @@
     SetEnvIf Host dev$ ENVIRONMENT=local
     SetEnvIf Host net$ ENVIRONMENT=production
 
+    SetEnvIf Host ^about SECTION=about
+    SetEnvIf Host ^contact SECTION=contact
+    SetEnvIf Host ^music SECTION=music
+    SetEnvIf Host ^folio SECTION=folio
+
 </IfModule>
 <IfModule !mod_rewrite.c>
      ErrorDocument 404 /index.php
