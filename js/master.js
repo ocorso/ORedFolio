@@ -22,6 +22,7 @@ main.nav 				= {};
 main.search 			= {};
 main.content 			= {};
 main.address 			= {};
+main.history 			= {};
 main.post 				= {};
 main.category 			= {};
 main.subcategory 		= {};
@@ -126,6 +127,7 @@ main.preloader.opts 			=	{
 // ================ @Doc Ready
 // =======================================================================================================================
 function isotopeComplete(){
+	console.log("isotopeComplete");
 	$("#content").fadeIn(loadImages);
 }
 function loadImages(){
@@ -154,8 +156,48 @@ jQuery( function($){
 
   	//Determine OS.
   	main.settings.agent = navigator.userAgent;
-  
-	if( main.settings.agent.match(/iPhone/i) || main.settings.agent.match(/iPod/i) ){
+  	main.settings.addClassForMobile();
+	
+	//Change the grid size for iPhone.
+	if(main.settings.iphone)
+		main.isotope.config.masonry.columnWidth = 150;
+
+/*
+    //Init Jquery Address.
+    $.address.init( function( event ){
+    	console.log(" - Init jQuery Address - : ");
+    }).change(main.address.change);
+*/
+    main.history.init();
+    main.content.initPage();
+
+    //Add Event Handlers.
+    $('#nav_toggler').mousedown(function(){$(this).css('background-position', "0 -88px");}).mouseup(function(){$(this).css('background-position', "");});
+	$('#nav_toggler').click( main.nav.click );
+    $("#post-detail .close-btn").click( main.detail.close );
+
+    //remove rollover on iPhone.
+    if(main.settings.iphone == true && rollover.hasClass("fixed")) $(".post .over-state").removeClass("fixed");
+
+    $(window).resize( function(){
+		clearTimeout(main.timers.resize);
+		main.timers.resize = setTimeout( main.onResize, 200 );
+	});
+
+//    console.log(" - agent - : ", main.settings.agent);
+//	console.log(" - iphone - : ", main.settings.iphone);
+	console.log("-- Doc Ready End --");
+
+	//initial google analytics call
+	if(!main.local)
+		_gaq.push(['_trackPageview']);
+});
+// =======================================================================================================================
+// ================ @Settings
+// =======================================================================================================================
+
+main.settings.addClassForMobile = function(){
+		if( main.settings.agent.match(/iPhone/i) || main.settings.agent.match(/iPod/i) ){
 		main.settings.iphone = true;
 		$("body").addClass("iPhone");
 	}else if( main.settings.agent.match(/iPad/i) ){
@@ -171,26 +213,16 @@ jQuery( function($){
 		main.settings.windows = true;
 		$("body").addClass("Windows");
 	}
-	
-	//Change the grid size for iPhone.
-	if(main.settings.iphone)
-		main.isotope.config.masonry.columnWidth = 150;
-
-	//Init Isotope.
+};
+// =======================================================================================================================
+// ================ @Main Methods
+// =======================================================================================================================
+main.content.initPage	= function (){
+	console.log("initPage");
+		//Init Isotope.
     $("#content").isotope(main.isotope.config, isotopeComplete );
-    
-    //Init Jquery Address.
-    $.address.init( function( event ){
-    	console.log(" - Init jQuery Address - : ");
-    }).change(main.address.change);
 
-    //Add Event Handlers.
-    $('#nav_toggler').mousedown(function(){$(this).css('background-position', "0 -88px");}).mouseup(function(){$(this).css('background-position', "");});
-	$('#nav_toggler').click( main.nav.click );
-    $("#post-detail .close-btn").click( main.detail.close );
-    $(".page-header ul.dropdown-menu.subcategory-menu li a").click( main.subcategory.click );
-
-
+    //add click handlers to posts
     $(".post:not(.detail)").each(function(){
     	$p = $(this);
 
@@ -201,28 +233,10 @@ jQuery( function($){
 		}
     });
 
-    if(main.settings.iphone == true && rollover.hasClass("fixed"))
-		$(".post .over-state").removeClass("fixed");
+    //add click handler to subcatgories 
+    $(".page-header ul.dropdown-menu.subcategory-menu li a").click( main.subcategory.click );
 
-    $(window).resize( function(){
-		clearTimeout(main.timers.resize);
-		main.timers.resize = setTimeout( main.onResize, 200 );
-	});
-
-    console.log(" - agent - : ", main.settings.agent);
-	console.log(" - iphone - : ", main.settings.iphone);
-	console.log("-- Doc Ready End --");
-
-	//initial google analytics call
-	if(!main.local)
-		_gaq.push(['_trackPageview']);
-});
-
-
-// =======================================================================================================================
-// ================ @Main Methods
-// =======================================================================================================================
-
+};
 main.content.reLayout 	= function ( $complete ){
 	$('#content').isotope( 'reLayout', function(){
 		console.log("-- ReLayout Complete --");
@@ -262,16 +276,49 @@ main.applyFiltersComplete = function(){
 }
 
 // =======================================================================================================================
+// ================ @history
+// =======================================================================================================================
+main.history.init = function (){
+	// Prepare
+    var History = window.History; // Note: We are using a capital H instead of a lower h
+    if ( !History.enabled ) {
+         // History.js is disabled for this browser.
+         // This is because we can optionally choose to support HTML4 browsers or not.
+        return false;
+    }
+
+    // Bind to StateChange Event
+    History.Adapter.bind(window,'statechange',main.history.change); // Note: We are using statechange instead of popstate
+        
+
+    // Capture all the links to push their url to the history stack and trigger the StateChange Event
+    $('a').click(function(evt) {
+        evt.preventDefault();
+        History.pushState(null, $(this).text(), $(this).attr('href'));
+    });
+
+};
+
+main.history.change = function (){
+	var State = History.getState();
+	console.log("main.history.change:",State);
+
+    //$('#content').load(State.url);
+	//Instead of the line above, you could run the code below if the url returns the whole page instead of just the content (assuming it has a `#content`):
+	$.get(State.url, function(response) { $('#content').html($(response).find('#content').html()); });
+	$("#content").isotope("destroy");
+	main.content.initPage();
+};
+
+// =======================================================================================================================
 // ================ @jQuery Address Methods
 // =======================================================================================================================
-
 main.address.change	= function (){
 	console.log("-- jQuery Address Change -- : " + $.address.pathNames());
 	console.log("-- categorieswithsubcategories -- : " + categorieswithsubcategories);
 
 	main.address.pathNames 	=  $.address.pathNames();
 	main.curPathLevels 		= main.address.pathNames.length;
-	
 	var categoryChanged 	= false;
 	var pageChanged 		= false;
 	var detailChanged 		= false;
@@ -299,18 +346,18 @@ main.address.change	= function (){
 
 		if( main.filters.categories.join("-") != main.address.pathNames[1] ){
 			main.filters.categories = main.address.pathNames[1].split("-");
-			categoryChanged = true;
+			categoryChanged 		= true;
 		}
 	} else {
-		var num_categories = $(".page-header[data-page='" + main.filters.page + "'] .category-menu li").length;
-		var default_category = "all";
+		var num_categories 		= $(".page-header[data-page='" + main.filters.page + "'] .category-menu li").length;
+		var default_category 	= "all";
 		
 		if(num_categories != 0){
-			default_category = $(".page-header[data-page='" + main.filters.page + "'] .category-menu li:first-child a").attr("data-id");
+			default_category 	= $(".page-header[data-page='" + main.filters.page + "'] .category-menu li:first-child a").attr("data-id");
 		}
 
 		if(start_category != undefined && start_category != ""){
-			default_category = start_category;
+			default_category 	= start_category;
 		}
 
 		if( main.filters.categories != [default_category] ){
@@ -323,7 +370,6 @@ main.address.change	= function (){
 	if( main.curPathLevels < 3 || main.post.currentId != main.address.pathNames[2] || categoryChanged == true || pageChanged == true ){
 		if($("#post-detail").hasClass("active")){
 			console.log("closing details");
-
 			main.detail.reset();
 		}
 	}
