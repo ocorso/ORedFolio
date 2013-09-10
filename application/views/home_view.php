@@ -102,7 +102,7 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 									<a class="dropdown-toggle" data-toggle="dropdown" href="#">All</a>
 									<ul class="dropdown-menu category-menu" role="menu">
 										<?php foreach($categories as $cval): ?>
-											<li><a href="<?= base_url().$value["id"]."/".$cval["id"]; ?>"><?= $cval["label"]; ?></a></li>
+											<li><a data-id="<?= $cval["id"]; ?>" data-filter=".<?= $cval["id"]; ?>" href="<?= base_url().$value["id"]."/".$cval["id"]; ?>"><?= $cval["label"]; ?></a></li>
 										<?php endforeach ?>
 							 		</ul>
 							 	<?php endif ?>
@@ -151,6 +151,10 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 
 			 	if(!empty($post->href))
 			 		$href = $post->href;
+			 	else{
+			 		//$href = "http://" . SECTION . ".ored" . DOMAIN . "/".$category_id  . "/" . $post->filename;
+			 		
+			 	}
 
 			 	if(!empty($post->detail_name))
 			 		$detail_name = $post->detail_name;
@@ -209,6 +213,17 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 	<!-- Facebook Container --> 
 	<div id="fb-root"></div>
 	<!-- End Facebook Container --> 
+
+
+	<!-- Soundcloud Include --> 
+<script src="//connect.soundcloud.com/sdk.js"></script>
+<script>
+  SC.initialize({
+    client_id: "<?= $soundcloud_id; ?>",
+    redirect_uri: "http://example.com/callback.html",
+  });
+</script>
+	<!-- End Soundcloud Include --> 
 
 	<!-- jQuery --> 
     <script src="<?= base_url(); ?>js/vendor/jquery-1.9.0.min.js"></script>

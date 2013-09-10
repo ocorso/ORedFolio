@@ -8,6 +8,7 @@
 */
 define("SITE_TITLE", "O Red Is Pure Production Power");
 define("SITE_DESCRIPTION", "The ORedFolio Website is a demonstration of Owen Corso's creative abilities at the intersection of marketing and technology.");
+define("DOMAIN", ".dev");
 switch (SITE) {
 
 	default: //ored

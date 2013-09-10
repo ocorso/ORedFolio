@@ -7,14 +7,18 @@
  {
          "id":"home",
          "label":"Home",
-         "heading":"Home"
+         "heading":"Home",
+         "link":""
       },
       {
          "id":"portfolio",
          "label":"Folio",
          "heading":"O Red Folio",
          "categories":[
-
+            {
+               "id":"_all",
+               "label":"All"
+            },
             {
                "id":"development",
                "label":"Development"

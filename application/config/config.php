@@ -17,10 +17,6 @@
 $config['base_url']	= 'http://ored.dev/';
 $config['media_url'] = 'http://media.click3x.com/';
 
-
-switch (SITE) {
-
-	default:
 		define("TWITTER_PAGE_URL", "https://twitter.com/ocorso/");
 		define("TWITTER_TOKEN" , '28368165-ATmAkAau9R1rJC9FKWUSnApHttrRsuH6qBWjlr8ip');
 		define("TWITTER_TOKEN_SECRET" , 'hM7rCzIqi3UcSV3gocLol6d868q08CLyjfhel1VvLY8');
@@ -30,8 +26,9 @@ switch (SITE) {
 
 		define("FB_PAGE_URL", "https://graph.facebook.com/ORedProductions/");
 		define("FB_PAGE_TOKEN", "CAACDXdBAeqUBAKYgZAzFZCZAsutZCUpdGyEMyvko6inY1auTZBI8Ap3zYIm05nJAyeZAeMdrX5XrnGaQwaowrRW3d4mMl5ur4W28nxZCwcvaLJZBEqg2lJFF9fKblZAhPv6SpJrZC0OHRTbTdt1mLZAHW8p7Vg7KD3YLTXDANBOLISWcgWTZBYa9UUmM");
-		break;
-}
+
+$config['soundcloud_client_id'] 	= "e865c40cd8e163918594db283501b306";
+$config['soundcloud_client_secret'] = "a218bcb85e7d82c6fc287342a739237d";
 
 /*
 |--------------------------------------------------------------------------
@@ -197,7 +194,7 @@ $config['directory_trigger']	= 'd'; // experimental not currently in use
 | your log files will fill up very fast.
 |
 */
-$config['log_threshold'] = 0;
+$config['log_threshold'] = 1;
 
 /*
 |--------------------------------------------------------------------------

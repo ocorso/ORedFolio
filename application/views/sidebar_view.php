@@ -4,12 +4,12 @@
 		<?php 
 			$link = "";
 			if( !empty( $val['link'] ) ){
-				$link = $val['link'];
+				$link = $val['link'] . DOMAIN;
 			} else {
 				$link = base_url() . $val['id'];
 			} 
 		?>
-        <li><a href="<?= $link; ?>"><?= $val["label"]; ?></a></li>
+        <li><a href="<?= $link; ?>" title="<?= $val["heading"]; ?>"><?= $val["label"]; ?></a></li>
     	<?php endforeach ?>
 	</ul>
 </div>

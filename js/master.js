@@ -31,22 +31,10 @@ main.video 				= {};
 main.bitly 				= {};
 main.timers				= {};
 main.filters 			= {};
-
 main.isotope			= {};
 main.isotope.config		= {};
-
 main.detail 			= {};
 main.detail.asset 		= {};
-
-main.facebook  			= {};
-main.facebook.share 	= {};
-main.facebook.feed 		= "";
-
-main.twitter 			= {};
-main.twitter.share 		= {};
-main.twitter.settings 	= {};
-main.twitter.postdata 	= {};
-
 main.pages 				= {};
 
 
@@ -95,17 +83,6 @@ main.filters.categories 		= [];
 main.detail.asset.currentId		= "1";
 main.detail.currentFileName 	= "";
 
-main.facebook.settings			= 	{ appid: ( fb_app_id ) };
-main.facebook.postdata 			= 	{
-										method: 'feed',
-										display: 'popup',
-										link: '',
-										picture: '',
-										name: '',
-										caption: '',
-										description: ''
-									};
-
 main.preloader.opts 			=	{
 										lines: 10, // The number of lines to draw
 										length: 1, // The length of each line
@@ -126,28 +103,6 @@ main.preloader.opts 			=	{
 // =======================================================================================================================
 // ================ @Doc Ready
 // =======================================================================================================================
-function isotopeComplete(){
-	console.log("isotopeComplete");
-	$("#content").fadeIn(loadImages);
-}
-function loadImages(){
-
-	console.log("Load Images");
-
-	$(".post").each(function(){
-		var post = $(this);
-
-		var img = new Image();
-		$(img).hide();
-		post.append(img);
-
-		img.onload = function() { $(this).fadeIn(0); console.log("image complete") }
-
-		if(post.attr("data-image") != undefined)
-			img.src = post.attr("data-image");
-	});
-}
-
 jQuery( function($){
 	console.log("-- Doc Ready Start --");
 	console.log(" - window width - : ", $(window).width());	
@@ -162,13 +117,14 @@ jQuery( function($){
 	if(main.settings.iphone)
 		main.isotope.config.masonry.columnWidth = 150;
 
-/*
+
     //Init Jquery Address.
     $.address.init( function( event ){
     	console.log(" - Init jQuery Address - : ");
     }).change(main.address.change);
-*/
-    main.history.init();
+
+   // main.history.init();
+    
     main.content.initPage();
 
     //Add Event Handlers.
@@ -195,6 +151,10 @@ jQuery( function($){
 // =======================================================================================================================
 // ================ @Settings
 // =======================================================================================================================
+function isotopeComplete(){
+	console.log("isotopeComplete");
+	$("#content").fadeIn(main.loadImages);
+}
 
 main.settings.addClassForMobile = function(){
 		if( main.settings.agent.match(/iPhone/i) || main.settings.agent.match(/iPod/i) ){
@@ -233,9 +193,28 @@ main.content.initPage	= function (){
 		}
     });
 
-    //add click handler to subcatgories 
-    $(".page-header ul.dropdown-menu.subcategory-menu li a").click( main.subcategory.click );
+    //add click handler to catgories 
+    $(".page-header ul.dropdown-menu.category-menu li a").click( main.category.click );
 
+};
+main.loadImages = function (){
+
+	console.log("Load Images");
+
+	$(".post").each(function(){
+		var post = $(this);
+
+		var img = new Image();
+		$(img).hide();
+		post.append(img);
+
+		img.onload = function() { $(this).fadeIn(0); console.log("image complete") }
+
+		if(post.attr("data-image") != undefined){
+			//console.debug(post.attr("data-image"));
+			img.src = post.attr("data-image");
+		}
+	});
 };
 main.content.reLayout 	= function ( $complete ){
 	$('#content').isotope( 'reLayout', function(){
@@ -301,15 +280,17 @@ main.history.init = function (){
 
 main.history.change = function (){
 	var State = History.getState();
-	console.log("main.history.change:",State);
+	console.debug("main.history.change:",State);
+	$.get(State.url, main.history.onAJAXComplete);
 
-    //$('#content').load(State.url);
-	//Instead of the line above, you could run the code below if the url returns the whole page instead of just the content (assuming it has a `#content`):
-	$.get(State.url, function(response) { $('#content').html($(response).find('#content').html()); });
-	$("#content").isotope("destroy");
-	main.content.initPage();
 };
 
+main.history.onAJAXComplete = function(response){
+	$('#content').html($(response).find('#content').html());
+	$("#content").isotope("destroy");
+	main.content.initPage();
+
+};
 // =======================================================================================================================
 // ================ @jQuery Address Methods
 // =======================================================================================================================
@@ -459,14 +440,14 @@ main.nav.click	= function(){
 };
 
 main.category.click	= function(){
-	//$a = $(this);
+	$a = $(this);
 	
-	//$.address.value( main.filters.page + "/" + $a.attr("data-id") );
+	$.address.value( main.filters.page + "/" + $a.attr("data-id") );
 
-	//$("#filter-menu").removeClass("open");
-	//$(".#page-header div").removeClass("open");
+	$("#filter-menu").removeClass("open");
+	$(".#page-header div").removeClass("open");
 	
-	// return false;
+	return false;
 };
 
 main.subcategory.click	= function(){

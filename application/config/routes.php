@@ -39,20 +39,15 @@
 */
 
 
-$route['default_controller'] = "home/index/home";
-$route['404_override'] = '';
 
-$route["user_likes_post/(:any)/(:any)"] = "home/user_likes_post/$1/$2";
+$route["music"] 		= 'music/index';
 
-$route["home/twitter_feed"] = "home/twitter_feed";
-$route["home/twitter_share/(:any)/(:any)/(:any)"] = "home/twitter_share/$1/$2/$3";
 
-$route["(:any)"] = "home/index/$1";
+$route["(:any)"] 		= "home/index/$1";
 $route["(:any)/(:any)"] = "home/index/$1/$2";
 
-
-$route["admin/populate"] = "admin/populate";
-
+$route['default_controller'] = "home/index/home";
+$route['404_override'] 	= '';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

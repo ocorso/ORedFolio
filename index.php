@@ -21,7 +21,8 @@
 
 define( "SITE", getenv("SITE") );
 define( "ENVIRONMENT", getenv("ENVIRONMENT") );
-
+if( getenv("SECTION")  ) define("SECTION", getenv("SECTION"));
+else 					define("SECTION", "home");
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING

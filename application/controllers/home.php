@@ -4,8 +4,9 @@ class Home extends CI_Controller {
 
 	public function index($pageId, $categoryId = "_all")
 	{
-		if( getenv("SECTION")  ) print_r(getenv("SECTION"));
-		else 						print_r("poopoo");
+		//Load settings from config file
+		$this->load->config('soundcloud');
+
 		$main_data_s 	= file_get_contents( base_url()."data/".SITE."/main.json");
 		$main_data_json = json_decode( $main_data_s, true );
 		$pages 			= $main_data_json["pages"];
@@ -19,11 +20,14 @@ class Home extends CI_Controller {
 									"fb_feed"=>array(),//$fb_posts_only, 
 									"twitter_feed"=>array(),//$twitter_feed_json, 
 									"page_id"=>$pageId, 
-									"category_id"=>$categoryId 
+									"category_id"=>$categoryId,
+									"soundcloud_id"=>$this->config->item('soundcloud_key')
 								) 
 							);
 	}
-
+	public function songs($band){
+		//$this->load->
+	}
 	public function posts( $givemejson, $pages = "", $categories = ""){
 		$this->load->model("posts_model");
 
@@ -37,11 +41,11 @@ class Home extends CI_Controller {
 	}
 
 	public function twitter_feed(){
-		$token = TWITTER_TOKEN;
-		$token_secret = TWITTER_TOKEN_SECRET;
-		$consumer_key = TWITTER_CONSUMER_KEY;
-		$consumer_secret = TWITTER_CONSUMER_SECRET;
-		$screen_name = TWITTER_SCREEN_NAME;
+		$token 			= TWITTER_TOKEN;
+		$token_secret 	= TWITTER_TOKEN_SECRET;
+		$consumer_key 	= TWITTER_CONSUMER_KEY;
+		$consumer_secret= TWITTER_CONSUMER_SECRET;
+		$screen_name 	= TWITTER_SCREEN_NAME;
 
 		$query = array( // query parameters
 		  'screen_name' => $screen_name,
