@@ -25,9 +25,8 @@ VALUES
 	(202,'about_me','_all','tag1 tag2','ored-lax','about/ored_lax','Lacrosse','','For the last 20 years, I\'ve played mens lacrosse at all levels of competition.','410x200',0,'half fixed light seethrough','',453),
 	(203,'about_me','_all',NULL,'about_who_we_are','about/clickfire_media','Where I Work',NULL,'In a constantly evolving landscape, ClickFire Media puts all the tools along with amazing creative and technology talent under one roof. ','410x200',3,'half fixed light seethrough',NULL,489),
 
-	(401,'blog ','_all blog ',NULL,'peter_blog_vine','blog/peter_blog_vine','Vine v. Instagram Video',NULL,'As we launch our first full Vine campaign for AT&T and BBDO, we really had to confront the incredibly rapid emergence of Instagram video','410x410',NULL,NULL,NULL,505),
-	(402,'blog ','_all blog featured',NULL,'matt_blog_roxy','blog/matt_blog_roxy','Roxy',NULL,'As the Finalists of Roxy\'s Dare Yourself campaign are announced it\'s a good time to look back on how crowd sourced media as a whole','200x200',NULL,NULL,NULL,515),
-	(403,'blog','_all blog interactive',NULL,'sharp_blog','blog/sharp_blog','CFM Creates The Ultimate Tailgate Experience For Sharp',NULL,'To commemorate the start of football season, CFM developed a Facebook app that encouraged Sharp\'s fans to create their ultimate tailgate experience. ','200x200',NULL,NULL,NULL,504),
+	(401,'portfolio home music ','_all music ',NULL,'ored_redmachine','music/i-wont-let-you-down','I Won\'t Let You Down',"Red Machine",'I relatively recent tune I wrote with Red Machine is an acoustically driven folk rock melody.','200x200',0,NULL,NULL,505),
+	(401,'portfolio home music ','_all music ',NULL,'ored_lll','music/jons_song_video',"Jon\'s Song","The Good News","A music video I made using my brother\'s footage from his honeymoon",'200x200',0,NULL,NULL,506),
 
 	(500,'contact','_all','tag1 tag2','ored_contact_map','','Post','Client','','830x410',0,'none','http://bit.ly/14BUm7f',457),
 	(501,'contact','_all','tag1 tag2','ored_contact_map_small','','410 East 13th Street','New York, NY 10003','p:201.602.0069','410x200',0,'half fixed light','http://bit.ly/14BUm7f',458);
