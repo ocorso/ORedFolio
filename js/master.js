@@ -36,7 +36,7 @@ main.isotope.config		= {};
 main.detail 			= {};
 main.detail.asset 		= {};
 main.pages 				= {};
-
+main.soundcloud 		= {};
 
 
 // =======================================================================================================================
@@ -117,7 +117,7 @@ jQuery( function($){
 	if(main.settings.iphone)
 		main.isotope.config.masonry.columnWidth = 150;
 
-
+main.soundcloud.init();
     //Init Jquery Address.
     $.address.init( function( event ){
     	console.log(" - Init jQuery Address - : ");
@@ -819,3 +819,21 @@ main.video.showPoster = function(){
 	v.bigPlayButton.show();
 }
 
+// =================================================
+// ================ @Soundcloud
+// =================================================
+main.soundcloud.init = function (){
+	console.log("sc init");
+	//https://api.sndcdn.com/
+	//tracks/88292723?
+	//client_id=b45b1aa10f1ac2941910a7f0d10f8e28&app_version=db20004d
+	// permalink to a track
+
+var playlist_url = 'https://soundcloud.com/ocorso/sets/o-red-folio';
+
+SC.get('/resolve', { url: playlist_url }, function($playlist) {
+		console.log("sc get complete");
+
+ 		console.debug($playlist);
+});
+}

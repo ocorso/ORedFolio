@@ -220,7 +220,7 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 <script>
   SC.initialize({
     client_id: "<?= $soundcloud_id; ?>",
-    redirect_uri: "http://example.com/callback.html",
+    //redirect_uri: "<?= base_url(); ?>music/callback",
   });
 </script>
 	<!-- End Soundcloud Include --> 

@@ -40,8 +40,9 @@
 
 
 
-$route["music"] 		= 'music/index';
 
+//$route["music"] 		= 'music';
+//$route["music/:any"] 	= 'music/index/$1';
 
 $route["(:any)"] 		= "home/index/$1";
 $route["(:any)/(:any)"] = "home/index/$1/$2";
