@@ -237,7 +237,7 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 		var data_directory 	= "<?= base_url().'data/'.SITE.'/'; ?>";
 		var start_page 		= "<?= $page_id; ?>";
 		var start_category 	= "<?= $category_id; ?>";
-
+		var post_id 		= "<?= $post_id; ?>";
 		var categorieswithsubcategories = [];
 		$(".subcategory-menu").each(function(){
 			$a = $(this);

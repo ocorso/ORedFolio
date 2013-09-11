@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://ored.dev/';
+$config['base_url']	= '';
 $config['media_url'] = 'http://media.click3x.com/';
 
 		define("TWITTER_PAGE_URL", "https://twitter.com/ocorso/");

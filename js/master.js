@@ -54,7 +54,7 @@ main.isotope.config.containerStyle				= { position: 'relative', overflow: 'hidde
 
 main.domain						= document.domain;
 main.base_url					= base_url;
-main.local 						= main.domain == "oredfolio.dev" ? true : false;
+main.local 						= main.domain == "oredfolio.dev" || main.domain =="ored.dev" ? true : false;
 main.address.pathNames 			= [];
 
 main.search.current				= ["animal", "awesome"];
@@ -551,7 +551,8 @@ main.detail.init = function( $post_id ){
 		
 		$("#post-detail-preloader").spin(main.preloader.opts);
 
-		if(element.hasClass("facebook") || element.hasClass("twitter")){
+		if(element.hasClass("soundcloud")){
+			console.log("SOUNDCLOUD");
 			if(!element.hasClass("ready")){
 				element.addClass("ready");
 			}
@@ -569,6 +570,7 @@ main.detail.init = function( $post_id ){
 			},200);
 		} else {
 			main.detail.load( function(){
+				console.log("load detail");
 				if(!element.hasClass("ready")){
 					element.addClass("ready");
 				}
