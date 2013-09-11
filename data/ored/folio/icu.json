@@ -1,0 +1,37 @@
+{"post_detail":
+ {
+  "title":"ICUINPARIS",
+  "client":"",
+  "description":"ICU's mission is to provide independent designers with an interactive online platform to sell their work and grow their brands. Based out of New York, and with a strong connection to Paris, ICU offers a unique mix of European and America style through our product offering.",
+  "assets":[
+   {
+    "id":"1",
+    "media_type":"1",
+    "filename":"ICUinParis",
+    "title":"ICUINPARIS"
+   },
+    {
+    "id":"2",
+    "media_type":"1",
+    "filename":"cg_photo_boss_video",
+    "title":"cg_photo_boss_video"
+   },
+    {
+    "id":"3",
+    "media_type":"1",
+    "filename":"ea_burns",
+    "title":"ea_burns"
+   },
+    {
+    "id":"4",
+    "media_type":"1",
+    "filename":"icuinparis_geisselmann",
+    "title":"icuinparis_geisselmann"
+   }
+  ],
+  "related_posts":[
+  ],
+  "related_links":[
+  ]
+ }
+}
