@@ -89,7 +89,7 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 				<div class="page-header clearfix" data-page="<?= $value["id"]; ?>" style="display:none">
 					<h1><?= $value["heading"]; ?></h1>
 				
-					<div id="portfolio-categories" class="dropdown">
+					<div class="portfolio-categories dropdown">
 						<div>
 							<?php 
 								if(!empty($value["categories"]))
@@ -107,27 +107,6 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 							 		</ul>
 							 	<?php endif ?>
 						</div>
-						<div class="clearfix">
-							<?php 
-								if( isset($hassubcat) && $hassubcat == true) : ?>
-									<span>filtered by</span>
-									<a class="dropdown-toggle" data-toggle="dropdown" href="#">All</a>
-									<?php foreach($categories as $catval): ?>
-										<?php 
-											if(!empty($catval["subcategories"]))
-												$subcategories = $catval["subcategories"];
-											else if( isset($subcategories) ) unset($subcategories);
-										?>
-										<?php if(isset($subcategories)): ?>
-										<ul class="dropdown-menu subcategory-menu" role="menu" data-category="<?= $catval["id"]; ?>">
-											<?php foreach($subcategories as $subcatval): ?>
-												<li><a data-id="<?= $subcatval["id"]; ?>"><?= $subcatval["label"]; ?></a></li>
-											<?php endforeach ?>
-								 		</ul>
-								 		<?php endif ?>
-								 	<?php endforeach ?>
-							 	<?php endif ?>
-						</div>
 					</div>
 				</div>
 			<?php endforeach ?>
@@ -143,18 +122,15 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 			 	$size 			= ($this->agent->is_mobile && $post->size != "830x410") ? "200x200" : $post->size;
 			 	if( !empty($post->media_type) && $post->media_type == "3") 
 			 		$image_ext 	= ".gif";
-			 	$imagepath 		= $this->config->item("media_url")."images/".$size."/".$post->filename.$image_ext;
+			 	$imagepath 		= $post->tags == "soundcloud" ? $post->src : $this->config->item("media_url")."images/".$size."/".$post->filename.$image_ext;
 			 	$classes 		= "post "."p".$size." ".$post->pages." ".$post->categories;
+			 	if($post->tags == "soundcloud") $classes .= " soundcloud";
 			 	$overstatestyle = "over-state";
 			 	$detail_name 	= "";
-			 	$href	 		= "";
+			 	$href	 		= "#";
 
 			 	if(!empty($post->href))
 			 		$href = $post->href;
-			 	else{
-			 		//$href = "http://" . SECTION . ".ored" . DOMAIN . "/".$category_id  . "/" . $post->filename;
-			 		
-			 	}
 
 			 	if(!empty($post->detail_name))
 			 		$detail_name = $post->detail_name;
@@ -162,7 +138,7 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 		 		if(!empty($post->overstatestyle) && !$this->agent->is_mobile)
 					$overstatestyle .= " ".$post->overstatestyle;				
 			 ?>
-				<a <?php if(!empty($href)) echo "href='".$href."'"; ?> data-image="<?= $imagepath; ?>" data-id="<?= $post->id; ?>" data-title="<?= $post->title; ?>" data-client="<?= $post->client; ?>" data-detail-id="<?= $detail_name ?>" class="<?= $classes;?>">
+<a href="<?= $href; ?>" data-image="<?= $imagepath; ?>" data-id="<?= $post->id; ?>" data-title="<?= $post->title; ?>" data-client="<?= $post->client; ?>" data-detail-id="<?= $detail_name ?>" class="<?= $classes;?>">
 					<div id="rollover" class="<?= $overstatestyle; ?>">
 						<h1><?= $post->title; ?></h1>
 						<p><?= $post->description; ?></p>
@@ -258,9 +234,6 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
     <script src="<?= base_url(); ?>js/vendor/spin.min.js"></script>
     <script src="<?= base_url(); ?>js/vendor/jquery.spin.js"></script>
 
-    <!-- History JS-->
-    <script src="<?= base_url(); ?>js/vendor/jquery.history.js"></script>
- 	
  	<!-- Video JS --> 
     <script src="<?= base_url(); ?>js/vendor/video.js"></script>
 	

@@ -55,15 +55,15 @@
           "categories":[
 
             {
-               "id":"red_machine",
+               "id":"redmachine",
                "label":"Red Machine"
             },
             {
-               "id":"ocelot_red",
+               "id":"ocelotred",
                "label":"Ocelot Red"
             },
             {
-               "id":"the_good_news",
+               "id":"thegoodnews",
                "label":"The Good News"
             },
             {

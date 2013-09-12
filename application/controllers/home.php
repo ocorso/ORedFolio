@@ -4,15 +4,14 @@ class Home extends CI_Controller {
 
 	public function index($pageId, $categoryId = "_all", $postId = "-1")
 	{
-		//echo $postId;
+		//Load settings from config file
+		$this->load->config('soundcloud');
 
-		$playlist = file_get_contents("http://api.soundcloud.com/playlists/10225031.json?client_id=e865c40cd8e163918594db283501b306");
-	//	print_r(json_decode($playlist));
 		$main_data_s 	= file_get_contents( base_url()."data/".SITE."/main.json");
 		$main_data_json = json_decode( $main_data_s, true );
 		$pages 			= $main_data_json["pages"];
 		$suggestions 	= $main_data_json["suggestions"];
-		$posts 			= $this->posts(0,$pageId,$categoryId);
+		$posts 			= $pageId != "music" ? $this->posts(0,$pageId,$categoryId) : $this->getSongs();
 
 		$this->load->view(	'home_view', 
 							array( 	"pages"=>$pages, 
@@ -40,10 +39,34 @@ class Home extends CI_Controller {
 		return $result;
 	}
 
-	public function music(){ 
-		echo "music"; 
-		print_r($this);
-	}
+	public function getSongs(){ 
+		$playlist 	= json_decode(file_get_contents($this->config->item('soundcloud_playlist_route')));
+		//print_r($playlist);
+		$songs 		= array();
+		foreach ($playlist->tracks as $s){
+			$song 					= new stdClass();
+			$song->index 			= -1;	
+			$song->id 				= $s->id;
+			$song->media_type 		= 0;
+			$song->size				= "200x200";
+			$song->title			= $s->title;
+			$song->client			= $s->user->username;
+			$song->lyrics			= $s->description;
+			$song->description 		= "Have a listen.";
+			$song->detail_name		= "";
+			$song->filename			= "";
+			$song->tags				= "soundcloud";
+			$song->categories		= "_all " . $s->user->permalink . " " . str_replace('"', "", $s->tag_list);
+			$song->pages			= "music";
+			$song->overstatestyle	= "";
+			$song->href				= "";
+			$song->src				= str_replace("large", "t300x300", $s->artwork_url);
+				
+			$songs[] = $song;
+		}
+//print_r($songs);
+		return $songs;
+	}//end function 
 }
 
 /* End of file home.php */

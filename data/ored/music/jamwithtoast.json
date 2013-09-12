@@ -1,0 +1,29 @@
+{
+   "post_detail":{
+      "detail_name":"music/jamwithtoast",
+      "filename":"ored_jamwithtoast",
+      "related_posts":[],
+      "client":"JWT",
+      "related_links":[
+           {"href":"http://www.adweek.com/advertising-week/jwt-wins-battle-ad-bands-135484", "title":"AdWeek Press Release"}
+      ],
+      "description":"<h2>My Contribution:</h2><p>I got some of my fellow agency colleagues together to compete.</p>",
+      "title":"JWT wins Battle of the Ad Bands",
+      "assets":[
+          {
+            "id":"1",
+            "description":"",
+            "filename":"ored_jamwithtoast",
+            "title":"",
+            "media_type":"1"
+          },
+          {
+            "id":"2",
+            "description":"",
+            "filename":"ored_jamwithtoast2",
+            "title":"",
+            "media_type":"2"
+          }
+      ]
+   }
+}

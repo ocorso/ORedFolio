@@ -108,6 +108,7 @@ jQuery( function($){
 	console.log(" - window width - : ", $(window).width());	
 	console.log(" - domain - : ", main.domain );
 	console.log(" - local - : ", main.local );	
+	console.log("page: ",start_page);
 
   	//Determine OS.
   	main.settings.agent = navigator.userAgent;
@@ -117,24 +118,22 @@ jQuery( function($){
 	if(main.settings.iphone)
 		main.isotope.config.masonry.columnWidth = 150;
 
-main.soundcloud.init();
+	//oc: get tracks if we're on the music page
+	//main.soundcloud.init();
+
     //Init Jquery Address.
     $.address.init( function( event ){
     	console.log(" - Init jQuery Address - : ");
     }).change(main.address.change);
-
-   // main.history.init();
     
-    main.content.initPage();
 
-    //Add Event Handlers.
-    $('#nav_toggler').mousedown(function(){$(this).css('background-position', "0 -88px");}).mouseup(function(){$(this).css('background-position', "");});
-	$('#nav_toggler').click( main.nav.click );
-    $("#post-detail .close-btn").click( main.detail.close );
+   	//Init Isotope.
+    $("#content").isotope(main.isotope.config, isotopeComplete );
 
-    //remove rollover on iPhone.
-    if(main.settings.iphone == true && rollover.hasClass("fixed")) $(".post .over-state").removeClass("fixed");
+    //oc: add event handlers
+    main.addEventHandlers();
 
+    //call resize a tiny bit after page is resized.
     $(window).resize( function(){
 		clearTimeout(main.timers.resize);
 		main.timers.resize = setTimeout( main.onResize, 200 );
@@ -174,29 +173,10 @@ main.settings.addClassForMobile = function(){
 		$("body").addClass("Windows");
 	}
 };
+
 // =======================================================================================================================
 // ================ @Main Methods
 // =======================================================================================================================
-main.content.initPage	= function (){
-	console.log("initPage");
-		//Init Isotope.
-    $("#content").isotope(main.isotope.config, isotopeComplete );
-
-    //add click handlers to posts
-    $(".post:not(.detail)").each(function(){
-    	$p = $(this);
-
-    	if(!$p.attr("href")|| $p.attr("href") == undefined || $p.attr("href") == ""){
-			$p.click( main.post.click );
-		} else {
-			console.log("not adding click");
-		}
-    });
-
-    //add click handler to catgories 
-    $(".page-header ul.dropdown-menu.category-menu li a").click( main.category.click );
-
-};
 main.loadImages = function (){
 
 	console.log("Load Images");
@@ -208,7 +188,7 @@ main.loadImages = function (){
 		$(img).hide();
 		post.append(img);
 
-		img.onload = function() { $(this).fadeIn(0); console.log("image complete") }
+		img.onload = function() { $(this).fadeIn(0); console.log("image complete"); }
 
 		if(post.attr("data-image") != undefined){
 			//console.debug(post.attr("data-image"));
@@ -235,9 +215,8 @@ main.onResize	= function($e){
 
 main.applyFilters = function(){
 	console.log( "-- Applying Filters -- :" + "." + main.filters.page + "." + main.filters.categories.join(".") );
-	
 	$("#content").isotope( { filter: "." + main.filters.page + "." + main.filters.categories.join(".")  }, main.applyFiltersComplete );
-}
+};
 
 main.applyFiltersComplete = function(){
 	console.log("-- Apply Filters Complete --");
@@ -249,64 +228,26 @@ main.applyFiltersComplete = function(){
 	//check for post detail id deep-link
 	if( main.curPathLevels > 2 ){
 		main.post.currentId = main.address.pathNames[2];
-		
 		main.detail.init( parseInt( main.post.currentId , 10 ) );
 	}
-}
-
-// =======================================================================================================================
-// ================ @history
-// =======================================================================================================================
-main.history.init = function (){
-	// Prepare
-    var History = window.History; // Note: We are using a capital H instead of a lower h
-    if ( !History.enabled ) {
-         // History.js is disabled for this browser.
-         // This is because we can optionally choose to support HTML4 browsers or not.
-        return false;
-    }
-
-    // Bind to StateChange Event
-    History.Adapter.bind(window,'statechange',main.history.change); // Note: We are using statechange instead of popstate
-        
-
-    // Capture all the links to push their url to the history stack and trigger the StateChange Event
-    $('a').click(function(evt) {
-        evt.preventDefault();
-        History.pushState(null, $(this).text(), $(this).attr('href'));
-    });
-
 };
 
-main.history.change = function (){
-	var State = History.getState();
-	console.debug("main.history.change:",State);
-	$.get(State.url, main.history.onAJAXComplete);
 
-};
-
-main.history.onAJAXComplete = function(response){
-	$('#content').html($(response).find('#content').html());
-	$("#content").isotope("destroy");
-	main.content.initPage();
-
-};
 // =======================================================================================================================
 // ================ @jQuery Address Methods
 // =======================================================================================================================
 main.address.change	= function (){
 	console.log("-- jQuery Address Change -- : " + $.address.pathNames());
-	console.log("-- categorieswithsubcategories -- : " + categorieswithsubcategories);
 
-	main.address.pathNames 	=  $.address.pathNames();
+	main.address.pathNames 	= $.address.pathNames();
 	main.curPathLevels 		= main.address.pathNames.length;
 	var categoryChanged 	= false;
 	var pageChanged 		= false;
 	var detailChanged 		= false;
 
-	$("#portfolio-categories div:last-child").css("display","none");
-	$(".page-header .subcategory-menu").css("opacity","0").css("z-index","-1");
-	
+	//hide dropdown of current category filter
+	$(".portfolio-categories div:last-child").css("display","none");
+
 	//check page
 	if( main.curPathLevels >= 1){
 		if(main.filters.page != main.address.pathNames[0] ){
@@ -410,23 +351,47 @@ main.address.change	= function (){
 	
 	//show subcategory menu if needed
 	if(main.filters.categories.length > 0){
-		console.log( categorieswithsubcategories.indexOf(main.filters.categories[0]) );
 
-		$("#portfolio-categories div:first-child a.dropdown-toggle").text( main.filters.categories[0].replace("_"," ") );
+		$(".portfolio-categories div:first-child a.dropdown-toggle").text( main.filters.categories[0].replace("_"," ") );
+
+		//show proper category menu
+		$(".portfolio-categories div:last-child").css("display","block");
 
 		if(main.filters.categories.length > 1){
-			$("#portfolio-categories div:last-child a.dropdown-toggle").text( main.filters.categories[1].replace("_"," ") );
+			$(".portfolio-categories div:last-child a.dropdown-toggle").text( main.filters.categories[1].replace("_"," ") );
 		} else {
-			$("#portfolio-categories div:last-child a.dropdown-toggle").text( "all" );
+			$(".portfolio-categories div:last-child a.dropdown-toggle").text( "all" );
 		}
 
-		if(categorieswithsubcategories.indexOf(main.filters.categories[0]) != -1 && main.filters.categories[0] != "all"){
-			$(".subcategory-menu[data-category='" + main.filters.categories[0] + "']").css("opacity","1").css("z-index","1000");
-			$("#portfolio-categories div:last-child").css("display","block");
-		}
 	}
 }
+// =======================================================================================================================
+// ================ @Event Handler INIT
+// =======================================================================================================================
+main.addEventHandlers = function(){
 
+	//add click handlers to posts
+    $(".post:not(.detail)").each(function(){
+    	$p = $(this);
+
+    	if(!$p.attr("href")|| $p.attr("href") == undefined || $p.attr("href") == "" || $p.attr("href") == "#"){
+			$p.click( main.post.click );
+		} else {
+			console.log("not adding click");
+		}
+    });
+
+    //add click handler to catgories 
+    $(".page-header ul.dropdown-menu.category-menu li a").click( main.category.click );
+
+    //Add Event Handlers.
+    $('#nav_toggler').mousedown(function(){$(this).css('background-position', "0 -88px");}).mouseup(function(){$(this).css('background-position', "");});
+	$('#nav_toggler').click( main.nav.click );
+    $("#post-detail .close-btn").click( main.detail.close );
+
+    //remove rollover on iPhone.
+    if(main.settings.iphone == true && rollover.hasClass("fixed")) $(".post .over-state").removeClass("fixed");
+};
 // =======================================================================================================================
 // ================ @Click Event Handlers
 // =======================================================================================================================
@@ -445,30 +410,16 @@ main.category.click	= function(){
 	$.address.value( main.filters.page + "/" + $a.attr("data-id") );
 
 	$("#filter-menu").removeClass("open");
-	$(".#page-header div").removeClass("open");
+	$(".portfolio-categories div").removeClass("open");
 	
 	return false;
 };
 
-main.subcategory.click	= function(){
-	$a = $(this);
-	
-	if(!main.filters.categories || main.filters.categories.length == 0){
-		main.filters.categories = ["all"]
-	}
-
-	$.address.value( main.filters.page + "/" + main.filters.categories[0] + "-" + $a.attr("data-id") );
-	
-	$("#filter-menu").removeClass("open");
-	$(".#page-header div").removeClass("open");
-
-	 return false;
-};
-
-
 main.post.click = function( $e ){
 	$p = $(this);
-	$.address.value( main.filters.page + "/" + main.filters.categories.join("-") + "/" + $p.attr("data-id") );
+	var url = main.filters.page + "/" + main.filters.categories.join("-") + "/" + $p.attr("data-id") ;
+	console.log("post click",url);
+	$.address.value(url );
 	
 	 return false;
 }
@@ -485,7 +436,7 @@ main.detail.asset.click = function($e){
 	$.address.value( main.filters.page + "/" + main.filters.categories.join("-") + "/" + main.post.currentId + "/" + el.attr("data-id") );
 	
 	 return false;
-}
+};
 
 
 // =======================================================================================================================
@@ -510,7 +461,8 @@ main.post.select = function( $data_id ){
 // ================ @Post Detail Methods
 // =======================================================================================================================
 
-main.detail.init = function( $post_id ){	
+main.detail.init = function( $post_id ){
+console.log("main.detail.init:", $post_id);	
 	main.post.select( $post_id );
 	
 	//insert the details div
@@ -532,8 +484,12 @@ main.detail.init = function( $post_id ){
 			element.addClass(cat);
 	}
 		
-	//transition in
-	$("#content").isotope( 'insert', element, function(){
+	//oc: transition in when isotope is done.
+	$("#content").isotope( 'insert', element, main.detail.onIsotopeComplete);
+};
+
+main.detail.onIsotopeComplete = function(){
+		var element = $( "#post-detail" );
 		if(!element.hasClass("start")){
 			element.addClass("start");
 		}
@@ -551,45 +507,34 @@ main.detail.init = function( $post_id ){
 		
 		$("#post-detail-preloader").spin(main.preloader.opts);
 
-		if(element.hasClass("soundcloud")){
-			console.log("SOUNDCLOUD");
-			if(!element.hasClass("ready")){
-				element.addClass("ready");
-			}
-
-			setTimeout(function(){ 
-				main.content.reLayout(function(){
-					if(!element.hasClass("complete")){
-						element.addClass("complete");
-					}
-
-					main.detail.asset.select( parseInt( main.detail.asset.currentId ,10) );
-				});
-
-				main.detail.scrollTop(function(){});
-			},200);
+		if($('.selected').hasClass("soundcloud")){
+			console.log("need SOUNDCLOUD Detail");
+			main.detail.update(main.soundcloud.createDetailObject());
+			setTimeout(main.detail.creationComplete,200);
 		} else {
 			main.detail.load( function(){
-				console.log("load detail");
-				if(!element.hasClass("ready")){
-					element.addClass("ready");
-				}
-
-				setTimeout(function(){ 
-					main.content.reLayout(function(){
-						if(!element.hasClass("complete")){
-							element.addClass("complete");
-						}
-
-						main.detail.asset.select( parseInt( main.detail.asset.currentId ,10) );
-					});
-
-					main.detail.scrollTop(function(){});
-				},300);
+				console.log("detail loaded");
+				setTimeout(main.detail.creationComplete,300);
 			});
 		}
-	});
-}
+	};
+
+	main.detail.creationComplete = function(){
+		var element = $( "#post-detail" );
+		if(!element.hasClass("ready")){
+			element.addClass("ready");
+		}
+
+		main.content.reLayout(function(){
+			if(!element.hasClass("complete")){
+				element.addClass("complete");
+			}
+
+			main.detail.asset.select( parseInt( main.detail.asset.currentId ,10) );
+		});
+
+		main.detail.scrollTop(function(){});		
+};
 
 main.detail.load = function( $complete ){
 	console.log("post id loading : " + main.post.currentId);
@@ -775,6 +720,10 @@ main.detail.asset.select = function( $asset_id ){
 				//gif
 				$("#post_detail_main #detail_image").attr("src", main.routes.postImagesDir + "700x394/" + main.currentAsset.attr("data-filename") + ".gif");
 			break;
+			case "4":
+				//soundcloud
+				$("#post_detail_main #detail_image").before(main.soundcloud.getEmbedHTML(main.currentPost.attr('data-id')));
+				break;
 			default:
 				console.log("-- ERROR - No media type found --");
 		}				
@@ -830,12 +779,31 @@ main.soundcloud.init = function (){
 	//tracks/88292723?
 	//client_id=b45b1aa10f1ac2941910a7f0d10f8e28&app_version=db20004d
 	// permalink to a track
+	//sample iframe src:
+	//https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F109807900&amp;color=ff0000&amp;auto_play=false&amp;show_artwork=true
+	var playlist_url = 'https://soundcloud.com/ocorso/sets/o-red-folio';
 
-var playlist_url = 'https://soundcloud.com/ocorso/sets/o-red-folio';
-
-SC.get('/resolve', { url: playlist_url }, function($playlist) {
+	SC.get('/resolve', { url: playlist_url }, function($playlist) {
 		console.log("sc get complete");
-
  		console.debug($playlist);
-});
-}
+	});
+};
+main.soundcloud.createDetailObject = function(){
+	var d 				= main.currentPost.data();
+	var s 				= {};
+	s.id 				= 1;
+	s.media_type 		= "4";
+	d.assets 			= [s];
+	d.related_posts 	= [];
+	d.related_links 	= [];
+	return d;
+};
+
+main.soundcloud.getEmbedHTML = function($id){
+	var url 	= "https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F109807900&amp;color=ff0000&amp;auto_play=false&amp;show_artwork=true";
+	var iFrame 	= $("<iframe>");
+	iFrame.width("100%");
+	iFrame.height("163");
+	iFrame.attr("src", url);
+	return iFrame;
+};
