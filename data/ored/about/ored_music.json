@@ -1,0 +1,24 @@
+{
+   "post_detail":{
+      "detail_name":"about/ored",
+      "related_posts":[
+
+      ],
+      "client":"For over 22 years",
+      "description":"When the snow melts, its time to bucket my chin strap and play.",
+      "title":"I have played lax",
+      "assets":[
+         {
+            "id":"1",
+            "media_type":"2",
+            "description":"",
+            "title":"",
+            "filename":"owen"
+         }
+      ],
+      "related_links":[
+
+      ],
+      "filename":"ored_music"
+   }
+}
