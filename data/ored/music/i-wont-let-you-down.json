@@ -1,19 +1,19 @@
 {
    "post_detail":{
-      "detail_name":"music/i-wont-let-you-down",
-      "filename":"ored_i-wont-let-you-down",
+      "detail_name":"music/iwontletyoudown",
+      "filename":"ored_iwontletyoudown",
       "related_posts":[],
       "client":"Red Machine",
       "related_links":[
            {"href":"http://myspace.com/theredmachine", "title":"Myspace"}
       ],
-      "description":"<h2>My Contribution:</h2><p>I wrote, produced, performed the song.</p>",
-      "title":"Jon's Song Music Video",
+      "description":"Here is an impromptu performance during 4th of July Weekend up at Cape Code.  After setting up my PA system, keyboard and brand new RoI wrote and performed this song.</p>",
+      "title":"I Won't Let You Down",
       "assets":[
           {
             "id":"1",
             "description":"",
-            "filename":"ored_i-wont-let-you-down",
+            "filename":"ored_iwontletyoudown",
             "title":"",
             "media_type":"1"
           },

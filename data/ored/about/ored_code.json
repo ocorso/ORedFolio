@@ -4,9 +4,9 @@
       "related_posts":[
 
       ],
-      "client":"I love to play rock",
+      "client":"Its Object-Oriented.",
       "description":"I am a self-taught multi-instrumentalist.  I write songs about my journey here on Earth.",
-      "title":"I am O Red",
+      "title":"I write code.",
       "assets":[
          {
             "id":"1",
@@ -17,7 +17,7 @@
          }
       ],
       "related_links":[
-
+         {"href":"http://archives.ored.net/nickandcampbell", "title":"Website"}
       ],
       "filename":"ored_music"
    }
