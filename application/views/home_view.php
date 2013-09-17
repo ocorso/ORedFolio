@@ -138,7 +138,7 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 		 		if(!empty($post->overstatestyle) && !$this->agent->is_mobile)
 					$overstatestyle .= " ".$post->overstatestyle;				
 			 ?>
-<a href="<?= $href; ?>" data-image="<?= $imagepath; ?>" data-id="<?= $post->id; ?>" data-title="<?= $post->title; ?>" data-client="<?= $post->client; ?>" data-detail-id="<?= $detail_name ?>" class="<?= $classes;?>">
+<a href="<?= $href; ?>" data-type="<?= $post->media_type; ?>" data-image="<?= $imagepath; ?>" data-id="<?= $post->id; ?>" data-title="<?= $post->title; ?>" data-client="<?= $post->client; ?>" data-detail-id="<?= $detail_name ?>" data-index="<?= $post->index; ?>" class="<?= $classes;?>">
 					<div id="rollover" class="<?= $overstatestyle; ?>">
 						<h1><?= $post->title; ?></h1>
 						<p><?= $post->description; ?></p>
@@ -160,6 +160,7 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
                     <h2></h2>
 	            </div>
 	            <div id="post_detail_main">
+	           
                     <img id="detail_image" src="" width="700" width="394">
                     <video id="video_player" class="video-js vjs-default-skin" controls preload="auto" width="700" height="394" poster="" data-setup="{}">
 						<source src="" type='video/mp4' />

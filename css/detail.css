@@ -197,6 +197,9 @@
 #post_detail_main.media-type-3 #detail_image {
 	visibility: visible;
 }
+#post_detail_main.media-type-4 #detail_image, #post_detail_main.media-type-4 #video_player{
+	display: none;
+}
 
 #post-detail h1, .over-state h1{
 	margin:0;

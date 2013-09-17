@@ -43,11 +43,12 @@ class Home extends CI_Controller {
 		$playlist 	= json_decode(file_get_contents($this->config->item('soundcloud_playlist_route')));
 		//print_r($playlist);
 		$songs 		= array();
+		$i = 0;
 		foreach ($playlist->tracks as $s){
 			$song 					= new stdClass();
-			$song->index 			= -1;	
+			$song->index 			= $i;	
 			$song->id 				= $s->id;
-			$song->media_type 		= 0;
+			$song->media_type 		= 4;
 			$song->size				= "200x200";
 			$song->title			= $s->title;
 			$song->client			= $s->user->username;
@@ -63,6 +64,7 @@ class Home extends CI_Controller {
 			$song->src				= str_replace("large", "t300x300", $s->artwork_url);
 				
 			$songs[] = $song;
+			$i++;
 		}
 //print_r($songs);
 		return $songs;

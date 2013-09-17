@@ -100,6 +100,9 @@ main.preloader.opts 			=	{
 										zIndex: 2e9, // The z-index (defaults to 2000000000)
 									};
 
+main.soundcloud.isInit 				= false;
+main.soundcloud.waitToUpdateDetail 	= false;
+
 // =======================================================================================================================
 // ================ @Doc Ready
 // =======================================================================================================================
@@ -118,26 +121,11 @@ jQuery( function($){
 	if(main.settings.iphone)
 		main.isotope.config.masonry.columnWidth = 150;
 
-	//oc: get tracks if we're on the music page
-	//main.soundcloud.init();
+	//oc: get tracks if we're on the music page and wait to init address or just init main
+	if(start_page == "music")	
+			main.soundcloud.init(main.init);
 
-    //Init Jquery Address.
-    $.address.init( function( event ){
-    	console.log(" - Init jQuery Address - : ");
-    }).change(main.address.change);
-    
-
-   	//Init Isotope.
-    $("#content").isotope(main.isotope.config, isotopeComplete );
-
-    //oc: add event handlers
-    main.addEventHandlers();
-
-    //call resize a tiny bit after page is resized.
-    $(window).resize( function(){
-		clearTimeout(main.timers.resize);
-		main.timers.resize = setTimeout( main.onResize, 200 );
-	});
+	main.init();
 
 //    console.log(" - agent - : ", main.settings.agent);
 //	console.log(" - iphone - : ", main.settings.iphone);
@@ -177,6 +165,24 @@ main.settings.addClassForMobile = function(){
 // =======================================================================================================================
 // ================ @Main Methods
 // =======================================================================================================================
+main.init 		= function (){
+	console.log("main.init")
+	//init Address
+	main.address.init();
+
+	//Init Isotope.
+    $("#content").isotope(main.isotope.config, isotopeComplete );
+
+    //oc: add event handlers
+    main.addEventHandlers();
+
+    //call resize a tiny bit after page is resized.
+    $(window).resize( function(){
+		clearTimeout(main.timers.resize);
+		main.timers.resize = setTimeout( main.onResize, 200 );
+	});
+};
+
 main.loadImages = function (){
 
 	console.log("Load Images");
@@ -236,6 +242,12 @@ main.applyFiltersComplete = function(){
 // =======================================================================================================================
 // ================ @jQuery Address Methods
 // =======================================================================================================================
+    //Init Jquery Address.
+main.address.init 	= function(){
+	console.log("main.address.init")
+    $.address.init( function( event ){ console.log(" - Init jQuery Address - : "); }).change(main.address.change);
+};
+
 main.address.change	= function (){
 	console.log("-- jQuery Address Change -- : " + $.address.pathNames());
 
@@ -369,7 +381,7 @@ main.address.change	= function (){
 // ================ @Event Handler INIT
 // =======================================================================================================================
 main.addEventHandlers = function(){
-
+	console.log("main.addEventHandlers");
 	//add click handlers to posts
     $(".post:not(.detail)").each(function(){
     	$p = $(this);
@@ -487,7 +499,7 @@ console.log("main.detail.init:", $post_id);
 	//oc: transition in when isotope is done.
 	$("#content").isotope( 'insert', element, main.detail.onIsotopeComplete);
 };
-
+//oc: transition in when isotope is done.
 main.detail.onIsotopeComplete = function(){
 		var element = $( "#post-detail" );
 		if(!element.hasClass("start")){
@@ -508,9 +520,14 @@ main.detail.onIsotopeComplete = function(){
 		$("#post-detail-preloader").spin(main.preloader.opts);
 
 		if($('.selected').hasClass("soundcloud")){
-			console.log("need SOUNDCLOUD Detail");
-			main.detail.update(main.soundcloud.createDetailObject());
-			setTimeout(main.detail.creationComplete,200);
+			console.log("need SOUNDCLOUD Detail", main.soundcloud.isInit);
+			if(main.soundcloud.isInit){
+
+				main.soundcloud.updateDetail();
+			
+			}else{
+				main.soundcloud.waitToUpdateDetail = true;
+			}
 		} else {
 			main.detail.load( function(){
 				console.log("detail loaded");
@@ -520,6 +537,8 @@ main.detail.onIsotopeComplete = function(){
 	};
 
 	main.detail.creationComplete = function(){
+		console.log("main.detail.creationComplete");
+
 		var element = $( "#post-detail" );
 		if(!element.hasClass("ready")){
 			element.addClass("ready");
@@ -680,7 +699,7 @@ main.detail.buildRelatedLinks	= function($i, $a){
 // =================================================
 
 main.detail.asset.select = function( $asset_id ){
-	console.log("detail.asset.select");
+	console.log("detail.asset.select: ", $asset_id);
 
 	main.detail.asset.deselectAll();
 	
@@ -728,7 +747,7 @@ main.detail.asset.select = function( $asset_id ){
 				console.log("-- ERROR - No media type found --");
 		}				
 		var typeClass = "media-type-" + main.currentAsset.attr("data-type");
-	}
+	}else{ console.error("ORED: CURRENT ASSET UNDEFINED");}
 
 	
 
@@ -773,37 +792,55 @@ main.video.showPoster = function(){
 // =================================================
 // ================ @Soundcloud
 // =================================================
-main.soundcloud.init = function (){
+main.soundcloud.init = function ($complete){
 	console.log("sc init");
-	//https://api.sndcdn.com/
-	//tracks/88292723?
-	//client_id=b45b1aa10f1ac2941910a7f0d10f8e28&app_version=db20004d
-	// permalink to a track
-	//sample iframe src:
-	//https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F109807900&amp;color=ff0000&amp;auto_play=false&amp;show_artwork=true
-	var playlist_url = 'https://soundcloud.com/ocorso/sets/o-red-folio';
+	var playlist_url = 'https://soundcloud.com/ocorso/sets/o-red-folio';//
 
-	SC.get('/resolve', { url: playlist_url }, function($playlist) {
+	//SC.get('/resolve', { url: playlist_url }, function($playlist) {
+	SC.get('/playlists/10225031', { format: "json" }, function($playlist) {
 		console.log("sc get complete");
  		console.debug($playlist);
+ 		main.soundcloud.playlist 	= $playlist.tracks;
+ 		main.soundcloud.isInit		= true;
+ 		if (main.soundcloud.waitToUpdateDetail) main.soundcloud.updateDetail();
+
 	});
+};
+main.soundcloud.updateDetail = function(){
+	console.log("main.soundcloud.updateDetail");
+	main.detail.update(main.soundcloud.createDetailObject());
+	setTimeout(main.detail.creationComplete,200);
 };
 main.soundcloud.createDetailObject = function(){
 	var d 				= main.currentPost.data();
 	var s 				= {};
 	s.id 				= 1;
 	s.media_type 		= "4";
+	s.filename 			= "sc";
 	d.assets 			= [s];
 	d.related_posts 	= [];
 	d.related_links 	= [];
+	d.description 		= main.soundcloud.getLyricsByIndex(d.index);
+	//d.filename 			= "sc";
+	console.debug(d);
 	return d;
 };
 
 main.soundcloud.getEmbedHTML = function($id){
-	var url 	= "https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F109807900&amp;color=ff0000&amp;auto_play=false&amp;show_artwork=true";
+	console.log("main.soundcloud.getEmbedHTML: ", $id);
+	var url 	= "https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F" + $id + "&amp;color=ff0000&amp;auto_play=false&amp;show_artwork=true";
 	var iFrame 	= $("<iframe>");
 	iFrame.width("100%");
 	iFrame.height("163");
 	iFrame.attr("src", url);
 	return iFrame;
+};
+
+main.soundcloud.getLyricsByIndex = function($i){
+
+	var songData = main.soundcloud.playlist[$i];
+	console.log()
+	console.debug(songData.description);
+	return songData.description;
+
 };
