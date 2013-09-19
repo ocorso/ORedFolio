@@ -157,6 +157,9 @@
 	}
 	#post_detail_main{
 		width:100%;
+		padding-left: 30px;
+		padding-right: 30px;
+
 	}
 	#video_player{
 		width:640px !important;

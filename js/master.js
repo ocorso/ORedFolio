@@ -212,6 +212,7 @@ main.content.reLayout 	= function ( $complete ){
 };
 
 main.onResize	= function($e){
+	console.log("window width: "+$(window).width());
 	main.content.reLayout( function(){
 		main.detail.scrollTop( function( $didscroll ){
 			console.log("-- ScrollTop Complete -- : ", $didscroll);
@@ -741,7 +742,12 @@ main.detail.asset.select = function( $asset_id ){
 			break;
 			case "4":
 				//soundcloud
-				$("#post_detail_main #detail_image").before(main.soundcloud.getEmbedHTML(main.currentPost.attr('data-id')));
+				var o = $("#post_detail_main iframe").replaceWith(main.soundcloud.getEmbedHTML(main.currentPost.attr('data-id')));
+				if (o.length == 0){
+
+					console.log("iframe not replaced. appending new");
+					$("#post_detail_main").prepend(main.soundcloud.getEmbedHTML(main.currentPost.attr('data-id')));
+				} 
 				break;
 			default:
 				console.log("-- ERROR - No media type found --");
@@ -802,8 +808,10 @@ main.soundcloud.init = function ($complete){
  		console.debug($playlist);
  		main.soundcloud.playlist 	= $playlist.tracks;
  		main.soundcloud.isInit		= true;
- 		if (main.soundcloud.waitToUpdateDetail) main.soundcloud.updateDetail();
-
+ 		if (main.soundcloud.waitToUpdateDetail) {
+ 			main.soundcloud.waitToUpdateDetail = false;
+ 			main.soundcloud.updateDetail();
+ 		}//endif
 	});
 };
 main.soundcloud.updateDetail = function(){
@@ -816,7 +824,7 @@ main.soundcloud.createDetailObject = function(){
 	var s 				= {};
 	s.id 				= 1;
 	s.media_type 		= "4";
-	s.filename 			= "sc";
+	s.filename 			= "ored_sc";
 	d.assets 			= [s];
 	d.related_posts 	= [];
 	d.related_links 	= [];
@@ -838,9 +846,12 @@ main.soundcloud.getEmbedHTML = function($id){
 
 main.soundcloud.getLyricsByIndex = function($i){
 
-	var songData = main.soundcloud.playlist[$i];
-	console.log()
-	console.debug(songData.description);
-	return songData.description;
+	var songData 	= main.soundcloud.playlist[$i];
+	//var lyrics 		= songData.description.replace("\n", "<br>");
+	//lyrics 			= lyrics.replace("\r", "<br>");
+	var lyrics 		= songData.description.replace(/\r?\n/g, '<br />');
+
+	console.debug(lyrics);
+	return lyrics;
 
 };
