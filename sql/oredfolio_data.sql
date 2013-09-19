@@ -19,7 +19,9 @@ VALUES
 	(25,'portfolio home','_all games development','dev','ored_parksunleashed','folio/parksunleashed','ZYRTEC Parks Unleashed','JWT','I led a team of flash developers in the creation of a series of mini games.','200x200',0,'','',275),
 	(26,"portfolio home","_all development design user_experience","tag1 tag2",'ICUinParis',  "folio/icu","ICUINPARIS","ICUinParis","ICU's mission is to provide independent designers with an interactive online platform to sell their work and grow their brands.","410x410",0,"half","",108),
 	(27,"portfolio home","_all development","tag1 tag2",'ored_smirnoff',  "folio/smirnoff","Smirnoff Nightlife Exchange Project","JWT","We created a large projection 3D installion piece as part of the campaign to be shown at the parties.","200x200",0,"half","",109),
-
+	
+	(514,'_all home','_all','tag1 tag2','7_Code','folio/7_Code','CODE.ORG','','Click 3X partnered with director, Lesley Chilcott, on Code Stars - a short film promoting Code.org','200x200',0,'half','',471),
+	
 	(100,'about_me','_all interactive','','owen','about/owen_corso','My name is Owen Corso','Lead Technologist','<p>A veteran of the agency world, Owen joins the Click family to help strategically position the technology at the forefront finding innovative solutions to the diverse challenges of our clients','410x200',0,'half fixed light seethrough','',401),
 	(200,'about_me','_all','tag1','ored-music','about/ored_music','I am O Red',NULL,'I like to rock.','410x200',0,'half fixed light seethrough',NULL,523),
 	(201,'about_me','_all','tag1 tag2','ored-working','about/ored_working','I Write Code','','I am driven towards the intersection of technology and marketing.','410x200',0,'half fixed light seethrough','',454),
