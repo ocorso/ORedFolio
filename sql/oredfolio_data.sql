@@ -33,4 +33,5 @@ VALUES
 	(403,'portfolio home music ','_all music ',NULL,'ored_jamwithtoast2','music/jamwithtoast',"Battle of the Ad Bands","JWT","During Agency Week, I got some colleages together and won Battle of the Ad Bands",'200x200',0,NULL,NULL,507),
 
 	(500,'contact','_all','tag1 tag2','ored_contact_map','','Post','Client','','830x410',0,'none','http://bit.ly/14BUm7f',457),
-	(501,'contact','_all','tag1 tag2','ored_contact_map_small','','410 East 13th Street','New York, NY 10003','p:201.602.0069','410x200',0,'half fixed light','http://bit.ly/14BUm7f',458);
+	(502,'contact','_all','tag1 tag2','ored_mail','','','Feel free to email me','Anytime','410x200',0,'none','mailto:owen@ored.net',459),
+	(503,'contact','_all','tag1 tag2','ored_contact_map_small','','410 East 13th Street','New York, NY 10003','p:201.602.0069','410x200',0,'half fixed light','http://bit.ly/14BUm7f',458);
