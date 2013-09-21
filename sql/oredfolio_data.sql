@@ -22,16 +22,16 @@ VALUES
 	
 	(514,'_all home','_all','tag1 tag2','7_Code','folio/7_Code','CODE.ORG','','Click 3X partnered with director, Lesley Chilcott, on Code Stars - a short film promoting Code.org','200x200',0,'half','',471),
 	
-	(100,'about_me','_all interactive','','owen','about/owen_corso','My name is Owen Corso','Lead Technologist','<p>A veteran of the agency world, Owen joins the Click family to help strategically position the technology at the forefront finding innovative solutions to the diverse challenges of our clients','410x200',0,'half fixed light seethrough','',401),
-	(200,'about_me','_all','tag1','ored-music','about/ored_music','I am O Red',NULL,'I like to rock.','410x200',0,'half fixed light seethrough',NULL,523),
+	(100,'about_me','_all interactive','','owen','about/owen_corso','I Am Owen Corso','Lead Technologist','<p>A veteran of the agency world, Owen joins the Click family to help strategically position the technology at the forefront finding innovative solutions to the diverse challenges of our clients','410x200',0,'half fixed light seethrough','',401),
+	(200,'about_me','_all','tag1','ored-music','about/ored_music','I Like to Rock',NULL,'I like to rock.','410x200',0,'half fixed light seethrough',NULL,523),
 	(201,'about_me','_all','tag1 tag2','ored-working','about/ored_working','I Write Code','','I am driven towards the intersection of technology and marketing.','410x200',0,'half fixed light seethrough','',454),
 	(202,'about_me','_all','tag1 tag2','ored-lax','about/ored_lax','I Play Lacrosse','','For the last 20 years, I\'ve played mens lacrosse at all levels of competition.','410x200',0,'half fixed light seethrough','',453),
-	(203,'about_me','_all',NULL,'about_who_we_are','about/clickfire_media','Where I Work',NULL,'In a constantly evolving landscape, ClickFire Media puts all the tools along with amazing creative and technology talent under one roof. ','410x200',3,'half fixed light seethrough',NULL,489),
+	(203,'about_me','_all',NULL,'about_who_we_are','about/clickfire_media','I Work at Clickfire Media',NULL,'In a constantly evolving landscape, ClickFire Media puts all the tools along with amazing creative and technology talent under one roof. ','410x200',3,'half fixed light seethrough',NULL,489),
 
 	(401,'portfolio home music ','_all music ',NULL,'ored_redmachine','music/i-wont-let-you-down','I Won\'t Let You Down',"Red Machine",'I relatively recent tune I wrote with Red Machine is an acoustically driven folk rock melody.','200x200',0,NULL,NULL,505),
 	(402,'portfolio home music ','_all music ',NULL,'ored_lll','music/jons_song_video',"Jon\'s Song","The Good News","A music video I made using my brother\'s footage from his honeymoon",'200x200',0,NULL,NULL,506),
 	(403,'portfolio home music ','_all music ',NULL,'ored_jamwithtoast2','music/jamwithtoast',"Battle of the Ad Bands","JWT","During Agency Week, I got some colleages together and won Battle of the Ad Bands",'200x200',0,NULL,NULL,507),
 
 	(500,'contact','_all','tag1 tag2','ored_contact_map','','Post','Client','','830x410',0,'none','http://bit.ly/14BUm7f',457),
-	(502,'contact','_all','tag1 tag2','ored_mail','','','Feel free to email me','Anytime','410x200',0,'none','mailto:owen@ored.net',459),
+	(502,'contact','_all','tag1 tag2','ored_mail','','Feel free to email me','Anytime','','410x200',0,'half fixed light','mailto:owen@ored.net',459),
 	(503,'contact','_all','tag1 tag2','ored_contact_map_small','','410 East 13th Street','New York, NY 10003','p:201.602.0069','410x200',0,'half fixed light','http://bit.ly/14BUm7f',458);
