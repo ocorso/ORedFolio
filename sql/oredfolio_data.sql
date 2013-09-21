@@ -22,7 +22,7 @@ VALUES
 
 	(100,'about_me','_all interactive','','owen','about/owen_corso','My name is Owen Corso','Lead Technologist','<p>A veteran of the agency world, Owen joins the Click family to help strategically position the technology at the forefront finding innovative solutions to the diverse challenges of our clients','410x200',0,'half fixed light seethrough','',401),
 	(200,'about_me','_all','tag1','ored-music','about/ored_music','I am O Red',NULL,'I like to rock.','410x200',0,'half fixed light seethrough',NULL,523),
-	(201,'about_me','_all','tag1 tag2','ored-working','about/ored_working','I Write Code','','I am driven towards the intersection of technology and marketing.','410x200',0,'half fixed light seethrough','',454),
+	(201,'about_me','_all','tag1 tag2','ored-working','about/ored_code','I Write Code','','I am work at the intersection of technology and marketing.','410x200',0,'half fixed light seethrough','',454),
 	(202,'about_me','_all','tag1 tag2','ored-lax','about/ored_lax','I Play Lacrosse','','For the last 20 years, I\'ve played mens lacrosse at all levels of competition.','410x200',0,'half fixed light seethrough','',453),
 	(203,'about_me','_all',NULL,'about_who_we_are','about/clickfire_media','Where I Work',NULL,'In a constantly evolving landscape, ClickFire Media puts all the tools along with amazing creative and technology talent under one roof. ','410x200',3,'half fixed light seethrough',NULL,489),
 
