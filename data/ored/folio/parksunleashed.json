@@ -1,15 +1,15 @@
 {
    "post_detail":{
+      "title":"ZYRTEC Parks Unleashed",
+      "client":"JWT",
       "detail_name":"portfolio/parksunleashed",
       "filename":"ored_parksunleashed",
+      "description":"<h2>My Contribution:</h2><p>As lead flash developer, I managed a team of developers in the creation of 10 interactive games that were loaded into the greater Parks Unleashed environment.  In addition, I designed an elaborate encryption system which prevented users from cheating to win valuable prizes associated with the campaign.</p><h2>Execution:</h2><p>Parks Unleashed is a modern take on a Choose Your Own Adventure - an interactive game brought to life on a Youtube Brand Channel.</p><p>The Game: A gang of talking dogs stole Samsung Galaxy Tabs and buried them in the park. You want one? Come and get it. As players search the virtual park, a cast of oddball characters offer clues. Once players find where the Galaxy Tabs are hidden, they compete in minigames to win one.</p><p>Mashable named it one of the Top 10 ads to harness the magic of online and wrote a nice case study of its viral success, which you can read here.</p><p>Queen Latifah was the ringleader. She and her canine sidekick were featured in several :15s commericals promoting the game.</p>",
       "related_posts":[],
-      "client":"JWT",
       "related_links":[
            {"href":"https://github.com/ocorso/parksunleashed", "title":"Code on Github"},
            {"href":"http://timnolan.wordpress.com/2011/09/11/work-parks-unleashed/", "title":"Press Release"}
       ],
-      "description":"<h2>My Contribution:</h2><p>As lead flash developer, I managed a team of developers in the creation of 10 interactive games that were loaded into the greater Parks Unleashed environment.  In addition, I designed an elaborate encryption system which prevented users from cheating to win valuable prizes associated with the campaign.</p><h2>Execution:</h2><p>Parks Unleashed is a modern take on a Choose Your Own Adventure - an interactive game brought to life on a Youtube Brand Channel.</p><p>The Game: A gang of talking dogs stole Samsung Galaxy Tabs and buried them in the park. You want one? Come and get it. As players search the virtual park, a cast of oddball characters offer clues. Once players find where the Galaxy Tabs are hidden, they compete in minigames to win one.</p><p>Mashable named it one of the Top 10 ads to harness the magic of online and wrote a nice case study of its viral success, which you can read here.</p><p>Queen Latifah was the ringleader. She and her canine sidekick were featured in several :15s commericals promoting the game.</p>",
-      "title":"ZYRTEC Parks Unleashed",
       "assets":[
           {
             "id":"1",
