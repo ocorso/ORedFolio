@@ -1,15 +1,17 @@
 {
    "post_detail":{
-      "detail_name":"portfolio/nickandcampbell",
-      "filename":"ored_nickandcampbell",
-      "related_posts":[],
+      "title":"Nick + Campbell",
       "client":"Nicholas Lemons",
+      "description":"<h2>Execution:</h2><p>This was a freelance project I took on because it offered the opportunity to combine my skills as a creative technologist with those required to run a business.  A fashion designer came to me requesting an ecommerce site but lacked a process in which to accept orders, administer payments, ship packages, etc.</p><p>Acting as a technology consultant, I created a storefront for his brand, partnered with a merchant account provider and streamlined operations.",
+      "filename":"ored_nickandcampbell",
+      "detail_name":"portfolio/nickandcampbell",
+      "related_posts":[],
       "related_links":[
            {"href":"https://github.com/ocorso/nickandcampbell_bin", "title":"Code on Github"},
+           {"href":"http://archives.ored.net/nickandcampbell/ux/nc_wires.pdf", "title":"Wireframes"},
+           {"href":"http://archives.ored.net/nickandcampbell/db/nc_db_schema.pdf", "title":"Database Schema"},
            {"href":"http://archives.ored.net/nickandcampbell", "title":"Website"}
       ],
-      "description":"<h2>Execution:</h2><p>This was a freelance project I took on because it offered the opportunity to combine my skills as a creative technologist with those required to run a business.  A fashion designer came to me requesting an ecommerce site but lacked a process in which to accept orders, administer payments, ship packages, etc.</p><p>Acting as a technology consultant, I created a storefront for his brand, partner with a merchant account provider and streamlined operations.",
-      "title":"Nick + Campbell",
       "assets":[
           {
             "id":"1",
@@ -22,6 +24,132 @@
             "id":"2",
             "description":"",
             "filename":"ored_nickandcampbell2",
+            "title":"",
+            "media_type":"2"
+          },
+          {
+            "id":"3",
+            "description":"",
+            "filename":"ored_nickandcampbell03",
+            "title":"",
+            "media_type":"2"
+          },
+          {
+            "id":"4",
+            "description":"",
+            "filename":"ored_nickandcampbell04",
+            "title":"",
+            "media_type":"2"
+          },
+          {
+            "id":"5",
+            "description":"",
+            "filename":"ored_nickandcampbell05",
+            "title":"",
+            "media_type":"2"
+          },
+          {
+            "id":"6",
+            "description":"",
+            "filename":"ored_nickandcampbell06",
+            "title":"",
+            "media_type":"2"
+          },
+          {
+            "id":"7",
+            "description":"",
+            "filename":"ored_nickandcampbell07",
+            "title":"",
+            "media_type":"2"
+          },
+          {
+            "id":"8",
+            "description":"",
+            "filename":"ored_nickandcampbell08",
+            "title":"",
+            "media_type":"2"
+          },
+          {
+            "id":"9",
+            "description":"",
+            "filename":"ored_nickandcampbell09",
+            "title":"",
+            "media_type":"2"
+          },
+          {
+            "id":"10",
+            "description":"",
+            "filename":"ored_nickandcampbell10",
+            "title":"",
+            "media_type":"2"
+          },
+          {
+            "id":"11",
+            "description":"",
+            "filename":"ored_nickandcampbell11",
+            "title":"",
+            "media_type":"2"
+          },
+          {
+            "id":"12",
+            "description":"",
+            "filename":"ored_nickandcampbell12",
+            "title":"",
+            "media_type":"2"
+          },
+          {
+            "id":"13",
+            "description":"",
+            "filename":"ored_nickandcampbell13",
+            "title":"",
+            "media_type":"2"
+          },
+          {
+            "id":"14",
+            "description":"",
+            "filename":"ored_nickandcampbell14",
+            "title":"",
+            "media_type":"2"
+          },
+          {
+            "id":"15",
+            "description":"",
+            "filename":"ored_nickandcampbell15",
+            "title":"",
+            "media_type":"2"
+          },
+          {
+            "id":"16",
+            "description":"",
+            "filename":"ored_nickandcampbell16",
+            "title":"",
+            "media_type":"2"
+          },
+          {
+            "id":"17",
+            "description":"",
+            "filename":"ored_nickandcampbell17",
+            "title":"",
+            "media_type":"2"
+          },
+          {
+            "id":"18",
+            "description":"",
+            "filename":"ored_nickandcampbell18",
+            "title":"",
+            "media_type":"2"
+          },
+          {
+            "id":"19",
+            "description":"",
+            "filename":"ored_nickandcampbell19",
+            "title":"",
+            "media_type":"2"
+          },
+          {
+            "id":"20",
+            "description":"",
+            "filename":"ored_nickandcampbell20",
             "title":"",
             "media_type":"2"
           }

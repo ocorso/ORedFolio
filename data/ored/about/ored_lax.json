@@ -4,20 +4,35 @@
       "related_posts":[
 
       ],
+      "title":"I Play Lacrosse",
       "client":"For over 22 years",
-      "description":"When the snow melts, its time to bucket my chin strap and play.",
-      "title":"I have played lax",
+      "description":"When the snow melts, its time to bucket my chin strap and play.  I sustain high-level, full-contact, competitive play in various men's lacrosse leagues throughout the year.  Previous teams include the Philadelphia Barrage (Professional, Major League Lacrosse), Tri State (Semi-Pro American Lacrosse League), Salt Shakerz (Club traveling team), Hoboken Lacrosse (Summer league).  I participate in youth clinics through the organization, travel to cities around the country to compete in tournaments (e.g. Miami, Las Vegas, Vail, Lake Placid, Jersey Shore, New Orleans).  In college, I was a 4 year starter at the NCAA Division I level.  Our team ranked consistently within top 15 nationally in USILA Polls.  I led team in ground-balls and takeaways for 3 years; '03 North/South All-Star game Captain; Participated in team sanctioned philanthropic activities and community service; 2 Year All-Conference Player; Named to the 2003 Scholar All American Team; Awarded athletic and merit-based scholarship.",
       "assets":[
          {
             "id":"1",
             "media_type":"2",
             "description":"",
             "title":"",
-            "filename":"owen"
+            "filename":"ored_lax"
+         },
+ {
+            "id":"2",
+            "media_type":"2",
+            "description":"",
+            "title":"",
+            "filename":"ored_lax1"
+         },
+ {
+            "id":"3",
+            "media_type":"2",
+            "description":"",
+            "title":"",
+            "filename":"ored_lax2"
          }
       ],
       "related_links":[
-
+{"href":"http://www.villanova.com/sports/m-lacros/mtt/owen_corso_35186.html", "title":"Villanova Player Bio"},
+{"href":"http://www.e-lacrosse.com/2004/pattersonpark/1.htm", "title":"View Clips"}
       ],
       "filename":"lax"
    }

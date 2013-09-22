@@ -1,0 +1,30 @@
+{
+   "post_detail":{
+      "title":"#BetaNYC",
+      "client":"a Code for America Brigade",
+      "detail_name":"portfolio/codefornyc",
+      "filename":"ored_codefornyc",
+      "related_posts":[],
+      "related_links":[
+         {"href":"http://codefornyc.org", "title":"Website"},
+         {"href":"https://github.com/ocorso/CodeforNYC_bin", "title":"Code on Github"}
+      ],
+      "description":"<h2>My Contribution:</h2>In an effort to help organize civic-minded technologists in the NYC-metro area around Brigade activities and campaigns, I registered the domain codefornyc.org and launched a website that primarily directed users to places where they can learn about movement going on in NYC regarding open data, collaborating on civic apps and to engage with the NYC tech community. <h2>Code for America:</h2>Code for America envisions a government that works by the people, for the people, in the 21st century.  Code for America believes that in order to improve government, we need to improve citizenship. We help cities create 21st century interfaces to government that are simple, beautiful and easy to use. By deploying technologies that make it easy for you to participate and engage in improving your city, we are building trust and changing the conversation between citizens and government.",
+      "assets":[
+         {
+            "id":"1",
+            "description":"",
+            "filename":"ored_codefornyc",
+            "title":"",
+            "media_type":"2"
+         },
+          {
+            "id":"2",
+            "description":"",
+            "filename":"ored_codefornyc1",
+            "title":"",
+            "media_type":"2"
+         }
+      ]
+   }
+}

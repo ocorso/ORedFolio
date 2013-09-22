@@ -1,5 +1,7 @@
 {
    "post_detail":{
+      "title":"The Ultimate Tailgate Experience",
+      "client":"Sharp AQUOS",
       "related_posts":[
 
       ],
@@ -13,12 +15,13 @@
          }
       ],
       "related_links":[
+                 {"href":"http://www.facebook.com/SharpAQUOS/app_508035539210735", "title":"View the App"},
+                 {"href":"https://github.com/ocorso/Sharp_Tailgate_www", "title":"PHP Code on Github"},
+                 {"href":"https://github.com/ocorso/Sharp_Tailgate_as3", "title":"AS3 Code on Github"}
 
       ],
-      "client":"",
-      "description":"<h2>Challenge:</h2><p>ClickFireMedia was challenged by Sharp Electronics to create a Facebook application that showcased Sharp’s home theater line, which includes their 60, 70, 80 and 90-inch AQUOS TVs.</p><h2>Execution:</h2><p>To commemorate the start of football season, CFM developed a Facebook app that encouraged Sharp's fans to create their ultimate tailgate experience.  The app was integrated into a month-long Facebook contest. After customizing their tailgate with team colors, decorations, personalized pictures, and a half-time video, users submitted their party and were eligible to win real-world prizes. Fans could win one of three big screen AQUOS LED TVs as well as all the goodies necessary to truly bring the ultimate tailgate experience to life this football season. The app was fully shareable through Facebook, Twitter, and email, and fans were encouraged to get their friends to vote by liking their tailgate.</p>",
+      "description":"<h2>My Contribution</h2><p>I was the Tech Lead as well as the Server Administrator for the project.  I managed the front-end development in Flash and performed the backend PHP programming.  In addition, after assessing the technological needs of the application, I chose web server/hosting provider that I though would work best (Rackspace Managed Hosting) and configured the Apache instance out of the box.</p><h2>Challenge:</h2><p>ClickFireMedia was challenged by Sharp Electronics to create a Facebook application that showcased Sharp’s home theater line, which includes their 60, 70, 80 and 90-inch AQUOS TVs.</p><h2>Execution:</h2><p>To commemorate the start of football season, CFM developed a Facebook app that encouraged Sharp's fans to create their ultimate tailgate experience.  The app was integrated into a month-long Facebook contest. After customizing their tailgate with team colors, decorations, personalized pictures, and a half-time video, users submitted their party and were eligible to win real-world prizes. Fans could win one of three big screen AQUOS LED TVs as well as all the goodies necessary to truly bring the ultimate tailgate experience to life this football season. The app was fully shareable through Facebook, Twitter, and email, and fans were encouraged to get their friends to vote by liking their tailgate.</p>",
       "detail_name":"portfolio/SharpAppv4_final",
-      "title":"Sharp AQUOS App",
       "filename":"Sharp_PEACOCK"
    }
 }

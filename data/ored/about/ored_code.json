@@ -1,24 +1,24 @@
 {
    "post_detail":{
-      "detail_name":"about/ored",
+      "detail_name":"about/ored_coder",
       "related_posts":[
 
       ],
       "title":"I Write Code.",
-      "client":"Its Object-Oriented.",
-      "description":"I am a self-taught multi-instrumentalist.  I write songs about my journey here on Earth.",
+      "client":"Its clean, reusable and object-oriented.",
+      "description":"I was educated in Computer Science at Villanova University.  Since then, I have taught myself countless programming languages frequently have to deliver projects that use 3rd party API's I have never seen before.  This requires a 'learn instantly' approach to succeed.",
       "assets":[
          {
             "id":"1",
             "media_type":"2",
             "description":"",
             "title":"",
-            "filename":"ored_tgn"
+            "filename":"ored_code"
          }
       ],
       "related_links":[
-         {"href":"http://archives.ored.net/nickandcampbell", "title":"Website"}
+         {"href":"https://github.com/ocorso", "title":"Github Profile"}
       ],
-      "filename":"ored_music"
+      "filename":"ored_code"
    }
 }

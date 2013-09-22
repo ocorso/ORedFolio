@@ -1,23 +1,75 @@
 {
    "post_detail":{
-      "detail_name":"about/ored",
+      "title":"I Like to Rock.",
+      "client":"Singer/Songwriter/Multi-instrumentalist",
+      "detail_name":"about/ored_music",
+      "description":"As a self-taught multi-instrumentalist, I craft original songs about my journey here on Earth.  For over ten years, I have put together acoustic or full rock band projects and performed in the NY Metro area.  In addition, I enjoy the reording process and have produced multiple albums.",
       "related_posts":[
-
+         {
+             "id":"401",
+             "media_type":"1",
+             "filename":"ored_redmachine",
+             "title":"Red Machine",
+             "page":"portfolio",
+             "category":"music"
+         },
+         {
+             "id":"3",
+             "media_type":"1",
+             "filename":"ored_lll",
+             "title":"The Good News",
+             "page":"portfolio",
+             "category":"music"
+         },
+         {
+             "id":"403",
+             "media_type":"1",
+             "filename":"ored_lll",
+             "title":"The Good News",
+             "page":"portfolio",
+             "category":"music"
+         }
       ],
-      "client":"I love to play rock",
-      "description":"I am a self-taught multi-instrumentalist.  I write songs about my journey here on Earth.",
-      "title":"I am O Red",
       "assets":[
          {
             "id":"1",
             "media_type":"2",
             "description":"",
             "title":"",
+            "filename":"ored_rock"
+         },
+         {
+            "id":"2",
+            "media_type":"2",
+            "description":"",
+            "title":"",
+            "filename":"ored_music"
+         },
+         {
+            "id":"3",
+            "media_type":"2",
+            "description":"",
+            "title":"",
             "filename":"ored_tgn"
+         },
+         {
+            "id":"4",
+            "media_type":"2",
+            "description":"",
+            "title":"",
+            "filename":"ored_music1"
+         },
+         {
+            "id":"5",
+            "media_type":"2",
+            "description":"",
+            "title":"",
+            "filename":"ored_music2"
          }
       ],
       "related_links":[
-
+           {"href":"http://cdbaby/thegoodnews", "title":"Buy Album"},
+           {"href":"http://myspace.com/theredmachine", "title":"Myspace"}
       ],
       "filename":"ored_music"
    }

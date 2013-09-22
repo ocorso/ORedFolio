@@ -606,8 +606,11 @@ main.detail.scrollTop = function( $complete ){
 			
 	if(elementBottom > winHeight || (elementTop-bodyTop) < 0){
 		if($("#post-detail").hasClass("active")){
-			$('body').animate({
-			    	scrollTop: element.offset().top -70
+			var destination = element.offset().top -70;
+			console.log("SCROLL to ", destination);
+			//$('body').animate({ scrollTop: destination},{duration: 400,specialEasing: {scrollTop: 'easeInOutCubic'}});
+			$('body,html').animate({
+			    	scrollTop: destination
 				},
 				{
 			    	duration: 400,
@@ -682,7 +685,7 @@ main.detail.buildRelatedAssets	= function($i, $a){
 
 main.detail.buildRelatedPosts	= function($i, $a){
 	var item 	= $("<li />").attr({ "data-filename": $a.filename , "data-id":$a.id, "data-type":$a.media_type });
-	var a		= $("<a />").attr({ "href": base_url + "index.php/" + $a.page + "/" + $a.category + "/#/" + $a.page + "/" + $a.category + "/" + $a.id}).appendTo(item);
+	var a		= $("<a />").attr({ "href": base_url + $a.page + "/" + "/#/" + $a.page + "/" + $a.category + "/" + $a.id}).appendTo(item);
 	var img 	= $("<img />").attr("src", main.routes.postImagesDir + "200x200/" + $a.filename + ".jpg" ).appendTo(a);
 	
 	$("#related_posts").append(item);	

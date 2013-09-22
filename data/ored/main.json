@@ -37,9 +37,9 @@
                "heading":"Design"
             },
             {
-               "id":"games",
-               "label":"Games",
-               "heading":"Games"
+               "id":"music",
+               "label":"Music",
+               "heading":"Music"
             }            
          ]
       },
@@ -54,6 +54,10 @@
          "heading":"Music",
           "categories":[
 
+            {
+               "id":"_all",
+               "label":"All"
+            },
             {
                "id":"redmachine",
                "label":"Red Machine"
