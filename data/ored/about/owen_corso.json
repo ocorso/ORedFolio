@@ -4,7 +4,7 @@
       "client":"a Lead Technologist",
       "detail_name":"people/owen_corso",
       "filename":"owen",
-      "description":"<p>A veteran of the agency world, Owen joined the Click family to help strategically position the technology at the forefront finding innovative solutions to the diverse challenges of our clients.  Owen is all about uncovering how things function and how to make them better.  Fast, smart and creative with strong artistic sensibilities, Owen enjoys architecting digital campaign executions that require a multitude of interconnected technologies.  He’s equally comfortable deep diving into code or brainstorming creative ideas for a concept.\nOutside of Click, Owen leads an original NYC rock band called The Red Machine and plays in various mens lacrosse leagues throughout the year as a take-away long stick midfielder.  A current resident of the East Village, Owen grew up in northern New Jersey, is the youngest of 4 boys and received a BS in Computer Science from Villanova University.</h1>",
+      "description":"<p>I am passionately driven to craft digital experiences in new and exciting ways.</p><p>I lead an original NYC rock band called The Red Machine and plays in various mens lacrosse leagues throughout the year as a take-away long stick midfielder.  A current resident of the East Village, Owen grew up in northern New Jersey, is the youngest of 4 boys and received a BS in Computer Science from Villanova University.</p><p>The dedication to climb out of tough times and reach towards success has been innately ingrained in me through the actions of my heroic mother.  She successfully raised four sons, alone, with very little money.  In doing so, she taught my brothers and I that goals are reached through hard work and determination.  The inspiration that springs from such a shining example of perseverance instilled in me a drive to make her proud and be the best person I can be.</p>",
       "assets":[
          {
             "id":"1",
@@ -22,6 +22,8 @@
          }
       ],
       "related_posts":[],
-      "related_links":[]
+      "related_links":[
+         {"href":"http://ored.net/owen_corso_resume.pdf", "title":"Resume"}
+      ]
    }
 }
