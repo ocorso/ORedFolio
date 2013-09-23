@@ -1,16 +1,12 @@
 {
    "post_detail":{
+      "title":"Stride Gum",
+      "client":"JWT",
+      "description":"<h2>My Contribution:</h2><p>I led the development of two facebook applications mentioned in the case study. The Change Your Flavor, Change Your Life flash execution that was used to promote Stride SHIFT gum and subsequently the Stride SHIFT Concert facebook tab that had a number of widgets built in HTML and integrated various 3rd party APIs including Foursquare and Youtube.</p><h2>Challenge:</h2> <p>JWT challenged ClickFire Media to create a customized Facebook tab and application for their client, Stride Gum.</p><h2>Execution:</h2><p>ClickFire Media delivered a customized Facebook tab, “Change your flavor, change your life.” Over six weeks, a four-man team used Photoshop, FlexBuilder/ Flash, Custom PHP and AfterEffects to create the application. Users are invited to watch a video and have the option to become one of four scenarios, Rodeo Clown, Ostrich Jockey, Adventure Traveler or Fortune Teller, by inserting a picture of themselves through file upload, Facebook album or webcam capture. Once the user customized their photo, the images were placed in a photo album on their personal Facebook page and published to their news feed.</p>",
       "detail_name":"portfolio/stride",
       "filename":"ored_stride",
-      "related_posts":[
-
-      ],
-      "client":"JWT",
-      "related_links":[
-
-      ],
-      "description":"<h2>My Contribution:</h2><p>I lead the development of two facebook applications mentioned in the case study. The Change Your Flavor, Change Your Life flash execution that was used to promote Stride SHIFT gum and subsequently the Stride SHIFT Concert facebook tab that had a number of widgets built in HTML and integrated various 3rd party APIs including Foursquare and Youtube.</p><h2>Challenge:</h2> \nJWT challenged ClickFire Media to create a customized Facebook tab and application for their client, Stride Gum.<h2> \nExecution:</h2> \nClickFire Media delivered a customized Facebook tab, “Change your flavor, change your life.” Over six weeks, a four-man team used Photoshop, FlexBuilder/ Flash, Custom PHP and AfterEffects to create the application. Users are invited to watch a video and have the option to become one of four scenarios, Rodeo Clown, Ostrich Jockey, Adventure Traveler or Fortune Teller, by inserting a picture of themselves through file upload, Facebook album or webcam capture. Once the user customized their photo, the images were placed in a photo album on their personal Facebook page and published to their news feed.",
-      "title":"Stride Gum",
+      "related_posts":[],
+      "related_links":[],
       "assets":[
          {
             "id":"1",

@@ -69,11 +69,7 @@
             {
                "id":"thegoodnews",
                "label":"The Good News"
-            },
-            {
-               "id":"jwt",
-               "label":"Jam With Toast"
-            }             
+            }         
          ]
       },
       {

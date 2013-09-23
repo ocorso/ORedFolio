@@ -1,8 +1,9 @@
 {
    "post_detail":{
-      "related_posts":[
-
-      ],
+      "title":"The Limited",
+      "client":"DBA",
+      "description":"<h2>My Contribution:</h2><p>As a back-end developer for the project, I created the web-services using Zend Framework and Instagram's API to pull tagged photo information from Instagram servers and store them in our mySQL database so that the photos could be moderated by the brand.</p><p>This code was reused across several other projects which resulted in a significant savings in digital production time.</p><h2>Challenge:</h2> <p>ClickFireMedia was challenged to create a Facebook app for DBA and their client, The Limited.<h2>Execution:</h2> <p>Using the Instagram API, CFM built a photo gallery Facebook app. The app automatically included any Instagram photo with The Limited's designated campaign hashtag, #ColorYourWorld. Each photo with the #ColorYourWorld hashtag was automatically entered into a photo contest. The photo with the most likes and shares wins.</p>",
+      "detail_name":"portfolio/the_limited",
       "assets":[
          {
             "id":"1",
@@ -12,13 +13,8 @@
             "filename":"limitedv2"
          }
       ],
-      "related_links":[
-
-      ],
-      "client":"",
-      "description":"<h2>My Contribution:</h2>As a back-end developer for the project, I created the web-services using Zend Framework and Instagram's API to pull tagged photos from Instagram and store them in our mySQL database so that the photos could be moderated by the brand.<h2>Challenge:</h2> \nClickFireMedia was challenged to create a Facebook app for DBA and their client, The Limited.<h2>\n\nExecution:</h2> \nUsing the Instagram API, CFM built a photo gallery Facebook app. The app automatically included any Instagram photo with The Limited's designated campaign hashtag, #ColorYourWorld. Each photo with the #ColorYourWorld hashtag was automatically entered into a photo contest. The photo with the most likes and shares wins.",
-      "detail_name":"portfolio/the_limited",
-      "title":"The Limited",
+      "related_links":[],
+      "related_posts":[],
       "filename":"limitedv2"
    }
 }

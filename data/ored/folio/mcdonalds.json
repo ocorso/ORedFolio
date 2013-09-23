@@ -1,18 +1,16 @@
 {
    "post_detail":{
-      "detail_name":"portfolio/mcdonalds",
-      "filename":"ored_mcdonalds",
-      "related_posts":[
-
-      ],
+      "title":"McDonald's All American Games",
       "client":"McDonalds",
+      "description":"<h2>My Contribution:</h2><p>Acting as user experience lead as well as tech lead on this project, I worked with the client to understand the goals of the project and digital strategy driving the marketing efforts.  In addition, I managed and executed on the creation of wireframes, sitemaps, and user flows to ensure the goals were met.  As a tech lead, I oversaw the front-end development and jumped in whenever road blocks were encountered.</p><h2>Execution:</h2><p>Clickfire Media was asked by our client, Translation to create a completely new site for the McDonald's All American Games that would act as a framework for all of the content dating back to 1977 on into the future.</p>",
+      "filename":"ored_mcdonalds",
+      "detail_name":"portfolio/mcdonalds",
+      "related_posts":[],
       "related_links":[
          {"href":"http://mcdonaldsallamerican.com", "title":"Website"},
          {"href":"http://archives.ored.net/mcdonalds/ux/mcdonalds_wires.pdf", "title":"Wireframes"},
          {"href":"http://archives.ored.net/mcdonalds/ux/mcdonalds_sitemap.pdf", "title":"Sitmap"}
       ],
-      "description":"<h2>My Contribution:</h2>Acting as user experience lead as well as tech lead on this project, I managed and executed on the creation of wireframes, sitemaps, and user flows.  As a tech lead, I oversaw the front-end development and jumped in whenever road blocks were encountered.<h2>Execution:</h2>Clickfire Media was asked by our client, Translation to create a completely new site for the McDonald's All American Games that would act as a framework for all of the content dating back to 1977 on into the future.",
-      "title":"McDonald's All American Games",
       "assets":[
          {
             "id":"1",

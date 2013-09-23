@@ -1,8 +1,11 @@
 {
    "post_detail":{
-      "related_posts":[
-
-      ],
+      "title":"Denny's Facebook App",
+      "client":"Gotham",
+      "description":"<h2>My Contribution:</h2><p>As a back-end developer for the project, I created the web-services using Zend Framework and Instagram's API to pull tagged photo information from Instagram servers and store them in our mySQL database so that the photos could be moderated by the brand.</p><p>This code was reused across several other projects which resulted in a significant savings in digital production time.</p><h2>Challenge:</h2><p>ClickFireMedia was challenged to create a Facebook app, which used the Instagram API, for Gotham and their client, Denny's.</p><h2>Execution:</h2><p>The Facebook app was designed as a 30 day photo contest that would take advantage of CFM's experience with the Instagram API.  Each day a new hashtag, based off Denny's and various food themes (#blueberries, #pancakes, #butter), was used for photo entries.  Users were encouraged to submit their photos with the correct hashtag of the day via Instagram, or upload them directly to the site.  Each day a winning photo is selected, and that user is given a $10 Denny's gift card.</p>",
+      "detail_name":"portfolio/dennys_facebook_app",
+      "related_posts":[],
+      "related_links":[],
       "assets":[
          {
             "id":"1",
@@ -12,13 +15,6 @@
             "filename":"dennys_app"
          }
       ],
-      "related_links":[
-
-      ],
-      "client":"Gotham",
-      "description":"<h2>Challenge:</h2>\nClickFireMedia was challenged to create a Facebook app, which used the Instagram API, for Gotham and their client, Denny's.<h2> \n\nExecution:</h2> \nThe Facebook app was designed as a 30 day photo contest that would take advantage of CFM's experience with the Instagram API.  Each day a new hashtag, based off Denny's and various food themes (#blueberries, #pancakes, #butter), was used for photo entries.  Users were encouraged to submit their photos with the correct hashtag of the day via Instagram, or upload them directly to the site.  Each day a winning photo is selected, and that user is given a $10 Denny's gift card.",
-      "detail_name":"portfolio/dennys_facebook_app",
-      "title":"Denny's Facebook App",
       "filename":"dennys_app"
    }
 }

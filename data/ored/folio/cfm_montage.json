@@ -2,9 +2,10 @@
    "post_detail":{
       "title":"CFM Montage",
       "client":"",
-      "description":"View a sampling of ClickFireMedia's interactive work in this one minute montage.",
+      "description":"<p>View a sampling of Clickfire Media's interactive work in this one minute montage.  I worked on many of the projects shown including Samsung Cameras, Chevy Sonic and Roxy.</p>",
       "detail_name":"portfolio/cfm_montage",
       "related_posts":[],
+      "related_links":[],
       "assets":[
          {
             "id":"1",
@@ -13,9 +14,6 @@
             "title":"",
             "filename":"CFM_summer2013"
          }
-      ],
-      "related_links":[
-         
       ],
       "filename":"CFM_summer2013"
    }
