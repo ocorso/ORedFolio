@@ -68,7 +68,8 @@
          }
       ],
       "related_links":[
-           {"href":"http://cdbaby/thegoodnews", "title":"Buy Album"},
+           {"href":"http://www.cdbaby.com/cd/thegoodnews", "title":"Buy Album"},
+           {"href":"http://www.soundcloud.com/", "title":"Soundcloud"},
            {"href":"http://myspace.com/theredmachine", "title":"Myspace"}
       ],
       "filename":"ored_music"

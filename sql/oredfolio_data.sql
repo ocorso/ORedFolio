@@ -1,8 +1,9 @@
 INSERT INTO `posts_ored` (`id`, `pages`, `categories`, `tags`, `filename`, `detail_name`, `title`, `client`, `description`, `size`, `media_type`, `overstatestyle`, `href`, `index`)
 VALUES
-	(1,'portfolio home' ,'_all','tag1','CFM_summer2013','folio/cfm_montage','Clickfire Media','','In a constantly evolving transmedia landscape, ClickFire Media puts all the tools along with amazing creative talent under one roof to create rich, innovative experiences.','410x410',3,'','',455),
+	(1,'home' ,'_all','tag1','CFM_summer2013','folio/cfm_montage','Clickfire Media','','In a constantly evolving transmedia landscape, ClickFire Media puts all the tools along with amazing creative talent under one roof to create rich, innovative experiences.','410x410',3,'','',455),
 	(2,'portfolio home','_all games development','dev','ored_parksunleashed','folio/parksunleashed','ZYRTEC Parks Unleashed','JWT','I led a team of flash developers in the creation of a series of mini games.','200x200',0,'','',275),
 	(11,'portfolio home','_all user_experience social facebook instagram','roxy','roxy_cs','folio/cfm_roxy_cs','Roxy','','Clickfire Media was asked by our client, Digital Brand Architects to create a Facebook based user generated content based contest for ROXY, a leading women\'s action sport apparel company','410x200',0,'','',81),
+	(29,'portfolio home','_all user_experience development design','taggy','ored_mobile','folio/ored_mobile','Clickfire Mobile','','People are moving across screens to consume their content.  Clickfire Mobile is already there making things better for them.','410x200',0,'','',82),
 	(12,'portfolio','_all social instagram facebook instagram beauty_fashion retail','retail social facebook_apps instagram facebook social','NineWest','folio/nine_west','Nine West','','Challenge: \nClickFireMedia was challenged to create a Facebook app for DBA and their client, Nine West','410x200',0,'','',83),
 	(17,'portfolio home','_all social instagram facebook instagram beauty_fashion retail','retail facebook_apps facebook social instagram','limitedv2','folio/the_limited','The Limited','','Challenge: \nClickFireMedia was challenged to create a Facebook app for DBA and their client, The Limited','200x200',0,'','',87),
 	(14,'portfolio home','_all',NULL,'ored_codefornyc','folio/codefornyc','Code for NYC',"","To help give the civic tech community a jumping off point for getting involved with Code for America's mission in NYC, I created this website.",'410x200',1,NULL,NULL,522),
@@ -25,15 +26,16 @@ VALUES
 	(514,'_all home','_all','tag1 tag2','7_Code','folio/7_Code','CODE.ORG','','Click 3X partnered with director, Lesley Chilcott, on Code Stars - a short film promoting Code.org','200x200',0,'half','',471),
 
 	(401,'portfolio home music ','_all music ',NULL,'ored_redmachine','music/i-wont-let-you-down','I Won\'t Let You Down',"Red Machine",'I relatively recent tune I wrote with Red Machine is an acoustically driven folk rock melody.','200x200',0,NULL,NULL,505),
-	(3,'portfolio home music ','_all music ',NULL,'ored_lll','music/jons_song_video',"Jon\'s Song","The Good News","A music video I made using my brother\'s footage from his honeymoon",'200x200',0,NULL,NULL,506),
+	(3,'portfolio home music ','_all music ',NULL,'ored_lll','music/jons_song_video',"Jon\'s Song Music Video","The Good News","A music video I made using my brother\'s footage from his honeymoon",'200x200',0,NULL,NULL,506),
 	(13,'portfolio home music ','_all music ',NULL,'ored_jamwithtoast2','music/jamwithtoast',"Battle of the Ad Bands","JWT","During Agency Week, I got some colleages together and won Battle of the Ad Bands",'200x200',0,NULL,NULL,507),
 
 	(100,'about_me','_all interactive','','owen','about/owen_corso','I Am Owen Corso','Lead Technologist','<p>A veteran of the agency world, Owen joins the Click family to help strategically position the technology at the forefront finding innovative solutions to the diverse challenges of our clients','410x200',0,'half fixed light seethrough','',401),
-	(200,'about_me home','_all','tag1','ored-music','about/ored_music','I Like to Rock',NULL,'A born front-man, my abundant energy makes live shows an entertaining experience.','410x200',0,'half fixed light seethrough',NULL,523),
+	(200,'about_me home','_all','tag1','ored_rock','about/ored_rock','I Like to Rock',NULL,'A born front-man, my abundant energy makes live shows an entertaining experience.','410x200',0,'half fixed light seethrough',NULL,523),
 	(201,'about_me','_all','tag1 tag2','ored-working','about/ored_code','I Write Code','','I am work at the intersection of technology and marketing.','410x200',0,'half fixed light seethrough','',454),
 	(202,'about_me','_all','tag1 tag2','ored-lax','about/ored_lax','I Play Lacrosse','','For the last 20 years, I\'ve played mens lacrosse at all levels of competition.','410x200',0,'half fixed light seethrough','',453),
-	(203,'about_me','_all',NULL,'about_who_we_are','about/click3x','I Work at Click 3X',NULL,'In a constantly evolving landscape, Click 3X puts all the tools along with amazing creative and technology talent under one roof. ','410x200',3,'half fixed light seethrough',NULL,489),
+	(203,'about_me','_all',NULL,'ored_work','about/ored_work','I Work at Click 3X',NULL,'In a constantly evolving landscape, Click 3X puts all the tools along with amazing creative and technology talent under one roof. ','410x200',3,'half fixed light seethrough',NULL,489),
 
 	(500,'contact','_all','tag1 tag2','ored_contact_map','','Post','Client','','830x410',0,'none','http://bit.ly/14BUm7f',457),
 	(502,'contact','_all','tag1 tag2','ored_mail','','Email me anytime','','owen@ored.net','410x200',0,'half fixed light','mailto:owen@ored.net',459),
+	(504,'contact','_all','tag1 tag2','ored_twitter','','Follow Me','','@ocorso','410x200',0,'half fixed light','http://twitter.com/ocorso',469),
 	(503,'contact','_all','tag1 tag2','ored_contact_map_small','','410 East 13th Street','New York, NY 10003','p:201.602.0069','410x200',0,'half fixed light','http://bit.ly/14BUm7f',458);

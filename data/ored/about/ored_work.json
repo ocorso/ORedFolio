@@ -1,27 +1,26 @@
 {"post_detail":
  {
   "title":"Where I Work",
-  "client":"Click 3X, Clickfire Media, Raison D'Extra",
+  "client":"Clickfire Media, a Click 3X company.",
   "description":"In a constantly evolving landscape, ClickFire Media puts all the tools along with amazing creative and technology talent under one roof to create rich, innovative interactive experiences - with an assist from Click 3X and their deep and rich resources in video, audio, VFX and CGI. We use ground-breaking technology.  We bend the rules of what's possible,  and we create entirely new realities in the form of brand experiences that stick to the roof of your brain.",
   "assets":[
-   {
-    "id":"1",
-    "media_type":"2",
-    "filename":"about_who_we_are",
-    "title":"Where I Work"
-   }
+     {
+      "id":"1",
+      "media_type":"2",
+      "filename":"about_who_we_are",
+      "title":"Where I Work"
+     }
   ],
   "related_posts":[
-   {
-    "media_type":"1",
-    "filename":"CFM_spring2013",
-    "title":"Clickfire Media",
-    "id":"1",
-    "page":"portfolio",
-    "category":"_all"
-   }
+     {
+      "media_type":"1",
+      "filename":"CFM_spring2013",
+      "title":"Clickfire Media",
+      "id":"1",
+      "page":"portfolio",
+      "category":"_all"
+     }
   ],
-  "related_links":[
-  ]
+  "related_links":[]
  }
 }

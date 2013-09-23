@@ -1,8 +1,10 @@
 {
    "post_detail":{
-      "related_posts":[
-
-      ],
+      "title":"CFM Montage",
+      "client":"",
+      "description":"View a sampling of ClickFireMedia's interactive work in this one minute montage.",
+      "detail_name":"portfolio/cfm_montage",
+      "related_posts":[],
       "assets":[
          {
             "id":"1",
@@ -13,12 +15,8 @@
          }
       ],
       "related_links":[
-
+         
       ],
-      "client":"",
-      "description":"View a sampling of ClickFireMedia's interactive work in this one minute montage.",
-      "detail_name":"portfolio/cfm_montage",
-      "title":"CFM Montage",
       "filename":"CFM_summer2013"
    }
 }

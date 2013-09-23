@@ -102,7 +102,7 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 									<a class="dropdown-toggle" data-toggle="dropdown" href="#">All</a>
 									<ul class="dropdown-menu category-menu" role="menu">
 										<?php foreach($categories as $cval): ?>
-											<li><a data-id="<?= $cval["id"]; ?>" data-filter=".<?= $cval["id"]; ?>" href="<?= base_url().$value["id"]."/".$cval["id"]; ?>"><?= $cval["label"]; ?></a></li>
+											<li><a class="category-anchor" data-id="<?= $cval["id"]; ?>" data-filter=".<?= $cval["id"]; ?>" href="<?= base_url().$value["id"]."/".$cval["id"]; ?>"><?= $cval["label"]; ?></a></li>
 										<?php endforeach ?>
 							 		</ul>
 							 	<?php endif ?>

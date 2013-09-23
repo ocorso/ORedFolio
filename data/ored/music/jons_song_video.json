@@ -1,14 +1,14 @@
 {
    "post_detail":{
+      "title":"Jon's Song Music Video",
+      "client":"The Good News",
       "detail_name":"music/jons_song_video",
       "filename":"ored_jons_song",
-      "related_posts":[],
-      "client":"The Good News",
-      "related_links":[
-           {"href":"http://cdbaby/thegoodnews", "title":"View the Album"}
-      ],
       "description":"<h2>My Contribution:</h2><p>I wrote, produced, performed the song.</p>",
-      "title":"Jon's Song Music Video",
+      "related_posts":[],
+      "related_links":[
+           {"href":"http://www.cdbaby.com/cd/thegoodnews", "title":"Buy Album"}
+      ],
       "assets":[
           {
             "id":"1",

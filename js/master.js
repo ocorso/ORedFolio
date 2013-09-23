@@ -221,8 +221,10 @@ main.onResize	= function($e){
 };
 
 main.applyFilters = function(){
-	console.log( "-- Applying Filters -- :" + "." + main.filters.page + "." + main.filters.categories.join(".") );
-	$("#content").isotope( { filter: "." + main.filters.page + "." + main.filters.categories.join(".")  }, main.applyFiltersComplete );
+	//var f = "." + main.filters.page + "." + main.filters.categories.join(".");
+	var f = "." + main.filters.categories.join(".");
+	console.log( "-- Applying Filters -- :",f );
+	$("#content").isotope( { filter: f  }, main.applyFiltersComplete );
 };
 
 main.applyFiltersComplete = function(){
@@ -362,19 +364,15 @@ main.address.change	= function (){
 	//show proper page header
 	$(".page-header[data-page='" + main.filters.page + "']").show();
 	
-	//show subcategory menu if needed
+	//show category menu if needed
 	if(main.filters.categories.length > 0){
 
+		//set text
 		$(".portfolio-categories div:first-child a.dropdown-toggle").text( main.filters.categories[0].replace("_"," ") );
 
 		//show proper category menu
 		$(".portfolio-categories div:last-child").css("display","block");
 
-		if(main.filters.categories.length > 1){
-			$(".portfolio-categories div:last-child a.dropdown-toggle").text( main.filters.categories[1].replace("_"," ") );
-		} else {
-			$(".portfolio-categories div:last-child a.dropdown-toggle").text( "all" );
-		}
 
 	}
 }
@@ -383,6 +381,7 @@ main.address.change	= function (){
 // =======================================================================================================================
 main.addEventHandlers = function(){
 	console.log("main.addEventHandlers");
+
 	//add click handlers to posts
     $(".post:not(.detail)").each(function(){
     	$p = $(this);
@@ -395,7 +394,7 @@ main.addEventHandlers = function(){
     });
 
     //add click handler to catgories 
-    $(".page-header ul.dropdown-menu.category-menu li a").click( main.category.click );
+    $(".category-anchor").click( main.category.click );
 
     //Add Event Handlers.
     $('#nav_toggler').mousedown(function(){$(this).css('background-position', "0 -88px");}).mouseup(function(){$(this).css('background-position', "");});
@@ -417,22 +416,26 @@ main.nav.click	= function(){
 	return false;
 };
 
-main.category.click	= function(){
-	$a = $(this);
-	
-	$.address.value( main.filters.page + "/" + $a.attr("data-id") );
+main.category.click	= function($e){
+	$a 		= $(this);
+	var url = main.filters.page + "/"+ $a.attr("data-id") ;
+
+	console.log("category click: ", url);
+	$.address.value( url );
 
 	$("#filter-menu").removeClass("open");
 	$(".portfolio-categories div").removeClass("open");
 	
+	$e.preventDefault();
 	return false;
 };
 
 main.post.click = function( $e ){
+
 	$p = $(this);
 	var url = main.filters.page + "/" + main.filters.categories.join("-") + "/" + $p.attr("data-id") ;
 	console.log("post click",url);
-	$.address.value(url );
+	$.address.value( url );
 	
 	 return false;
 }
