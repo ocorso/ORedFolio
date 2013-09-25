@@ -138,7 +138,7 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 		 		if(!empty($post->overstatestyle) && !$this->agent->is_mobile)
 					$overstatestyle .= " ".$post->overstatestyle;				
 			 ?>
-<a href="<?= $href; ?>" data-type="<?= $post->media_type; ?>" data-image="<?= $imagepath; ?>" data-id="<?= $post->id; ?>" data-title="<?= $post->title; ?>" data-client="<?= $post->client; ?>" data-detail-id="<?= $detail_name ?>" data-index="<?= $post->index; ?>" class="<?= $classes;?>">
+				<a href="<?= $href; ?>" data-type="<?= $post->media_type; ?>" target="_blank" data-image="<?= $imagepath; ?>" data-id="<?= $post->id; ?>" data-title="<?= $post->title; ?>" data-client="<?= $post->client; ?>" data-detail-id="<?= $detail_name ?>" data-index="<?= $post->index; ?>" class="<?= $classes;?>">
 					<div id="rollover" class="<?= $overstatestyle; ?>">
 						<h1><?= $post->title; ?></h1>
 						<p><?= $post->tags == "soundcloud" ? $post->client : $post->description; ?></p>
