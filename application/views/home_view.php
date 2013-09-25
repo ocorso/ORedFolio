@@ -119,7 +119,7 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 			<?php foreach ($posts as $post): ?>
 			<?php
 			 	$image_ext 		= ".jpg";
-			 	$size 			= ($this->agent->is_mobile && $post->size != "830x410") ? "200x200" : $post->size;
+			 	$size 			= ($this->agent->is_mobile) ? "200x200" : $post->size;
 			 	if( !empty($post->media_type) && $post->media_type == "3") 
 			 		$image_ext 	= ".gif";
 			 	$imagepath 		= $post->tags == "soundcloud" ? $post->src : $this->config->item("media_url")."images/".$size."/".$post->filename.$image_ext;

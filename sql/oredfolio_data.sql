@@ -31,7 +31,7 @@ VALUES
 
 	(100,'about_me','_all interactive','','owen','about/owen_corso','I Am Owen Corso','Lead Technologist','<p>I have a hunger for knowledge, a thirst for thrilling endeavors, and an undying desire to make the most of the gifts God has given me.','410x200',0,'half fixed light seethrough','',401),
 	(200,'about_me home','_all','tag1','ored_rock','about/ored_rock','I Like to Rock',NULL,'A born front-man, my abundant energy makes live shows an entertaining experience.','410x200',0,'half fixed light seethrough',NULL,523),
-	(201,'about_me','_all','tag1 tag2','ored-working','about/ored_code','I Write Code','','I am work at the intersection of technology and marketing.','410x200',0,'half fixed light seethrough','',454),
+	(201,'about_me','_all','tag1 tag2','ored_code','about/ored_code','I Write Code','','I am work at the intersection of technology and marketing.','410x200',0,'half fixed light seethrough','',454),
 	(202,'about_me','_all','tag1 tag2','ored-lax','about/ored_lax','I Play Lacrosse','','For the last 20 years, I\'ve played mens lacrosse at all levels of competition.','410x200',0,'half fixed light seethrough','',453),
 	(203,'about_me','_all',NULL,'ored_work','about/ored_work','I Work at Click',NULL,'In a constantly evolving landscape, Click 3X puts all the tools along with amazing creative and technology talent under one roof. ','410x200',3,'half fixed light seethrough',NULL,489),
 
