@@ -11,7 +11,9 @@ class Home extends CI_Controller {
 		$main_data_json = json_decode( $main_data_s, true );
 		$pages 			= $main_data_json["pages"];
 		$suggestions 	= $main_data_json["suggestions"];
-		$posts 			= $pageId != "music" ? $this->posts(0,$pageId,$categoryId) : $this->getSongs();
+		$posts 			= ($pageId != "music") ? $this->posts(0,$pageId,$categoryId) : array_merge($this->posts(0,$pageId,$categoryId), $this->getSongs());
+		//print_r($posts);
+
 
 		$this->load->view(	'home_view', 
 							array( 	"pages"=>$pages, 

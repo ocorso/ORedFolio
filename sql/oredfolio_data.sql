@@ -1,4 +1,3 @@
-
 INSERT INTO `posts_ored` (`id`, `pages`, `categories`, `tags`, `filename`, `detail_name`, `title`, `client`, `description`, `size`, `media_type`, `overstatestyle`, `href`, `index`)
 VALUES
 	(2,'portfolio home','_all development','dev','ored_parksunleashed','folio/parksunleashed','ZYRTEC Parks Unleashed','JWT','I led a team of flash developers in the creation of a series of mini games.','200x200',0,'','',275),
@@ -22,8 +21,8 @@ VALUES
 	(40,'portfolio home','_all development','tag1 tag2','ored_smirnoff','folio/smirnoff','Smirnoff Nightlife Exchange Project','JWT','We created a large projection 3D installion piece as part of the campaign to be shown at the parties.','200x200',0,'half','',109),
 	(46,'portfolio home','_all development','how_to','geicopiggyv3','folio/geicopiggyv3','GEICO Piggy Pinwheels App','The Martin Agency','ClickFire Media created a mobile app for GEICO. The app features Maxwell, GEICO’s signature piggy.','200x200',0,'','',75),
 	(514,'home','_all','tag1 tag2','7_Code','folio/7_Code','CODE.ORG','','Click 3X partnered with director, Lesley Chilcott, on Code Stars - a short film promoting Code.org','200x200',0,'half','',471),
-	(401,'home music ','_all theredmachine',NULL,'ored_redmachine','music/i-wont-let-you-down','I Won\'t Let You Down','Red Machine','I relatively recent tune I wrote with Red Machine is an acoustically driven folk rock melody.','200x200',0,NULL,NULL,505),
-	(3,'home music ','_all thegoodnews',NULL,'ored_lll','music/jons_song_video','Jon\'s Song Music Video','The Good News','A music video I made using my brother\'s footage from his honeymoon','200x200',0,NULL,NULL,506),
+	(401,'home music ','_all redmachine',NULL,'ored_redmachine1','music/i-wont-let-you-down','I Won\'t Let You Down','Red Machine','I relatively recent tune I wrote with Red Machine is an acoustically driven folk rock melody.','200x200',0,NULL,NULL,505),
+	(3,'home music ','_all thegoodnews',NULL,'ored_jons_song','music/jons_song_video','Jon\'s Song Music Video','The Good News','A music video I made using my brother\'s footage from his honeymoon','200x200',0,NULL,NULL,506),
 	(13,'home music ','_all jamwithtoast',NULL,'ored_jamwithtoast2','music/jamwithtoast','Battle of the Ad Bands','JWT','During Agency Week 2011, I formed a band with my JWT colleagues and won Battle of the Ad Bands.','200x200',0,NULL,NULL,507),
 	(100,'about_me','_all','','owen','about/owen_corso','I Am Owen Corso','Lead Technologist','<p>I have a hunger for knowledge, a thirst for thrilling endeavors, and an undying desire to make the most of the gifts God has given me.','410x200',0,'half fixed light seethrough','',401),
 	(200,'about_me home','_all','tag1','ored_rock','about/ored_rock','I Like to Rock',NULL,'A born front-man, my abundant energy makes live shows an entertaining experience.','410x200',0,'half fixed light seethrough',NULL,523),
