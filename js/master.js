@@ -399,10 +399,24 @@ main.addEventHandlers = function(){
     //Add Event Handlers.
     $('#nav_toggler').mousedown(function(){$(this).css('background-position', "0 -88px");}).mouseup(function(){$(this).css('background-position', "");});
 	$('#nav_toggler').click( main.nav.click );
+    
+
+   	//close btn
     $("#post-detail .close-btn").click( main.detail.close );
+
+    //esc to close
+    $('body').keypress(function(e){  
+    	var code = e.keyCode ? e.keyCode : e.which;
+   
+    	console.log("esc pressed;",code );
+    	if(code == 27 ) main.detail.close(); 
+    	});
+
 
     //remove rollover on iPhone.
     if(main.settings.iphone == true && rollover.hasClass("fixed")) $(".post .over-state").removeClass("fixed");
+
+
 };
 // =======================================================================================================================
 // ================ @Click Event Handlers
@@ -441,6 +455,7 @@ main.post.click = function( $e ){
 }
 
 main.detail.close		= function($e){
+	console.log("main.detail.close");
 	$.address.value( main.address.pathNames.slice(0,2).join( "/" ) );
 	
 	 return false;
@@ -727,7 +742,7 @@ main.detail.asset.select = function( $asset_id ){
 			case "1": 
 				//video
 				$("#video_player img").attr("src", main.routes.postImagesDir + "700x394/" + main.currentAsset.attr("data-filename") + ".jpg");
-				
+				$("iframe").hide();
 				if( jQuery.browser.mozilla  ){
 					$("video:nth-child(1)").attr("src",  main.routes.postVideosDir + main.currentAsset.attr("data-filename") + ".webm")
 					.attr("type","video/webm");
@@ -747,6 +762,7 @@ main.detail.asset.select = function( $asset_id ){
 				$("#post_detail_main #detail_image").attr("src", main.routes.postImagesDir + "700x394/" + main.currentAsset.attr("data-filename") + ".gif");
 			break;
 			case "4":
+			$("iframe").show();
 				//soundcloud
 				var o = $("#post_detail_main iframe").replaceWith(main.soundcloud.getEmbedHTML(main.currentPost.attr('data-id')));
 				if (o.length == 0){
