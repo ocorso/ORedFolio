@@ -1,16 +1,12 @@
 {
    "post_detail":{
+      "title":"Chevy Sonic",
+      "client":"Big Fuel",
+      "description":"<h2>My Contribution:</h2><p>I collaborated with the tech director on this project. I set up the baseline site architecture in Codeigniter so that the data services were in place, including ensuring that the like-gate was working, environment switching was functioning and the flash movie was properly loading and authenticating on Facebook.</p><h2>Execution:</h2><p>ClickFire Media was challenged by Big Fuel to create a unique car customizer Facebook app for their client, Chevrolet, in order to promote the Sonic car line. The app allows users to decorate and customize a Chevy Sonic car. The user begins by selecting a background or uploading their own. They can select the car’s color, and add car “wraps,” decals, window tints and wheels. Users also had the option to touch-up and/or paint their own patterns and decals. After the user creates their car, they can save their image to a gallery. Viewers can also browse through the gallery and rate the submitted customized cars. Each image is also fully shareable on Facebook, Twitter and email.</p>",
       "detail_name":"portfolio/chevysonicv2",
       "filename":"chevysonicv2",
-      "related_posts":[
-
-      ],
-      "client":"Big Fuel",
-      "related_links":[
-
-      ],
-      "description":"<h2>My Contribution:</h2><p>I collaborated with the tech director, setup the baseline site architecture in Codeigniter so that the data services were in place, the like-gate was working, environment switching was functioning and the flash movie was properly loading and authenticating on Facebook.</p><h2>Challenge:</h2><p>\nClickFire Media was challenged by Big Fuel to create a unique car customizer Facebook app for their client, Chevrolet for their Sonic car line.</p><h2>\n\nExecution:</h2><p>\nThe app allows users to decorate and customize a Chevy Sonic car. The user begins by selecting a background or uploading their own from their computer. They can select the car color, add car “wraps,” decals, window tints and wheels. Users also had the option to touch-up and/or paint their own patterns and decals too. After the user creates their car, they will be able to save their image to a gallery. Viewers can also browse through the gallery and rate the submitted customized cars. Each image is also fully shareable on Facebook, Twitter and email.</p>",
-      "title":"Chevy Sonic",
+      "related_posts":[],
+      "related_links":[],
       "assets":[
          {
             "id":"1",
