@@ -18,7 +18,7 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 		<title><?= SITE_TITLE; ?></title>
 		<meta name="description" content="<?= SITE_DESCRIPTION; ?>">         
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/><!--320-->
-		
+        <link rel="shortcut icon" href="favicon.ico" />
 		<!-- Apple Device Icons -->
 		<link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?= base_url(); ?>img/vendor/apple/apple-touch-icon-57x57-precomposed" />
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?= base_url(); ?>img/vendor/apple/apple-touch-icon-72x72-precomposed.png" />
