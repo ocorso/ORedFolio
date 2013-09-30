@@ -13,7 +13,7 @@
       {
          "id":"portfolio",
          "label":"Folio",
-         "heading":"O Red Folio",
+         "heading":"Folio",
          "categories":[
             {
                "id":"_all",
@@ -67,7 +67,7 @@
             },
             {
                "id":"ored",
-               "label":"O Red"
+               "label":"Owen Corso"
             }         
          ]
       },
