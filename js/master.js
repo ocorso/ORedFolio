@@ -469,6 +469,16 @@ main.detail.asset.click = function($e){
 	 return false;
 };
 
+main.trackOutboundLink = function(link, category, action) { 
+ 
+	try { 
+	_gaq.push(['_trackEvent', category , action]); 
+	} catch(err){}
+	 
+	setTimeout(function() {
+		window.open(link.href);
+	}, 100);
+};
 
 // =======================================================================================================================
 // ================ @Post Methods
@@ -711,7 +721,7 @@ main.detail.buildRelatedPosts	= function($i, $a){
 
 main.detail.buildRelatedLinks	= function($i, $a){
 	var item 	= $("<li />").attr({ "data-filename": $a.filename , "data-id":$a.id, "data-type":$a.media_type });
-	var a		= $("<a />").attr({ "href": $a.href,"target":"_blank"}).text( $a.title ).appendTo(item);
+	var a		= $("<a />").attr({ "href": $a.href,"target":"_blank", "onClick":"main.trackOutboundLink(this, 'Outbound Links', '"+ $a.href+"'); return false;"}).text( $a.title ).appendTo(item);
 	
 	$("#related_links").append(item);
 };

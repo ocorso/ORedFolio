@@ -1,20 +1,35 @@
 {"post_detail":
  {
-  "title":"CODE.ORG",
+  "title":"Code.org and Made in NY",
   "client":"",
-  "description":"<h2>Execution:</h2><p>Click 3X partnered with director Lesley Chilcott on “Code Stars,” a short film promoting Code.org. The organization was founded by entrepreneur brothers Hadi and Ali Partozi to promote computer science education in every classroom in the U.S. Juan Delcan designed and creative directed, with animation byJustin Wolfson, Jason Price and Peter Ahern.</p>",
+  "description":"<p>These videos capture my philosophy on technology and the importance of educating citizens in its use and application.  Technology plays an increasingly important role in society and New York City in particular.   I have spent my career working in this great city and endeavor to solidify its place as what Mayor Bloomberg calls ‘the hottest place in the tech universe.’ </p><p>The first video is a collaboration between Click 3X and Code.org.  We partnered with director Lesley Chilcott on 'Code Stars,' and created a short film.  The organization was founded by entrepreneur brothers Hadi and Ali Partozi to promote computer science education in every classroom in the U.S. Juan Delcan designed and creative directed, with animation by Justin Wolfson, Jason Price and Peter Ahern.</p><p>The second video is from WeAreMadeInNY.com.  The 'Made in NY' initiative began in 2005 as a way to promote creative technology and entrepreneurializm in NYC.</p>",
   "assets":[
-   {
-    "id":"1",
-    "media_type":"2",
-    "filename":"7_Code",
-    "title":"CODE.ORG"
-   }
+     {
+      "id":"1",
+      "media_type":"1",
+      "filename":"7_Code",
+      "title":"CODE.ORG"
+     },
+     {
+      "id":"2",
+      "media_type":"1",
+      "filename":"ored_madeinny",
+      "title":""
+     }
   ],
   "related_posts":[
+{
+            "id":"14",
+            "media_type":"1",
+            "filename":"ored_codefornyc",
+            "title":"CodeforNYC",
+            "page":"home",
+            "category":"_all"
+         }
   ],
   "related_links":[
-  {"href":"http://www.youtube.com/watch?v=loZdPaftX-Q", "title":"CODE.ORG"}
+    {"href":"http://code.org", "title":"CODE.ORG"},
+    {"href":"http://madeinny.com", "title":"Made in NY"}
   ]
  }
 }

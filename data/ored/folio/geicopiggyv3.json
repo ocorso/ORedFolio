@@ -2,11 +2,14 @@
    "post_detail":{
       "title":"GEICO Piggy Pinwheels App",
       "client":"The Martin Agency",
+      "description":"<h2>My Contribution:</h2><p>As a developer on the project, I researched methods of displaying video on a mobile device. I created several proof of concepts written in native code (Android/Java, iOS/Objective-C) that played video files both locally on the device and streaming off the Internet, and assessed the performance of each.</p><h2>Challenge:</h2><p>ClickFire Media created a mobile app for GEICO featuring Maxwell, GEICO’s signature piggy. Users begin by selecting their background as well as Maxwell’s pinwheel colors. To start spinning the pinwheel, users blow into the mobile device’s camera. If it spins fast enough, Maxwell will join the fun. Wheeeeee!!!!! Users can unlock bonus features by sharing the app with their friends on Facebook and Twitter. Users can also learn more about GEICO, get a rate quote and download additional apps, including the Brostache and GECKO Ventriloquist app, which CFM built.</p>",
       "detail_name":"portfolio/geicopiggyv3",
       "filename":"geicopiggyv3",
       "related_posts":[],
-      "related_links":[],
-      "description":"<h2>My Contribution:</h2><p>As a developer on the project, I researched methods of displaying video on a mobile device. I created several proof of concepts written in native code (Android/Java, iOS/Objective-C) that played video files both locally on the device and streaming off the internet, and assessed the performance of each.</p><h2>Challenge:</h2><p>ClickFire Media created a mobile app for GEICO featuring Maxwell, GEICO’s signature piggy. Users begin by selecting their background as well as Maxwell’s pinwheel colors. To start spinning the pinwheel, users blow into the mobile device’s camera. If it spins fast enough, Maxwell will join the fun. Wheeeeee!!!!! Users can unlock bonus features by sharing the app with their friends on Facebook and Twitter. Users can also learn more about GEICO, get a rate quote and download additional apps, including the Brostache and GECKO Ventriloquist app, which CFM built.</p>",
+      "related_links":[
+{"href":"https://itunes.apple.com/us/app/geico-piggy/id536750676?mt=8", "title":"Download on iTunes"},
+{"href":"https://play.google.com/store/apps/details?id=air.com.geico.maxwell", "title":"Download on Google Play"}
+      ],
       "assets":[
        {
           "id":"1",

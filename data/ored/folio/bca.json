@@ -2,7 +2,7 @@
    "post_detail":{
       "title":"Breast Cancer Awareness: Stronger Together.",
       "client":"Estee Lauder",
-      "description":"<h2>My Contribution:</h2><p>I assisted with the launch of the site by streamlining AJAX calls to our REST routes. In addition, I implemented a cookie-based state saving mechanism that would  allow user uploaded content to display while the client app waited for the response to come from FeedMagnet.</p><h2>Execution:</h2><p>As part of a Breast Cancer Awareness campaign, ClickFire Media was challenged by Estee Lauder to create a web application that raised awareness by creating “Circles of Strength.” Comprised of their friends on Facebook.  The website featured a video explaining the campaign, followed by various call-to-action buttons and statistics surrounding the social media engagement.</p>",
+      "description":"<h2>My Contribution:</h2><p>I assisted with the launch of the site by streamlining AJAX calls to our REST routes. In addition, I implemented a cookie-based state saving mechanism that would  allow user uploaded content to display while the client app waited for the response to come from FeedMagnet.</p><h2>Execution:</h2><p>As part of a Breast Cancer Awareness campaign, ClickFire Media was challenged by Estee Lauder to create a web application that raised awareness by creating “Circles of Strength” comprised of their friends on Facebook.  The website featured a video explaining the campaign, followed by various call-to-action buttons and statistics surrounding the social media engagement.</p>",
       "detail_name":"portfolio/bca",
       "related_posts":[],
       "assets":[
@@ -11,11 +11,19 @@
             "description":"",
             "media_type":"1",
             "title":"",
-            "filename":"CS_BCA_APP_V2_Small"
+            "filename":"bca"
+         },
+         {
+            "id":"2",
+            "description":"",
+            "media_type":"2",
+            "title":"",
+            "filename":"bca2"
          }
       ],
       "related_links":[
-         {"href":"https://github.com/milikuo/000232_estee_bca-circles", "title":"Code on Github"}
+         {"href":"https://github.com/milikuo/000232_estee_bca-circles", "title":"Code on Github"},
+         {"href":"http://www.bcacampaign.com/_efb/bca_strongertogether/", "title":"Website"}
       ],
       "filename":"CS_BCA_APP_V2_Small"
    }

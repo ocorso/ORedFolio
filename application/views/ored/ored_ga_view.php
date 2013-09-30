@@ -1,9 +1,10 @@
 <script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-19135050-1']);
-  _gaq.push(['_setDomainName', 'folio.ored.net']);
-  _gaq.push(['_trackPageview']);
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-19135050-1']);
+	_gaq.push(['_setDomainName', 'ored.net']);
+	_gaq.push(['_trackPageview']);
+	_gaq.push(['_setAllowLinker', true]);
 
   (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;

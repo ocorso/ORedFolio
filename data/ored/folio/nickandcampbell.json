@@ -9,8 +9,7 @@
       "related_links":[
            {"href":"https://github.com/ocorso/nickandcampbell_bin", "title":"Code on Github"},
            {"href":"http://archives.ored.net/nickandcampbell/ux/nc_wires.pdf", "title":"Wireframes"},
-           {"href":"http://archives.ored.net/nickandcampbell/db/nc_db_schema.pdf", "title":"Database Schema"},
-           {"href":"http://archives.ored.net/nickandcampbell", "title":"Website"}
+           {"href":"http://archives.ored.net/nickandcampbell/db/nc_db_schema.pdf", "title":"Database Schema"}
       ],
       "assets":[
           {

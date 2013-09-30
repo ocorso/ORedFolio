@@ -2,14 +2,23 @@
    "post_detail":{
       "title":"#BetaNYC",
       "client":"a Code for America Brigade",
+      "description":"<h2>My Contribution:</h2><p>In an effort to help organize civic-minded technologists in the NYC-metro area around Brigade activities and campaigns, I registered the domain codefornyc.org and launched a website that primarily directs users to places where they can learn about events in NYC regarding open data, collaborating on civic apps, and engaging with the NYC tech community.</p> <h2>Code for America's Mission Statement:</h2><p>Code for America envisions a government that works by the people, for the people, in the 21st century. Code for America believes that in order to improve government, we need to improve citizenship. We help cities create 21st century interfaces to government that are simple, beautiful and easy to use. By deploying technologies that make it easy for you to participate and engage in improving your city, we are building trust and changing the conversation between citizens and government.</p>",
       "detail_name":"portfolio/codefornyc",
       "filename":"ored_codefornyc",
-      "related_posts":[],
+      "related_posts":[
+         {
+            "id":"514",
+            "media_type":"1",
+            "filename":"7_Code",
+            "title":"Code.org and Made in NY",
+            "page":"home",
+            "category":"_all"
+         }
+      ],
       "related_links":[
          {"href":"http://codefornyc.org", "title":"Website"},
          {"href":"https://github.com/ocorso/CodeforNYC_bin", "title":"Code on Github"}
       ],
-      "description":"<h2>My Contribution:</h2><p>In an effort to help organize civic-minded technologists in the NYC-metro area around Brigade activities and campaigns, I registered the domain codefornyc.org and launched a website that primarily directs users to places where they can learn about events in NYC regarding open data, collaborating on civic apps, and engaging with the NYC tech community.</p> <h2>Code for America's Mission Statement:</h2><p>Code for America envisions a government that works by the people, for the people, in the 21st century. Code for America believes that in order to improve government, we need to improve citizenship. We help cities create 21st century interfaces to government that are simple, beautiful and easy to use. By deploying technologies that make it easy for you to participate and engage in improving your city, we are building trust and changing the conversation between citizens and government.</p>",
       "assets":[
          {
             "id":"1",
