@@ -71,6 +71,7 @@ main.settings.windows 			= false;
 
 main.routes.postVideosDir		= "http://media.click3x.com/video/";
 main.routes.postImagesDir 		= "http://media.click3x.com/images/";
+main.routes.postImagesDir 		= "http://media.click3x.dev/images/";
 main.routes.posts 				= "data/posts.json";
 main.routes.detail 				= "data/detail.json";
 
