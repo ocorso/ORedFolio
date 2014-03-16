@@ -1,0 +1,19 @@
+{"post_detail":
+ {
+  "title":"I Work at Google",
+  "client":"Media & Technology Solutions, gTech",
+  "description":"<h2>My Contribution:</h2><p>As a Creative Technical Consultant, I support the implementation and support of products in the customer environment and Google's internal environment in close partnership with internal and external stakeholders.  I also support Global Business functions to understand client needs and proactively identify opportunities.  I provide solution support including troubleshooting questions, technical pre-sales, product implementation, and delivering training to Google’s customers and internal Global Business and/or Business Development teams. Roles involving first tier support provide an escalation point for clients. I lead deployments, implementations, and integrations of a variety of Google's product lines.</p><h2>Advertising at Google:</h2><p>Businesses that partner with Google come in all shapes, sizes and market caps, and no one Google advertising solution works for all. My knowledge of online media combined with my communication skills and analytical abilities shapes how new and existing business grow. Using my influencing and relationship-building skills, I provide Google-caliber client service, research and market analysis. I anticipate how decisions are made, persistently explore and uncover the business needs of Google's key clients and understand how our range of product offerings can grow their business. Working with them, I set the vision and the strategy for how their advertising can reach thousands of users.</p>",
+  "assets":[
+     {
+      "id":"1",
+      "media_type":"2",
+      "filename":"ored_google1",
+      "title":"Where I Work"
+     }
+  ],
+  "related_posts":[
+  
+  ],
+  "related_links":[]
+ }
+}

@@ -5,7 +5,7 @@ VALUES
 	(500,'contact','_all','tag1 tag2','ored_contact_map','','O Marks the Spot.','Client','','830x410',0,'none','http://bit.ly/14BUm7f',457),
 	(502,'contact','_all','tag1 tag2','ored_mail','','Email me anytime','','owen@ored.net','410x200',0,'half fixed light','mailto:owen@ored.net',459),
 	(504,'contact','_all','tag1 tag2','ored_twitter','','Follow Me','','@ocorso','410x200',0,'half fixed light','http://twitter.com/ocorso',469),
-	(203,'about_me','_all',NULL,'ored_work','about/ored_work','I Work at Click',NULL,'I am a Lead Technologist at a New York City based digital production agency. ','410x200',3,'half fixed light seethrough',NULL,489),
+	(5,'about_me home','_all',NULL,'ored_google','about/ored_google','I Work at Google',NULL,'I am a Creative Technical Consultant within Media & Technology Solutions, gTech. ','410x200',3,'half fixed light seethrough',NULL,489),
 	(13,'home music ','_all jamwithtoast',NULL,'ored_jamwithtoast2','music/jamwithtoast','Battle of the Ad Bands','JWT','During Agency Week 2011, I formed a band with my JWT colleagues and won Battle of the Ad Bands. This video highlights the event.','200x200',0,NULL,NULL,507),
 	(100,'about_me','_all','','owen','about/owen_corso','I Am Owen Corso','Lead Technologist','I have a hunger for knowledge, a thirst for thrilling endeavors, and an undying desire to make the most of the gifts God has given me.','410x200',0,'half fixed light seethrough','',401),
 	(3,'home music ','_all thegoodnews',NULL,'ored_jons_song','music/jons_song_video','Jon\'s Song <nobr>Music Video</nobr>','The Good News','A music video I made using my brother\'s footage from his honeymoon','200x200',0,NULL,NULL,506),
