@@ -15,7 +15,7 @@
 |
 */
 $config['base_url']	= '';
-$config['media_url'] = 'http://media.click3x.com/';
+$config['media_url'] = 'https://storage.googleapis.com/ored-studios.appspot.com/media/';
 
 		define("TWITTER_PAGE_URL", "https://twitter.com/ocorso/");
 		define("TWITTER_TOKEN" , '28368165-ATmAkAau9R1rJC9FKWUSnApHttrRsuH6qBWjlr8ip');

@@ -6,6 +6,8 @@ class C3X_Model extends CI_Model
 	var $pk;
 	var $fields;
 
+	function __construct() { $this->C3X_Model(); }
+
 	function C3X_Model()
 	{
 		$this->load->database();

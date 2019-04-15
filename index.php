@@ -19,6 +19,10 @@
  *
  */
 
+//oc: I haven't been here in years...
+// echo getenv("SITE");
+// echo getenv("ENVIRONMENT");
+
 define( "SITE", getenv("SITE") );
 define( "ENVIRONMENT", getenv("ENVIRONMENT") );
 if( getenv("SECTION")  ) define("SECTION", getenv("SECTION"));

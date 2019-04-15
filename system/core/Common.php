@@ -254,7 +254,9 @@ if ( ! function_exists('get_config'))
 			}
 		}
 
-		return $_config[0] =& $config;
+		//oc: Fix error: https://stackoverflow.com/questions/28348879/only-variable-references-should-be-returned-by-reference-codeigniter
+		$_config[0] =& $config;
+		return $_config[0]; 
 	}
 }
 

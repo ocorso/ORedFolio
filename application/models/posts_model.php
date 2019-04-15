@@ -2,6 +2,7 @@
 
 class Posts_Model extends C3X_Model
 {
+	function __construct() { $this->Posts_Model(); }
 	public function Posts_Model()
 	{
 		$this->table 	= "posts_".SITE;

@@ -13,6 +13,10 @@
     SetEnvIf Host oredfolio SITE=ored
     SetEnvIf Host ored SITE=ored
     SetEnvIf Host dev$ ENVIRONMENT=local
+
+    SetEnvIf Host localhost ENVIRONMENT=local
+    SetEnvIf Host localhost SITE=ored
+
     SetEnvIf Host net$ ENVIRONMENT=production
 
     SetEnvIf Host ^about SECTION=about
