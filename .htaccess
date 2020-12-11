@@ -1,3 +1,6 @@
+SetEnv SITE ored
+SetEnv ENVIRONMENT local
+
 <IfModule mod_rewrite.c>
 	Options +FollowSymlinks
     RewriteEngine On
@@ -10,19 +13,18 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^(.*)$ index.php?/$1 [L]
 
-    SetEnvIf Host oredfolio SITE=ored
-    SetEnvIf Host ored SITE=ored
-    SetEnvIf Host dev$ ENVIRONMENT=local
+#    SetEnvIf Host oredfolio SITE=ored
+ #   SetEnvIf Host ored SITE=ored
+   # SetEnvIf Host dev$ ENVIRONMENT=local
+# oc: ummm, try to set production?
+#    SetEnvIf Host localhost ENVIRONMENT=production
+#    SetEnvIf Host localhost SITE=ored
+# SetEnvIf Host net$ ENVIRONMENT=production
 
-    SetEnvIf Host localhost ENVIRONMENT=local
-    SetEnvIf Host localhost SITE=ored
-
-    SetEnvIf Host net$ ENVIRONMENT=production
-
-    SetEnvIf Host ^about SECTION=about
-    SetEnvIf Host ^contact SECTION=contact
-    SetEnvIf Host ^music SECTION=music
-    SetEnvIf Host ^folio SECTION=folio
+  SetEnvIf Host ^about SECTION=about
+  SetEnvIf Host ^contact SECTION=contact
+  SetEnvIf Host ^music SECTION=music
+  SetEnvIf Host ^folio SECTION=folio
 
 </IfModule>
 <IfModule !mod_rewrite.c>

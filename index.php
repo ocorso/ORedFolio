@@ -19,14 +19,12 @@
  *
  */
 
-//oc: I haven't been here in years...
-// echo getenv("SITE");
-// echo getenv("ENVIRONMENT");
-
+//oc: Welcome back
 define( "SITE", getenv("SITE") );
 define( "ENVIRONMENT", getenv("ENVIRONMENT") );
 if( getenv("SECTION")  ) define("SECTION", getenv("SECTION"));
 else 					define("SECTION", "home");
+
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
