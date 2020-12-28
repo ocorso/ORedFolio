@@ -18,8 +18,8 @@ $active_record = TRUE;
 
 $db['default'] = array(
         'dsn'   => '',
-        'hostname' => '127.0.0.1',
-        'username' => 'root',
+        'hostname' => 'localhost',
+        'username' => 'oredfolio',
         'password' => 'h@ckp40F',
         'database' => 'oredfolio',
         'dbdriver' => 'mysqli',
