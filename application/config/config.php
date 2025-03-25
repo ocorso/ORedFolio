@@ -27,8 +27,8 @@ $config['media_url'] = 'https://storage.googleapis.com/ored-studios.appspot.com/
 		define("FB_PAGE_URL", "https://graph.facebook.com/ORedProductions/");
 		define("FB_PAGE_TOKEN", "CAACDXdBAeqUBAKYgZAzFZCZAsutZCUpdGyEMyvko6inY1auTZBI8Ap3zYIm05nJAyeZAeMdrX5XrnGaQwaowrRW3d4mMl5ur4W28nxZCwcvaLJZBEqg2lJFF9fKblZAhPv6SpJrZC0OHRTbTdt1mLZAHW8p7Vg7KD3YLTXDANBOLISWcgWTZBYa9UUmM");
 
-$config['soundcloud_key'] 	= "e865c40cd8e163918594db283501b306";
-$config['soundcloud_secret'] = "a218bcb85e7d82c6fc287342a739237d";
+$config['soundcloud_key'] 	= "f06U4kV8Y2ipTGwe73YmApr9OXfwRWLp";
+$config['soundcloud_secret'] = "eU2HoViIFLO0PDIizRWUAEwus70Vz9wq";
 $config['soundcloud_playlist'] 		= "https://soundcloud.com/ocorso/sets/o-red-folio";
 
 

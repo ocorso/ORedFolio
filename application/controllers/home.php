@@ -42,7 +42,28 @@ class Home extends CI_Controller {
 	}
 
 	public function getSongs(){ 
-		$playlist 	= json_decode(file_get_contents($this->config->item('soundcloud_playlist_route')));
+
+
+		//prepare SoundCloud API Request to get playlist
+		$access_token = '2-300783--U0eyYFDLYbuFV3JH4WBG93o'; //oc: temp until i can replace with dynamic token.
+
+
+		// Create a stream so we can pass custom headers in the API request.
+		$opts = [
+			"http" => [
+				"method" => "GET",
+				"header" => "accept: application/json; charset=utf-8\r\n" .
+					"Authorization: Bearer ".$access_token."\r\n"
+			]
+		];
+
+		// DOCS: https://www.php.net/manual/en/function.stream-context-create.php
+		$context = stream_context_create($opts);
+
+		// Open the file using the HTTP headers set above
+		// DOCS: https://www.php.net/manual/en/function.file-get-contents.php
+		$playlist = json_decode(file_get_contents($this->config->item('soundcloud_playlist_route'), false, $context));
+
 		//print_r($playlist);
 		$songs 		= array();
 		$i = 0;

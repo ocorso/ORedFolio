@@ -19,7 +19,34 @@ class Admin extends CI_Controller {
 	 */
 	public function index()
 	{
-		echo "admin";
+
+		echo "hi admin";
+
+		//Load settings from config file
+		$this->load->config('soundcloud');
+
+		$access_token = '2-300783--U0eyYFDLYbuFV3JH4WBG93o';
+
+		// Create a stream
+		$opts = [
+			"http" => [
+				"method" => "GET",
+				"header" => "accept: application/json; charset=utf-8\r\n" .
+					"Authorization: Bearer ".$access_token."\r\n"
+			]
+		];
+
+		// DOCS: https://www.php.net/manual/en/function.stream-context-create.php
+		$context = stream_context_create($opts);
+
+		// Open the file using the HTTP headers set above
+		// DOCS: https://www.php.net/manual/en/function.file-get-contents.php
+		$playlist = file_get_contents($this->config->item('soundcloud_playlist_route'), false, $context);
+
+		//$playlist 	= json_decode(file_get_contents($this->config->item('soundcloud_playlist_route')));
+		print_r($playlist);
+
+
 	}
 
 	public function populate()
