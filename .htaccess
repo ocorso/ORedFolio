@@ -2,7 +2,6 @@ SetEnv SITE ored
 SetEnvIf Host local$ ENVIRONMENT=local
 SetEnvIf Host net$ ENVIRONMENT=production
 
-echo $ENVIRONMENT
 
 <IfModule mod_rewrite.c>
 	Options +FollowSymlinks
