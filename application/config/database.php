@@ -3,7 +3,8 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'oredfolio.db.5977079.hostedresource.com';
+# $db['default']['hostname'] = 'oredfolio.db.5977079.hostedresource.com';
+$db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'oredfolio';
 $db['default']['password'] = 'h@ckp40F';
 $db['default']['database'] = 'oredfolio';
