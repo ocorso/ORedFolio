@@ -17,18 +17,7 @@
 $config['base_url']	= '';
 $config['media_url'] = 'https://storage.googleapis.com/ored-studios.appspot.com/media/';
 
-		define("TWITTER_PAGE_URL", "https://twitter.com/ocorso/");
-		define("TWITTER_TOKEN" , '28368165-ATmAkAau9R1rJC9FKWUSnApHttrRsuH6qBWjlr8ip');
-		define("TWITTER_TOKEN_SECRET" , 'hM7rCzIqi3UcSV3gocLol6d868q08CLyjfhel1VvLY8');
-		define("TWITTER_CONSUMER_KEY", 'DSS7a6RQBdNb030ZK3dAdQ');
-		define("TWITTER_CONSUMER_SECRET" ,'rU1jp2fpQ0GnHJi2RnwKgpqKSRAmI0799z2Ep72mSqM');
-		define("TWITTER_SCREEN_NAME" , 'ocorso');
 
-		define("FB_PAGE_URL", "https://graph.facebook.com/ORedProductions/");
-		define("FB_PAGE_TOKEN", "CAACDXdBAeqUBAKYgZAzFZCZAsutZCUpdGyEMyvko6inY1auTZBI8Ap3zYIm05nJAyeZAeMdrX5XrnGaQwaowrRW3d4mMl5ur4W28nxZCwcvaLJZBEqg2lJFF9fKblZAhPv6SpJrZC0OHRTbTdt1mLZAHW8p7Vg7KD3YLTXDANBOLISWcgWTZBYa9UUmM");
-
-$config['soundcloud_key'] 	= "f06U4kV8Y2ipTGwe73YmApr9OXfwRWLp";
-$config['soundcloud_secret'] = "eU2HoViIFLO0PDIizRWUAEwus70Vz9wq";
 $config['soundcloud_playlist'] 		= "https://soundcloud.com/ocorso/sets/o-red-folio";
 
 

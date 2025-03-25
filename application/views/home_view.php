@@ -193,12 +193,11 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 
 
 	<!-- Soundcloud Include --> 
-<script src="//connect.soundcloud.com/sdk.js"></script>
+<!-- <script src="//connect.soundcloud.com/sdk.js"></script> -->
 <script>
-  SC.initialize({
-    client_id: "<?= $soundcloud_id; ?>",
-    //redirect_uri: "<?= base_url(); ?>music/callback",
-  });
+	console.log('trying to set playlist');
+	const $playlist = <?= json_encode($songs); ?>;
+	console.debug($playlist);
 </script>
 	<!-- End Soundcloud Include --> 
 

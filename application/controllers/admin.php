@@ -57,6 +57,52 @@ class Admin extends CI_Controller {
 
 	}
 
+	public function refresh()
+	{
+		$this->load->model('token_model');
+		
+		//Load settings from config file
+		$this->load->config('soundcloud');
+
+		$client_id = $this->config->item('soundcloud_key');
+		$client_secret = $this->config->item('soundcloud_secret');
+		$refresh_token = $this->token_model->get_entry()[0]->refresh_token;
+
+		$data = array();
+		$data['client_id'] = $client_id;
+		$data['client_secret'] = $client_secret;
+		$data['grant_type'] = 'refresh_token';
+		$data['refresh_token'] = $refresh_token;
+
+		// Create a stream
+		$opts = [
+			"http" => [
+				"method" => "POST",
+				"content"=> http_build_query($data),
+				"header" => "accept: application/json; charset=utf-8\r\n" .
+					"Content-Type: application/x-www-form-urlencoded\r\n"
+			]
+		];
+
+		// DOCS: https://www.php.net/manual/en/function.stream-context-create.php
+		$context = stream_context_create($opts);
+
+		// Open the file using the HTTP headers set above
+		// DOCS: https://www.php.net/manual/en/function.file-get-contents.php
+		$result = json_decode(file_get_contents($this->config->item('soundcloud_token_route'), false, $context));
+		//print_r($this->token_model->get_entry());
+		
+		// $tempResult = new stdClass();
+		// $tempResult->access_token = '2-300783--9uvp7iDGSISNsqL4YxYNjWL';
+		// $tempResult->token_type = 'Bearer';
+		// $tempResult->expires_in = 3599;
+		// $tempResult->refresh_token = 'sNxwR24m0q9qi01Qh2IHoRCp5aXiZohm';
+		// $tempResult->scope = '';
+		$this->token_model->update_entry($result);
+
+		$this->load->view('admin_view', array("tokens"=>$this->token_model->get_entry()));
+	}
+
 	public function populate()
 	{
 		$posts_s = file_get_contents( base_url()."data/".SITE."/posts.json");

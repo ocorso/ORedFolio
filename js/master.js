@@ -833,19 +833,19 @@ main.video.showPoster = function(){
 // =================================================
 main.soundcloud.init = function ($complete){
 	console.log("sc init");
-	var playlist_url = 'https://soundcloud.com/ocorso/sets/o-red-folio';//
+	var playlist_url = 'https://soundcloud.com/ocorso/sets/oredfolio';
 
 	//SC.get('/resolve', { url: playlist_url }, function($playlist) {
-	SC.get('/playlists/10225031', { format: "json" }, function($playlist) {
-		console.log("sc get complete");
+	//SC.get('/playlists/10225031', { format: "json" }, function($playlist) {
+		console.log("sc playlist should already be loaded from server.");
  		console.debug($playlist);
- 		main.soundcloud.playlist 	= $playlist.tracks;
+ 		main.soundcloud.playlist 	= $playlist;
  		main.soundcloud.isInit		= true;
  		if (main.soundcloud.waitToUpdateDetail) {
  			main.soundcloud.waitToUpdateDetail = false;
  			main.soundcloud.updateDetail();
  		}//endif
-	});
+	//});
 };
 main.soundcloud.updateDetail = function(){
 	console.log("main.soundcloud.updateDetail");
@@ -882,7 +882,7 @@ main.soundcloud.getLyricsByIndex = function($i){
 	var songData 	= main.soundcloud.playlist[$i];
 	//var lyrics 		= songData.description.replace("\n", "<br>");
 	//lyrics 			= lyrics.replace("\r", "<br>");
-	var lyrics 		= songData.description.replace(/\r?\n/g, '<br />');
+	var lyrics 		= songData.lyrics.replace(/\r?\n/g, '<br />');
 
 	console.debug(lyrics);
 	return lyrics;

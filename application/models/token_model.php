@@ -19,16 +19,31 @@ class Token_model extends CI_Model {
     public $user_agent;
     public $scope;
 
-    public function update_entry()
+    /**
+     * @param $access_token
+     * @param $token_type
+     * @param $expires_in
+     * @param $refresh_token
+     * @param $scope
+     */
+    public function update_entry($tokens)
     {
-        $this->created_at = time();
-        $this->access_token = $_POST['access_token'];
-        $this->token_type = $_POST['token_type'];
-        $this->expires_in = $_POST['expires_in'];
-        $this->refresh_token = $_POST['refresh_token'];
-        $this->scope = $_POST['scope'];
+        $createdAtTimestamp = time(); // Get the current Unix timestamp
+        $expirationTimestamp = $createdAtTimestamp + $tokens->expires_in;
+        $this->expires_at = date("Y-m-d H:i:s", $expirationTimestamp);
+        
+        $this->id = 1;
+        $this->created_at = date("Y-m-d H:i:s", $createdAtTimestamp);
+        $this->access_token = $tokens->access_token;
+        $this->token_type = $tokens->token_type;
+        $this->expires_in = $tokens->expires_in;
+        $this->expires_at = date("Y-m-d H:i:s", $expirationTimestamp);
+        $this->refresh_token = $tokens->refresh_token;
+        $this->user_agent = $this->agent->agent_string();
+        $this->scope = $tokens->scope;
 
-        $this->db->insert('tokens', $this);
+        $this->db->where('id', 1);
+        $this->db->update('tokens', $this);
     }
 
     public function get_entry()

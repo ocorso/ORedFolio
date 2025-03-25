@@ -21,7 +21,7 @@ class Home extends CI_Controller {
 									"posts"=>$posts, 
 									"page_id"=>$pageId, 
 									"category_id"=>$categoryId,
-									"soundcloud_id"=>$this->config->item('soundcloud_key'),
+									"songs"=>$this->getSongs(),
 									"post_id"=>$postId
 								) 
 							);
@@ -44,19 +44,16 @@ class Home extends CI_Controller {
 	public function getSongs(){ 
 
 
-		//prepare SoundCloud API Request to get playlist
-		//Load access token from model
+		//Prepare SoundCloud API Request to get playlist
+		//
+		// 1. Load access token from model
 		$this->load->model('token_model');
 		$result = $this->token_model->get_entry();
 
-		print_r("<h2>Token info</h2><pre>");
-		print_r($result);
-		print_r("</pre>");
-
-		//Load settings from config file
+		//2. Load settings from config file
 		$this->load->config('soundcloud');
 
-		// Create a stream
+		// 3. Create a stream
 		$opts = [
 			"http" => [
 				"method" => "GET",
@@ -68,7 +65,7 @@ class Home extends CI_Controller {
 		// DOCS: https://www.php.net/manual/en/function.stream-context-create.php
 		$context = stream_context_create($opts);
 
-		// Open the file using the HTTP headers set above
+		// 4. Make API request using the HTTP headers set above
 		// DOCS: https://www.php.net/manual/en/function.file-get-contents.php
 		$playlist = json_decode(file_get_contents($this->config->item('soundcloud_playlist_route'), false, $context));
 

@@ -52,5 +52,6 @@ $route['default_controller'] = "home/index/home";
 $route['404_override'] 	= '';
 
 $route['admin'] 		= 'admin/index';
+$route['admin/refresh'] = 'admin/refresh';
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
