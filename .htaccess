@@ -1,5 +1,8 @@
 SetEnv SITE ored
+SetEnvIf Host local$ ENVIRONMENT=local
+SetEnvIf Host net$ ENVIRONMENT=production
 
+echo $ENVIRONMENT
 
 <IfModule mod_rewrite.c>
 	Options +FollowSymlinks
@@ -15,11 +18,11 @@ SetEnv SITE ored
 
 #    SetEnvIf Host oredfolio SITE=ored
  #   SetEnvIf Host ored SITE=ored
-SetEnvIf Host local$ ENVIRONMENT=local
+
 # oc: try to set production?
 #    SetEnvIf Host localhost ENVIRONMENT=production
 #    SetEnvIf Host localhost SITE=ored
- SetEnvIf Host net$ ENVIRONMENT=production
+
 
   SetEnvIf Host ^about SECTION=about
   SetEnvIf Host ^contact SECTION=contact
