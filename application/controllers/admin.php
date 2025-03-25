@@ -20,19 +20,25 @@ class Admin extends CI_Controller {
 	public function index()
 	{
 
-		echo "hi admin";
+		echo "<h1>Hi O <span style='color:red; font-weight:bold;'> Red</span> Admin </h1>";
+	
+		//Load access token from model
+		$this->load->model('token_model');
+		$result = $this->token_model->get_entry();
+
+		print_r("<h2>Token info</h2><pre>");
+		print_r($result);
+		print_r("</pre>");
 
 		//Load settings from config file
 		$this->load->config('soundcloud');
-
-		$access_token = '2-300783--U0eyYFDLYbuFV3JH4WBG93o';
 
 		// Create a stream
 		$opts = [
 			"http" => [
 				"method" => "GET",
 				"header" => "accept: application/json; charset=utf-8\r\n" .
-					"Authorization: Bearer ".$access_token."\r\n"
+					"Authorization: Bearer ".$result[0]->access_token."\r\n"
 			]
 		];
 
@@ -41,11 +47,13 @@ class Admin extends CI_Controller {
 
 		// Open the file using the HTTP headers set above
 		// DOCS: https://www.php.net/manual/en/function.file-get-contents.php
-		$playlist = file_get_contents($this->config->item('soundcloud_playlist_route'), false, $context);
+		$playlist = json_decode(file_get_contents($this->config->item('soundcloud_playlist_route'), false, $context));
 
+		print_r("<h2>Playlist Info</h2>");
 		//$playlist 	= json_decode(file_get_contents($this->config->item('soundcloud_playlist_route')));
-		print_r($playlist);
-
+		foreach ($playlist->tracks as $s){
+			print_r("<li>".$s->title . "</li>" );
+		}
 
 	}
 

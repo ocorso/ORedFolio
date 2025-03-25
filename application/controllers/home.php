@@ -45,15 +45,23 @@ class Home extends CI_Controller {
 
 
 		//prepare SoundCloud API Request to get playlist
-		$access_token = '2-300783--U0eyYFDLYbuFV3JH4WBG93o'; //oc: temp until i can replace with dynamic token.
+		//Load access token from model
+		$this->load->model('token_model');
+		$result = $this->token_model->get_entry();
 
+		print_r("<h2>Token info</h2><pre>");
+		print_r($result);
+		print_r("</pre>");
 
-		// Create a stream so we can pass custom headers in the API request.
+		//Load settings from config file
+		$this->load->config('soundcloud');
+
+		// Create a stream
 		$opts = [
 			"http" => [
 				"method" => "GET",
 				"header" => "accept: application/json; charset=utf-8\r\n" .
-					"Authorization: Bearer ".$access_token."\r\n"
+					"Authorization: Bearer ".$result[0]->access_token."\r\n"
 			]
 		];
 

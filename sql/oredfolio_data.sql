@@ -34,3 +34,7 @@ VALUES
 	(14,'portfolio home','_all user_experience design development',NULL,'ored_codefornyc','folio/codefornyc','Code for NYC','','To help give the civic tech community a jumping off point for getting involved with Code for America\'s mission in NYC, I created this website.','410x200',1,NULL,NULL,522),
 	(11,'portfolio home','_all user_experience social','roxy','roxy_cs','folio/roxy','Roxy','','ClickFire Media was asked by our client, Digital Brand Architects to create a Facebook based user generated content based contest for ROXY, a leading women\'s action sport apparel company','410x200',0,'','',81),
 	(2,'portfolio home','_all development','dev','ored_parksunleashed','folio/parksunleashed','ZYRTEC Parks Unleashed','JWT','I led a team of flash developers in the creation of a series of mini games.','200x200',0,'','',275);
+
+INSERT INTO `tokens` (`id`, `access_token`, `token_type`, `created_at`, `expires_in`, `expires_at`, `refresh_token`, `user_agent`, `scope`)
+VALUES
+	(1,'2-300783--U0eyYFDLYbuFV3JH4WBG93o', 'Bearer', '2022-04-22 10:34:23', 3600, '2022-04-22 11:34:23', 'fnGPR33Rs70iYsCZexT4NNEDb6ZUScF4', 'owen', 'N/A');
