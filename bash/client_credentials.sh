@@ -7,4 +7,4 @@ curl -X POST "$OAUTH_ENDPOINT" \
      -H  "accept: application/json; charset=utf-8" \
      -H  "Content-Type: application/x-www-form-urlencoded" \
      -H  "Authorization: Basic $ENCODED_AUTH" \
-     --data-urlencode "grant_type=client_credentials" -v
+     --data-urlencode "grant_type=client_credentials"
