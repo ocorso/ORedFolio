@@ -17,10 +17,6 @@
 $config['base_url']	= '';
 $config['media_url'] = 'https://storage.googleapis.com/ored-studios.appspot.com/media/';
 
-
-$config['soundcloud_playlist'] 		= "https://soundcloud.com/ocorso/sets/o-red-folio";
-
-
 /*
 |--------------------------------------------------------------------------
 | Index File

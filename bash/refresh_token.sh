@@ -1,6 +1,6 @@
 CLIENT_ID='f06U4kV8Y2ipTGwe73YmApr9OXfwRWLp'
 CLIENT_SECRET='eU2HoViIFLO0PDIizRWUAEwus70Vz9wq'
-REFRESH_TOKEN='Fw4u2Ad9z1G1i8ZEob9lE46gFVte4Gfp'
+REFRESH_TOKEN='IKuf1GXGlSHvNQrE34ZHbd3c9AZLsR5g'
 OAUTH_ENDPOINT='https://secure.soundcloud.com/oauth/token'
 
 # refresh token

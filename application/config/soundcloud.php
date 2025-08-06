@@ -19,6 +19,6 @@ $config['soundcloud_key']          		= 'f06U4kV8Y2ipTGwe73YmApr9OXfwRWLp';
 $config['soundcloud_secret']       		= 'eU2HoViIFLO0PDIizRWUAEwus70Vz9wq'; 
 $config['soundcloud_callback_url'] 		= 'http://ored.net/music/'; 
 $config['soundcloud_tmp_path']    	 	= $_SERVER['DOCUMENT_ROOT'].'uploads'; 
-$config['soundcloud_playlist_route']	= "https://api.soundcloud.com/playlists/10225031?show_tracks=true";
-$config['soundcloud_token_route']		= "https://secure.soundcloud.com/oauth/token";
+$config['soundcloud_playlist_route']	= "https://api.soundcloud.com/playlists/soundcloud:playlists:10225031?show_tracks=true";
+$config['soundcloud_token_route']		  = "https://secure.soundcloud.com/oauth/token";
 ?>

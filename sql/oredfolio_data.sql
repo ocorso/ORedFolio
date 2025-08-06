@@ -37,4 +37,4 @@ VALUES
 
 INSERT INTO `tokens` (`id`, `access_token`, `token_type`, `created_at`, `expires_in`, `expires_at`, `refresh_token`, `user_agent`, `scope`)
 VALUES
-	(1,'2-300783--U0eyYFDLYbuFV3JH4WBG93o', 'Bearer', '2022-04-22 10:34:23', 3600, '2022-04-22 11:34:23', 'fnGPR33Rs70iYsCZexT4NNEDb6ZUScF4', 'owen', 'N/A');
+	(1,'2-300783--dniQ7hwVcthaIXYZBE0gZcm', 'Bearer', '2022-04-22 10:34:23', 3600, '2022-04-22 11:34:23', 'Zp9YsXz6wZdiqufhAh9CZ4E09xHpZUGP', 'owen', 'N/A');
