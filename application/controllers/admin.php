@@ -57,6 +57,38 @@ class Admin extends CI_Controller {
 
 	}
 
+	public function posts()
+	{
+		$posts 			= ($pageId != "music") ? $this->posts(0,$pageId,$categoryId) : array_merge($this->posts(0,$pageId,$categoryId), $this->getSongs());
+
+		if (empty($posts)) {
+			echo "<h2>No Posts Found</h2>";
+			return;
+		}
+
+		// Define the fields explicitly as per your table structure
+		$fields = [
+			'id', 'pages', 'categories', 'tags', 'filename', 'detail_name',
+			'title', 'client', 'description', 'size', 'media_type',
+			'overstatestyle', 'href', 'index'
+		];
+
+		echo "<h2>All Posts</h2>";
+		echo "<table border='1' cellpadding='5' cellspacing='0'><thead><tr>";
+		foreach ($fields as $field) {
+			echo "<th>" . htmlspecialchars($field) . "</th>";
+		}
+		echo "</tr></thead><tbody>";
+
+		foreach ($posts as $post) {
+			echo "<tr>";
+			foreach ($fields as $field) {
+				echo "<td>" . htmlspecialchars(isset($post->$field) ? $post->$field : '') . "</td>";
+			}
+			echo "</tr>";
+		}
+		echo "</tbody></table>";
+	}
 	public function refresh()
 	{
 		$this->load->model('token_model');
