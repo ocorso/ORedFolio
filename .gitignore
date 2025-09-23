@@ -5,3 +5,5 @@ application/config/local/database.php
 */cache/*
 */cache/!index.html
 .DS_Store
+launch.json
+.vscode/*

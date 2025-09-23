@@ -26,9 +26,7 @@ class Home extends CI_Controller {
 								) 
 							);
 	}
-	public function songs($band){
-		//$this->load->
-	}
+
 	public function posts( $givemejson, $pages = "", $categories = ""){
 		$this->load->model("posts_model");
 

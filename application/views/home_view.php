@@ -193,7 +193,6 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 
 
 	<!-- Soundcloud Include --> 
-<!-- <script src="//connect.soundcloud.com/sdk.js"></script> -->
 <script>
 	console.log('trying to set playlist');
 	const $playlist = <?= json_encode($songs); ?>;
@@ -207,7 +206,7 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 	<!-- End Soundcloud Include --> 
 
 	<!-- jQuery --> 
-    <script src="<?= base_url(); ?>js/vendor/jquery-1.9.0.min.js"></script>
+  <script src="<?= base_url(); ?>js/vendor/jquery-1.9.0.min.js"></script>
 	<script src="<?= base_url(); ?>js/vendor/jquery-migrate-1.1.1.min.js"></script>
 	<script src="<?= base_url(); ?>js/vendor/jquery.easing.1.3.js"></script>
 
