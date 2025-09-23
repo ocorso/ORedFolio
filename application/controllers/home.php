@@ -67,11 +67,28 @@ class Home extends CI_Controller {
 
 		// 4. Make API request using the HTTP headers set above
 		// DOCS: https://www.php.net/manual/en/function.file-get-contents.php
-		$playlist = json_decode(file_get_contents($this->config->item('soundcloud_playlist_route'), false, $context));
+		$playlist_json = null;
+		try {
+			set_error_handler(function($errno, $errstr) {
+				throw new Exception($errstr, $errno);
+			});
+			$playlist_json = file_get_contents($this->config->item('soundcloud_playlist_route'), false, $context);
+			restore_error_handler();
+		} catch (Exception $e) {
+			restore_error_handler();
+			log_message('error', 'Error fetching SoundCloud playlist: ' . $e->getMessage());
+		}
+		if ($playlist_json === false || $playlist_json === null) {
+			$playlist = null;
+		} else {
+			$playlist = json_decode($playlist_json);
+		}
 
 		//print_r($playlist);
 		$songs 		= array();
 		$i = 0;
+		if( !isset($playlist->tracks) ) return $songs;
+		// 5. Loop through tracks and create song objects
 		foreach ($playlist->tracks as $s){
 			$song 					= new stdClass();
 			$song->index 			= $i;	

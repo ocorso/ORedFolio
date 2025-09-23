@@ -1,0 +1,23 @@
+{
+   "post_detail":{
+      "detail_name":"about/ored_ai",
+      "related_posts":[
+      ],
+      "title":"I Am Passionate About Generative AI.",
+      "client":"From ML models to Prompt Engineering.",
+      "description":"<p>I explore the cutting edge of generative AI.</p>",
+      "assets":[
+         {
+            "id":"1",
+            "media_type":"2",
+            "description":"",
+            "title":"",
+            "filename":"ored_ai"
+         }
+      ],
+      "related_links":[
+         {"href":"https://github.com/ocorso", "title":"Github Repo"}
+      ],
+      "filename":"ored_ai"
+   }
+}

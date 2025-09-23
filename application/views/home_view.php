@@ -197,7 +197,12 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 <script>
 	console.log('trying to set playlist');
 	const $playlist = <?= json_encode($songs); ?>;
-	console.debug($playlist);
+	if($playlist.length === 0){
+		console.error('SoundCloud playlist didnt load properly. Please check the server-side code for errors.');
+	} else {
+		console.log('SoundCloud playlist loaded successfully.');
+		console.debug($playlist);
+	}
 </script>
 	<!-- End Soundcloud Include --> 
 
