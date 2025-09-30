@@ -53,5 +53,9 @@ $route['404_override'] 	= '';
 
 $route['admin'] 		= 'admin/index';
 $route['admin/refresh'] = 'admin/refresh';
+
+$route["ai"]        		= 'ai/index';
+$route["ai/(:any)"] 		= 'ai/index';
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

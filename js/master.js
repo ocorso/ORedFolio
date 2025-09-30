@@ -107,16 +107,16 @@ main.soundcloud.waitToUpdateDetail 	= false;
 // =======================================================================================================================
 // ================ @Doc Ready
 // =======================================================================================================================
-jQuery( function($){
+jQuery(function($){
 	console.log("-- Doc Ready Start --");
 	console.log(" - window width - : ", $(window).width());	
 	console.log(" - domain - : ", main.domain );
 	console.log(" - local - : ", main.local );	
 	console.log("page: ",start_page);
 
-  	//Determine OS.
-  	main.settings.agent = navigator.userAgent;
-  	main.settings.addClassForMobile();
+	//Determine OS.
+	main.settings.agent = navigator.userAgent;
+	main.settings.addClassForMobile();
 	
 	//Change the grid size for iPhone.
 	if(main.settings.iphone)
@@ -128,13 +128,14 @@ jQuery( function($){
 
 	main.init();
 
-//    console.log(" - agent - : ", main.settings.agent);
-//	console.log(" - iphone - : ", main.settings.iphone);
 	console.log("-- Doc Ready End --");
 
-	//initial google analytics call
-	if(!main.local)
-		_gaq.push(['_trackPageview']);
+	// initial Google Analytics call using gtag.js
+	if(!main.local && typeof gtag === "function") {
+		gtag('event', 'page_view', {
+			page_path: window.location.pathname + window.location.search + window.location.hash
+		});
+	}
 });
 // =======================================================================================================================
 // ================ @Settings
@@ -355,7 +356,9 @@ main.address.change	= function (){
 	//google anaytics page view.
 	if(!main.local){
 		if(main.curPathLevels > 0){
-			_gaq.push(['_trackPageview', main.address.pathNames.join("/")]);
+			gtag('event', 'page_view', {
+				page_path: '/' + main.address.pathNames.join('/')
+			});
 		}
 	}
 

@@ -79,7 +79,78 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
     </style>
     <![endif]-->
 
+	<!--Header Bar-->
+	<?php $this->load->view(SITE.'/'.SITE."_header_view")?>
+	<!--End Header Bar-->
 
+      <!--Sidebar Navigation-->
+   	<?php $this->load->view("sidebar_view")?>
+	<!-- End Sidebar Navigation-->
+
+    <!-- Main Content -->
+	<div id="main">   
+
+  		<!-- Chat Wrapper Container --> 
+		<div id="chat-wrapper">
+
+      <div class="chat-container">
+        <header class="chat-header">
+            <h3>O Red Chatbot</h3>
+        </header>
+        <div class="chat-messages" id="chat-messages">
+            </div>
+        <form class="chat-input-form" id="chat-input-form">
+            <input type="text" id="user-input" placeholder="Type your message..." required>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    </div> <!-- End Content Div -->
+</div> <!-- End Main Div -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('chat-input-form');
+    const input = document.getElementById('user-input');
+    const messages = document.getElementById('chat-messages');
+
+    form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const userText = input.value.trim();
+        if (userText !== '') {
+            appendMessage(userText, 'user-message');
+            input.value = '';
+            // Simulate a bot response after a short delay
+            setTimeout(() => {
+                const botResponse = generateBotResponse(userText);
+                appendMessage(botResponse, 'bot-message');
+            }, 500);
+        }
+    });
+
+    function appendMessage(text, className) {
+        const messageDiv = document.createElement('div');
+        messageDiv.classList.add(className);
+        messageDiv.textContent = text;
+        messages.appendChild(messageDiv);
+        messages.scrollTop = messages.scrollHeight; // Auto-scroll to the latest message
+    }
+
+    function generateBotResponse(userMessage) {
+        const lowerCaseMessage = userMessage.toLowerCase();
+        
+        if (lowerCaseMessage.includes('hello') || lowerCaseMessage.includes('hi')) {
+            return "Hello there! How can I help you today?";
+        } else if (lowerCaseMessage.includes('how are you')) {
+            return "I'm just a program, but I'm doing great! Thanks for asking.";
+        } else if (lowerCaseMessage.includes('name')) {
+            return "I don't have a name, but you can call me Chatbot.";
+        } else if (lowerCaseMessage.includes('help')) {
+            return "I can answer basic questions. Try asking about my name or how I am.";
+        } else {
+            return "I'm sorry, I don't understand that. Can you rephrase your question?";
+        }
+    }
+});
+    </script>
       <!-- Bootstrap --> 
     <script src="<?= base_url(); ?>js/vendor/bootstrap.min.js"></script>
    
