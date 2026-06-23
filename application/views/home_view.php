@@ -16,7 +16,8 @@ lt-ie7"> <![endif]--> <!--[if IE 7]> <html class="no-js lt-ie9 lt- ie8">
 		<meta charset="utf-8">        
 		<meta http- equiv="X-UA- Compatible" content="IE=edge,chrome=1">
 		<title><?= SITE_TITLE; ?></title>
-		<meta name="description" content="<?= SITE_DESCRIPTION; ?>">         
+		<meta name="description" content="<?= SITE_DESCRIPTION; ?>">        
+		<meta name="google-adsense-account" content="ca-pub-5740859057406595"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/><!--320-->
         <link rel="shortcut icon" href="favicon.ico" />
 		<!-- Apple Device Icons -->
