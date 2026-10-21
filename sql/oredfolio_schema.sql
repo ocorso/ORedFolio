@@ -30,3 +30,13 @@ CREATE TABLE `tokens` (
     scope TEXT NULL,
     INDEX idx_refresh_token (refresh_token)
 );
+
+CREATE TABLE IF NOT EXISTS booking_inquiries (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  act VARCHAR(100) NOT NULL,
+  venue VARCHAR(255) NOT NULL,
+  target_date VARCHAR(100) NOT NULL,
+  contact_email VARCHAR(255) NOT NULL,
+  message TEXT NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
