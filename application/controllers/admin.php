@@ -98,41 +98,70 @@ class Admin extends CI_Controller {
 
 		$client_id = $this->config->item('soundcloud_key');
 		$client_secret = $this->config->item('soundcloud_secret');
-		$refresh_token = $this->token_model->get_entry()[0]->refresh_token;
+		$existing = $this->token_model->get_entry();
+		$refresh_token = (!empty($existing) && !empty($existing[0]->refresh_token)) ? $existing[0]->refresh_token : null;
 
-		$data = array();
-		$data['client_id'] = $client_id;
-		$data['client_secret'] = $client_secret;
-		$data['grant_type'] = 'refresh_token';
-		$data['refresh_token'] = $refresh_token;
+		$result = null;
 
-		// Create a stream
-		$opts = [
-			"http" => [
-				"method" => "POST",
-				"content"=> http_build_query($data),
-				"header" => "accept: application/json; charset=utf-8\r\n" .
-					"Content-Type: application/x-www-form-urlencoded\r\n"
-			]
-		];
+		// 1. Try refresh_token grant if we have one
+		if (!empty($refresh_token)) {
+			$data = array(
+				'client_id'     => $client_id,
+				'client_secret' => $client_secret,
+				'grant_type'    => 'refresh_token',
+				'refresh_token' => $refresh_token
+			);
 
-		// DOCS: https://www.php.net/manual/en/function.stream-context-create.php
-		$context = stream_context_create($opts);
+			$opts = [
+				"http" => [
+					"method"        => "POST",
+					"content"       => http_build_query($data),
+					"header"        => "accept: application/json; charset=utf-8\r\n" .
+					                   "Content-Type: application/x-www-form-urlencoded\r\n",
+					"ignore_errors" => true
+				]
+			];
 
-		// Open the file using the HTTP headers set above
-		// DOCS: https://www.php.net/manual/en/function.file-get-contents.php
-		$result = json_decode(file_get_contents($this->config->item('soundcloud_token_route'), false, $context));
-		//print_r($this->token_model->get_entry());
-		
-		// $tempResult = new stdClass();
-		// $tempResult->access_token = '2-300783--9uvp7iDGSISNsqL4YxYNjWL';
-		// $tempResult->token_type = 'Bearer';
-		// $tempResult->expires_in = 3599;
-		// $tempResult->refresh_token = 'sNxwR24m0q9qi01Qh2IHoRCp5aXiZohm';
-		// $tempResult->scope = '';
-		$this->token_model->update_entry($result);
+			$context = stream_context_create($opts);
+			$raw = @file_get_contents($this->config->item('soundcloud_token_route'), false, $context);
+			$res = json_decode($raw);
+			if (!empty($res->access_token)) {
+				$result = $res;
+			}
+		}
 
-		$this->load->view('admin_view', array("tokens"=>$this->token_model->get_entry()));
+		// 2. Fallback to client_credentials if refresh_token was empty or rejected
+		if (empty($result) || empty($result->access_token)) {
+			$encoded_auth = base64_encode($client_id . ':' . $client_secret);
+			$data = array('grant_type' => 'client_credentials');
+
+			$opts = [
+				"http" => [
+					"method"        => "POST",
+					"content"       => http_build_query($data),
+					"header"        => "accept: application/json; charset=utf-8\r\n" .
+					                   "Content-Type: application/x-www-form-urlencoded\r\n" .
+					                   "Authorization: Basic " . $encoded_auth . "\r\n",
+					"ignore_errors" => true
+				]
+			];
+
+			$context = stream_context_create($opts);
+			$raw = @file_get_contents($this->config->item('soundcloud_token_route'), false, $context);
+			$res = json_decode($raw);
+			if (!empty($res->access_token)) {
+				$result = $res;
+			}
+		}
+
+		// 3. Only update DB if a valid token was actually received
+		if (!empty($result) && !empty($result->access_token)) {
+			$this->token_model->update_entry($result);
+		} else {
+			log_message('error', 'SoundCloud token refresh failed completely: ' . (isset($raw) ? $raw : 'no response'));
+		}
+
+		$this->load->view('admin_view', array("tokens" => $this->token_model->get_entry()));
 	}
 
 	public function populate()

@@ -20,30 +20,31 @@ class Token_model extends CI_Model {
     public $scope;
 
     /**
-     * @param $access_token
-     * @param $token_type
-     * @param $expires_in
-     * @param $refresh_token
-     * @param $scope
+     * @param $tokens
      */
     public function update_entry($tokens)
     {
+        if (empty($tokens) || empty($tokens->access_token)) {
+            log_message('error', 'Token_model::update_entry aborted: payload missing access_token.');
+            return false;
+        }
+
         $createdAtTimestamp = time(); // Get the current Unix timestamp
-        $expirationTimestamp = $createdAtTimestamp + $tokens->expires_in;
-        $this->expires_at = date("Y-m-d H:i:s", $expirationTimestamp);
-        
+        $expiresIn = isset($tokens->expires_in) ? (int)$tokens->expires_in : 3600;
+        $expirationTimestamp = $createdAtTimestamp + $expiresIn;
+
         $this->id = 1;
         $this->created_at = date("Y-m-d H:i:s", $createdAtTimestamp);
         $this->access_token = $tokens->access_token;
-        $this->token_type = $tokens->token_type;
-        $this->expires_in = $tokens->expires_in;
+        $this->token_type = isset($tokens->token_type) ? $tokens->token_type : 'Bearer';
+        $this->expires_in = $expiresIn;
         $this->expires_at = date("Y-m-d H:i:s", $expirationTimestamp);
-        $this->refresh_token = $tokens->refresh_token;
-        $this->user_agent = $this->agent->agent_string();
-        $this->scope = $tokens->scope;
+        $this->refresh_token = isset($tokens->refresh_token) ? $tokens->refresh_token : '';
+        $this->user_agent = isset($this->agent) ? $this->agent->agent_string() : (isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : 'cron');
+        $this->scope = isset($tokens->scope) ? $tokens->scope : '';
 
         $this->db->where('id', 1);
-        $this->db->update('tokens', $this);
+        return $this->db->update('tokens', $this);
     }
 
     public function get_entry()
